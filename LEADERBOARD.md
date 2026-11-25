@@ -1,57 +1,67 @@
 # Free LLM API leaderboard
 
-Auto-generated 2026-11-25T21:17:27Z by the GitHub Actions pipeline in this repo. Tier scores: `live:modelbenchmark.io`. Full data: `free_llm_providers.csv` / `.json`.
+Auto-generated 2026-11-25T23:55:32Z by the GitHub Actions pipeline in this repo. Tier scores: `live:modelbenchmark.io`. Full data: `free_llm_providers.csv` / `.json`.
 
-**29** ranked providers · **14** more with quota but no verified model tier · **116** unverified entries · baseline = MiniMax M3.1 Flash (p50).
+**58** ranked providers · **29** more with quota but no verified model tier · **149** unverified entries · baseline = MiniMax M3.1 Flash (p50).
 
 | # | Provider | Best free model | Tier | Daily check-in | Rate limit | Signup | Endpoint | Score |
 |---|----------|-----------------|------|----------------|------------|--------|----------|-------|
 | 1 | **AgentRouter** | Claude Opus 5 | 93 | $25.00 | — | github | [agentrouter.org](https://agentrouter.org/v1) | 67.0 |
-| 2 | **100xLabs** | Claude Opus 4.6 | 65 | $200.00 | — | github | [sub.100xlabs.space](https://sub.100xlabs.space/) | 46.8 |
-| 3 | **维云** | Claude Opus 5 | 93 | — ⚠️ | — | github | [vsllm.com](https://vsllm.com/v1) | 36.8 |
-| 4 | **Long的AI** | Gemini 3.8 Flash | 88 | — | — | github | [aaawinn.xyz](https://aaawinn.xyz/v1) | 34.8 |
-| 5 | **Vyce AI** | Claude Opus 5 | 93 | — | — | email | [vyceai.com](https://vyceai.com/v1) | 33.1 |
-| 6 | **Groq** | DeepSeek R1 | 78 | — | 30 RPM · 14400 RPD | unknown | [console.groq.com](https://console.groq.com/keys) | 32.2 |
-| 7 | **bmapi 公益站** | GPT-5.5 | 89 | 100 pts | — | email | [bmapi.020212.xyz](https://bmapi.020212.xyz/v1) | 31.7 |
-| 8 | **OmniRush** | GPT-6 Astra | 99 | — | — | unknown | [omnirush.ai](https://omnirush.ai/console) | 29.4 |
-| 9 | **Conduit** | Claude Fable 5 | 98 | — | — | unknown | [conduit.ozdoev.net](https://conduit.ozdoev.net/v1) | 29.1 |
-| 10 | **ChatAnywhere** | GPT 5 | 73 | — | — | github | [api.chatanywhere.tech](https://api.chatanywhere.tech/v1) | 28.9 |
-| 11 | **哈基猫API** | GPT-5.5 | 89 | — ⚠️ | — | email | [hjmapi.923578.xyz](https://hjmapi.923578.xyz/v1) | 28.5 |
-| 12 | **KiosAPI** | GLM-5.3 | 80 | — | — | email | [kiosapi.com](https://kiosapi.com/v1) | 28.5 |
-| 13 | **SunAPI** | GLM 5 | 68 | — | 50 RPM | unknown | — | 28.1 |
-| 14 | **GGBOOM 公益站** | GPT 5 | 73 | — | — | email | [ai.qaq.al](https://ai.qaq.al/) | 26.0 |
-| 15 | **Peezy** | DeepSeek V4 Flash 0731 | 70 | — | 500 RPD | email | [peezy.p0.systems](https://peezy.p0.systems/go) | 24.9 |
-| 16 | **88888 AI** | GLM 5 | 68 | — | — | email | [88888.qzz.io](https://88888.qzz.io/v1) | 24.2 |
-| 17 | **TokenRouter** | Qwen3.8 Max | 88 | — | 8 RPM | unknown | [www.tokenrouter.com](https://www.tokenrouter.com/models/) | 23.9 |
-| 18 | **Zenmux** | GLM-5.3 | 80 | — | — | unknown | [zenmux.ai](https://zenmux.ai/invite/DG81MD) | 23.8 |
-| 19 | **Modal** | Kimi K3 | 78 | — | — | unknown | [modal.com](https://modal.com/library/moonshot/kimi-k3) | 23.2 |
-| 20 | **DoCode** | Claude Opus 4.6 | 65 | — | — | email | [docode.cc](https://docode.cc/v1) | 23.2 |
-| 21 | **Kimi (Moonshot)** | Kimi K2.5 | 75 | — | — | unknown | [platform.moonshot.cn](https://platform.moonshot.cn) | 22.3 |
-| 22 | **Pollinations.ai** | GPT-5.6 Luna | 67 | — | — | unknown | [pollinations.ai](https://pollinations.ai/) | 19.9 |
-| 23 | **白嫖福利站** | Grok 4.5 | 67 | — | — | unknown | [ai.baipiao.co](https://ai.baipiao.co/) | 19.9 |
-| 24 | **NVIDIA NIM** | GLM-5.2 | 59 | — | 40 RPM | card | [build.nvidia.com](https://build.nvidia.com) | 19.5 |
-| 25 | **薄荷公益站** | Gemini 2.5 Pro | 51 | — | — | oauth | [x666.me](https://x666.me/v1) | 19.2 |
+| 2 | **星见雅 API** | GPT-5.6 Sol | 91 | $20.00 ⚠️ | — | github | [new.xinjianya.top](https://new.xinjianya.top/v1) | 65.5 |
+| 3 | **Axis AI 公益站** | GPT-6 Astra | 99 | $0.70 | — | github | [ai.onyxaxis.org](https://ai.onyxaxis.org/register) | 48.7 |
+| 4 | **TokenForge（tokengate）** | Claude Opus 5 | 93 | $2.82 | — | invite | [tokenforge.ai.studio](https://tokenforge.ai.studio/sign-up) | 47.5 |
+| 5 | **100xLabs** | Claude Opus 4.6 | 65 | $200.00 | — | github | [sub.100xlabs.space](https://sub.100xlabs.space/) | 46.8 |
+| 6 | **SunAPI** | GPT-6 Astra | 99 | — | 50 RPM | unknown | — | 40.8 |
+| 7 | **维云** | Claude Opus 5 | 93 | — ⚠️ | — | github | [vsllm.com](https://vsllm.com/v1) | 36.8 |
+| 8 | **NOFX** | GPT-5.6 Sol | 91 | 5 pts | — | github | [nofx.one](https://nofx.one/zh-CN/sign-in) | 36.0 |
+| 9 | **10API** | DeepSeek V4.1 Flash | 84 | $1.41 | — | unknown | [nextapi.store](https://nextapi.store/login?inv=INVY5KXY1ZN) | 35.0 |
+| 10 | **Long的AI** | Gemini 3.8 Flash | 88 | — | — | github | [aaawinn.xyz](https://aaawinn.xyz/v1) | 34.8 |
+| 11 | **Vyce AI** | Claude Opus 5 | 93 | — | — | email | [vyceai.com](https://vyceai.com/v1) | 33.1 |
+| 12 | **sunapi 公益站** | GPT-5.6 Sol | 91 | — | — | email | [sunapi.5201201314.top](https://sunapi.5201201314.top/sign-up) | 32.4 |
+| 13 | **Groq** | DeepSeek R1 | 78 | — | 30 RPM · 14400 RPD | unknown | [console.groq.com](https://console.groq.com/keys) | 32.2 |
+| 14 | **bmapi 公益站** | GPT-5.5 | 89 | 100 pts | — | email | [bmapi.020212.xyz](https://bmapi.020212.xyz/v1) | 31.7 |
+| 15 | **墨白公益站** | DeepSeek V4.1 Flash | 84 | 1 CNY | — | email | [new.ai.hinswu.top](https://new.ai.hinswu.top/sign-up) | 29.9 |
+| 16 | **700+ models. Best Prices.** | GPT-6 Astra | 99 | — | — | unknown | [antseedstats.com](https://antseedstats.com/network) | 29.4 |
+| 17 | **FreeGG** | GPT-6.1 Sol | 99 | 20 CNY | — | unknown | [freegg.app](https://freegg.app/sign-up) | 29.4 |
+| 18 | **OmniRush** | GPT-6 Astra | 99 | — | — | unknown | [omnirush.ai](https://omnirush.ai/console) | 29.4 |
+| 19 | **StarBridge 公益站** | GPT-6 Astra | 99 | 10 CNY | — | unknown | [api.careke.cn](https://api.careke.cn/sign-up) | 29.4 |
+| 20 | **Conduit** | Claude Fable 5 | 98 | — | — | unknown | [conduit.ozdoev.net](https://conduit.ozdoev.net/v1) | 29.1 |
+| 21 | **ChatAnywhere** | GPT 5 | 73 | — | — | github | [api.chatanywhere.tech](https://api.chatanywhere.tech/v1) | 28.9 |
+| 22 | **HyxAPI** | GPT 5 | 73 | 15 CNY | — | github | [hyxware.com](https://hyxware.com/auth?mode=register) | 28.9 |
+| 23 | **Any Router** | GPT-5.6 Sol | 91 | 25 usd | — | invite | [anyrouter.top](https://anyrouter.top/register) | 28.8 |
+| 24 | **ze（芙芙中转站）** | GPT-5.6 Sol | 91 | — | — | invite | [api2.kscsnkli.site](https://api2.kscsnkli.site/sign-up) | 28.8 |
+| 25 | **哈基猫API** | GPT-5.5 | 89 | — ⚠️ | — | email | [hjmapi.923578.xyz](https://hjmapi.923578.xyz/v1) | 28.5 |
 
-## Generous quotas, model tier not verifiable (14)
+## Generous quotas, model tier not verifiable (29)
 
 These publish a daily quota but never name a benchmark-listed model, so they cannot be scored on quality. Sorted by normalized check-in value; verify the model list before trusting one.
 
 | Provider | Daily check-in | Models advertised | Rate limit | Signup | Endpoint |
 |---|---|---|---|---|---|
 | Future Hub | $20.00 | 59 | — | github | [api.futureppo.top](https://api.futureppo.top/v1) |
-| 星见雅 API | $20.00 | 24 | — | oauth | [new.xinjianya.top](https://new.xinjianya.top/v1) |
+| KKtoken AI | $20.00 | — | — | github | [kktoken.cc](https://kktoken.cc/sign-up) |
 | Ultra Router | $28.00 | 4 | — | email | [ultrarouter.org](https://ultrarouter.org/v1) |
 | 启源星 | $50.00 | 1 | — | email | [chuan.sylu.cc](https://chuan.sylu.cc/v1) |
 | 橘子API | $50.00 | 80 | — | email | [api.juziai.cc](https://api.juziai.cc/v1) |
-| xxzl 公益站 | $3.00 | 9 | — | email | [ai.1tim.com](https://ai.1tim.com/v1) |
+| xxzl 公益站 | $3.00 | 9 | — | github | [ai.1tim.com](https://ai.1tim.com/v1) |
 | BudsAI | $4.00 | 53 | 60 RPD | email | [apichat.budsin.dev](https://apichat.budsin.dev/v1) |
+| Rinko NAI 生图公益站 | $3.52 | — | — | unknown | [nai.rinko.ai](https://nai.rinko.ai/sign-up) |
 | DGB 公益站 | $1.00 | 6 | — | email | [freeapi.dgbmc.top](https://freeapi.dgbmc.top/v1) |
+| 大肥鱼公益站 | $0.70 | — | — | email | [arc.103-121-95-72.sslip.io](https://arc.103-121-95-72.sslip.io/register) |
 | Tokeness | $0.50 | 52 | — | github | [n.tokeness.dev](https://n.tokeness.dev/v1) |
+| Zenshi | $0.42 | — | — | email | [zenshi.pages.dev](https://zenshi.pages.dev/login?next=/forum) |
 | 聚合 API（aiyiwei） | $0.30 | — | — | email | [aiyiwei.vip](https://aiyiwei.vip/v1) |
-| Liminality | 100 pts | 13 | — | email | [beizhi.dedyn.io](https://beizhi.dedyn.io/v1) |
-| NOFX | 5 pts | — | — | unknown | [nofx.one](https://nofx.one/zh-CN/sign-in) |
-| 初叶 Furry API | 10 pts | 80 | — | email | [ai.chuyel.top](https://ai.chuyel.top/v1) |
-| 肖恩Ai | 2000 pts | — | — | invite | [free.supxh.xin](https://free.supxh.xin/register) |
+| 万家灯火 | $0.01 | — | — | email | [wjapi.vip](https://wjapi.vip) |
+| GemAI（哈基米公益站） | 2026 CNY | — | — | invite | [api.gemai.cc](https://api.gemai.cc/sign-up) |
+
+## Below baseline (2)
+
+Kept for coverage, hidden from the main table: their best free model scores under the MiniMax M3.1 Flash baseline and they do not advertise exceptional speed.
+
+| Provider | Best free model | Tier | Daily check-in |
+|---|---|---|---|
+| 智谱 GLM 开放平台 | GLM 4.6 | 37 | — |
+| NovAI（AI API Pro） | GLM 4.6 | 37 | — |
 
 ## How the score works
 

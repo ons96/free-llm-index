@@ -113,13 +113,20 @@ def checkin_usd(amount: float | None, unit: str | None, host: str = "", raw: str
         return round(amount * CNY_USD_RATE, 4), "medium"
     if unit == "points":
         ratios = read_json(DATA / "points_ratios.json", {}) or {}
+        # global default rate, applied when no host-specific entry matches.
+        # Set only when a provider publishes a 积分→USD/CNY conversion.
+        default = ratios.get("_default", {}).get("points_per_usd")
+        host_rate = None
         for key, spec in ratios.items():
             if key.startswith("_"):
                 continue
             if key in (host or ""):
-                per_usd = (spec or {}).get("points_per_usd")
-                if per_usd:
-                    return round(amount / float(per_usd), 4), "medium"
+                host_rate = (spec or {}).get("points_per_usd")
+                break
+        per_usd = host_rate or default
+        if per_usd:
+            return round(amount / float(per_usd), 4), "medium"
+        # no published rate anywhere: never fabricate one
         return None, "points"
     return None, "low"
 
@@ -251,7 +258,7 @@ def main() -> int:
         key, backend = dedupe_key(endpoint, site)
         models = list(dict.fromkeys(cand.models))
         best_model, best_pct = index.best(models)
-        usd, conf = checkin_usd(cand.checkin_amount, cand.checkin_unit, backend, cand.checkin_raw or "")
+        usd, conf = checkin_usd(cand.checkin_amount, cand.checkin_unit, host_of(site) or backend, cand.checkin_raw or "")
         method = signup_from_notes(cand.notes, cand.signup_raw)
         signup_score = SIGNUP_SCORE.get(method, 0.75)
         rf = rate_factor(cand.rpm, cand.rpd)
@@ -330,6 +337,11 @@ def main() -> int:
         merged["best_free_model"] = merged["best_free_model"] or (bm or "")
         merged["tier_score"] = merged["tier_score"] if merged["tier_score"] is not None else bp
         merged["models_free"] = len(merged["_models"])
+        # recompute the USD equivalent from the merged facts so a points
+        # currency never inherits a USD value from a cny/usd candidate
+        merged["checkin_usd_equiv"], merged["checkin_confidence"] = checkin_usd(
+            merged["checkin_daily_value"], merged["checkin_currency"],
+            host_of(merged["_site_url"]), merged["checkin_raw"] or "")
         if merged["tier_score"] is not None:
             merged["_score"] = round(
                 merged["tier_score"]
@@ -427,7 +439,7 @@ def write_outputs(ranked, scored, quota_only, unverified, offline, dropped, all_
 
     atomic_write(ROOT / "LEADERBOARD.md", render_markdown(scored, quota_only, unverified, tier_source))
     build_status(ranked, unverified, all_rows, parsed_stats, tier_source, free_models)
-    write_dashboard(scored, quota_only, unverified, tier_source)
+    write_dashboard(scored, quota_only, unverified, offline, tier_source)
 
 
 def plausible_provider(row: dict, agg_hosts: set[str]) -> bool:
@@ -558,16 +570,21 @@ def build_status(ranked, unverified, all_rows, parsed_stats, tier_source, free_m
     })
 
 
-def write_dashboard(scored, quota_only, unverified, tier_source):
-    ranked = scored + quota_only
+def _dash_row(r):
+    return ({k: v for k, v in r.items() if not k.startswith("_")} | {
+        "site_url": r["_site_url"], "models": r["_models"], "models_count": r["_models_count"],
+        "score": r["_score"], "quota_score": r["_quota_score"], "below_baseline": r["below_baseline"],
+    })
+
+
+def write_dashboard(scored, quota_only, unverified, offline, tier_source):
     payload = json.dumps({
         "generated_at": iso(),
         "tier_source": tier_source,
-        "providers": [{k: v for k, v in r.items() if not k.startswith("_")} | {"score": r["_score"],
-                                                                              "site_url": r["_site_url"],
-                                                                              "models": r["_models"]}
-                      for r in ranked[:250]],
-        "unverified": len(unverified),
+        "scored": [_dash_row(r) for r in scored],
+        "quota_only": [_dash_row(r) for r in quota_only],
+        "unverified": [_dash_row(r) for r in unverified],
+        "offline": [_dash_row(r) for r in offline],
     }, ensure_ascii=False)
     html = DASHBOARD_TEMPLATE.replace("/*__DATA__*/null", payload)
     atomic_write(DIST / "index.html", html)
@@ -578,49 +595,65 @@ DASHBOARD_TEMPLATE = """<!doctype html>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Free LLM API leaderboard</title>
 <style>
-:root{--bg:#0b0d12;--card:#151922;--ink:#e8ecf4;--dim:#8b94a7;--acc:#63e6be;--warn:#ffd43b}
-*{box-sizing:border-box}body{margin:0;font:15px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
-background:var(--bg);color:var(--ink)}main{max-width:1100px;margin:0 auto;padding:28px 16px 64px}
-h1{font-size:22px;margin:0 0 4px}p.sub{color:var(--dim);margin:0 0 18px;font-size:13px}
-input{width:100%;padding:10px 12px;border-radius:10px;border:1px solid #263041;background:#0f131b;color:var(--ink);
-margin-bottom:14px;font-size:14px}
-table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:8px 10px;border-bottom:1px solid #1e2431;text-align:left}
+:root{--bg:#0b0d12;--card:#151922;--ink:#e8ecf4;--dim:#8b94a7;--acc:#63e6be;--warn:#ffd43b;--bad:#ff6b6b}
+*{box-sizing:border-box}body{margin:0;font:14px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink)}
+main{max-width:1180px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:22px;margin:0 0 4px}p.sub{color:var(--dim);margin:0 0 14px;font-size:13px}
+.tabs{display:flex;gap:6px;margin:0 0 12px;flex-wrap:wrap}
+.tabs button{background:#121722;border:1px solid #263041;color:var(--dim);padding:6px 12px;border-radius:8px;cursor:pointer;font-size:13px}
+.tabs button.active{background:var(--acc);color:#0b0d12;border-color:var(--acc);font-weight:600}
+input{width:100%;padding:10px 12px;border-radius:10px;border:1px solid #263041;background:#0f131b;color:var(--ink);margin-bottom:12px;font-size:14px}
+table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:8px 10px;border-bottom:1px solid #1e2431;text-align:left;vertical-align:top}
 th{color:var(--dim);font-weight:600;position:sticky;top:0;background:var(--bg);cursor:pointer;white-space:nowrap}
 tr:hover td{background:#121722}.num{text-align:right;font-variant-numeric:tabular-nums}
-.bar{height:6px;border-radius:3px;background:linear-gradient(90deg,#63e6be,#4dabf7);min-width:2px;display:inline-block}
 a{color:var(--acc);text-decoration:none}a:hover{text-decoration:underline}
 .chip{font-size:11px;padding:1px 6px;border-radius:999px;background:#1d2532;color:var(--dim)}
-.below{color:var(--warn)}
+.bar{height:6px;border-radius:3px;background:linear-gradient(90deg,#63e6be,#4dabf7);min-width:2px;display:inline-block}
+.below{color:var(--warn)} .offline{color:var(--bad)}
+.models{color:var(--dim);font-size:12px}
 </style></head><body><main>
 <h1>Free LLM API leaderboard</h1>
 <p class="sub" id="sub"></p>
-<input id="q" placeholder="Filter by provider, model, endpoint or signup…">
+<div class="tabs" id="tabs"></div>
+<input id="q" placeholder="Filter by provider, model, endpoint, signup…">
 <table><thead><tr>
 <th data-k="rank">#</th><th data-k="provider">Provider</th><th data-k="best_free_model">Best free model</th>
 <th data-k="tier_score" class="num">Tier</th><th data-k="checkin_usd_equiv" class="num">Check-in/day</th>
-<th data-k="rpm">Rate</th><th data-k="signup_method">Signup</th><th data-k="score" class="num">Score</th>
+<th data-k="rpm">Rate</th><th data-k="signup_method">Signup</th><th data-k="endpoint_url">Endpoint</th>
+<th data-k="score" class="num">Score</th>
 </tr></thead><tbody id="rows"></tbody></table>
-<p class="sub" style="margin-top:18px">Quotas change without notice. Index only — not an endorsement.</p>
+<p class="sub" style="margin-top:18px">Quotas change without notice. Index only — not an endorsement. Full data in <code>free_llm_providers.csv</code> / <code>.json</code>.</p>
 </main><script>
-const D=/*__DATA__*/null;let sortK="score",asc=false;
+const D=/*__DATA__*/null;
+let sortK="score",asc=false,current="scored";
+const TABS=[{k:"scored",label:"Scored"},{k:"quota_only",label:"Quota only"},{k:"unverified",label:"Unverified"},{k:"offline",label:"Offline"}];
 const fmtU=v=>v==null?"—":"$"+v.toFixed(2);
 const fmtR=r=>[r.rpm?r.rpm+" RPM":null,r.rpd?r.rpd+" RPD":null].filter(Boolean).join(" · ")||"—";
-document.getElementById("sub").textContent=D.providers.length+" ranked providers · tiers: "+D.tier_source+
-  " · updated "+new Date(D.generated_at).toLocaleString()+" · "+D.unverified+" unverified entries in the repo data";
+const host=u=>(u||"").replace(/^https?:\\/\\//,"").split("/")[0];
+document.getElementById("sub").textContent=
+  D.scored.length+" scored · "+D.quota_only.length+" quota-only · "+D.unverified.length+" unverified · "+D.offline.length+" offline · tiers: "+D.tier_source+" · updated "+new Date(D.generated_at).toLocaleString();
+const tabs=document.getElementById("tabs");
+TABS.forEach(t=>{const b=document.createElement("button");b.textContent=t.label+" ("+D[t.k].length+")";b.dataset.k=t.k;
+  b.addEventListener("click",()=>{current=t.k;document.querySelectorAll(".tabs button").forEach(x=>x.classList.remove("active"));b.classList.add("active");rows();});tabs.appendChild(b);});
+tabs.querySelector("button").classList.add("active");
 function rows(){
  const q=document.getElementById("q").value.toLowerCase();
- let rs=D.providers.filter(r=>!q||JSON.stringify(r).toLowerCase().includes(q));
+ let rs=(D[current]||[]).filter(r=>!q||JSON.stringify(r).toLowerCase().includes(q));
  rs=rs.slice().sort((a,b)=>{let x=a[sortK],y=b[sortK];
    if(x==null)return 1;if(y==null)return -1;
    return (typeof x==="string"?x.localeCompare(y):x-y)*(asc?1:-1);});
  document.getElementById("rows").innerHTML=rs.map((r,i)=>{
    const ep=r.endpoint_url||r.site_url||"";
-   const host=ep.replace(/^https?:\\/\\//,"").split("/")[0];
-   return `<tr><td class="num">${i+1}</td><td><b>${r.provider}</b></td>
+   const hp=r.site_url||ep;
+   const name=hp?('<a href="'+hp+'" target="_blank" rel="noopener">'+r.provider+'</a>'):r.provider;
+   const epLink=ep?('<a href="'+ep+'" target="_blank" rel="noopener">'+host(ep)+'</a>'):"—";
+   const models=(r.models||[]).slice(0,4).join(", ");
+   const bar=current==="scored"?('<span class="bar" style="width:'+Math.round((r.score||0)/1.2)+'px"></span> '+(r.score||0).toFixed(1)):"—";
+   return `<tr><td class="num">${i+1}</td><td><b>${name}</b>${models?'<div class="models">'+models+'</div>':''}</td>
    <td>${r.best_free_model||"—"}</td><td class="num">${r.tier_score??"—"}</td>
    <td class="num">${fmtU(r.checkin_usd_equiv)}</td><td>${fmtR(r)}</td>
    <td><span class="chip">${r.signup_method}</span></td>
-   <td class="num"><span class="bar" style="width:${Math.round(r.score/1.2)}px"></span> ${r.score.toFixed(1)}</td></tr>`;
+   <td>${epLink}</td><td class="num">${bar}</td></tr>`;
  }).join("");
 }
 document.getElementById("q").addEventListener("input",rows);
@@ -629,7 +662,6 @@ document.querySelectorAll("th[data-k]").forEach(th=>th.addEventListener("click",
 rows();
 </script></body></html>
 """
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

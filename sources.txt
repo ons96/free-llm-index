@@ -47,6 +47,43 @@ https://freellm.net   # tier:3 kind:html role:agg
 # ---------------- Machine-checkable free-model index ----------------
 https://openrouter.ai/api/v1/models   # tier:2 kind:json role:modelindex
 
+# ---------------- Follow-up expansion (2026-11-25, round 2) ----------------
+# Direct provider / model pages
+https://qubax.ai/models   # tier:2 kind:html role:seed
+https://opencheap.si/   # tier:2 kind:html role:seed
+https://opencheap.si/models   # tier:2 kind:html role:seed
+
+# Aggregators / directories
+https://www.aiapipk.com/directory/   # tier:3 kind:html role:agg
+https://api.chat/models/resellers/   # tier:3 kind:html role:agg
+https://compute.sinanlab.com/en/rank   # tier:3 kind:html role:agg
+https://tools.launchllama.co/products/opencheap   # tier:4 kind:html role:agg
+https://antseed.com/   # tier:2 kind:html role:seed
+https://antseedstats.com/network   # tier:3 kind:html role:agg
+
+# GitHub repos (welfare / relay lists)
+https://raw.githubusercontent.com/mn-api/awesome-ai-proxy/main/README.md   # tier:1 kind:markdown role:seed
+https://raw.githubusercontent.com/hanzohanzhe/Grandet/main/README.md   # tier:1 kind:markdown role:agg
+https://raw.githubusercontent.com/bnlbnf/relaywatch/main/README.md   # tier:1 kind:markdown role:agg
+https://raw.githubusercontent.com/Chenking-maker/api-rank/master/README.md   # tier:1 kind:markdown role:agg
+https://raw.githubusercontent.com/HughPython/free-llm-api-cn/main/README.md   # tier:1 kind:markdown role:seed
+
+# Welfare / daily-check-in sites
+https://liumowan.github.io/Free-API/   # tier:2 kind:html role:seed
+https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json   # tier:1 kind:json role:seed
+https://ytzzjx.github.io/topics/daily-checkin/   # tier:2 kind:html role:seed
+https://haha0510.github.io/llm-api-public-stations/   # tier:2 kind:html role:seed
+
+# Deeper pages / filtered views
+https://www.cocoloop.cn/t/topic/22317   # tier:3 kind:html role:agg
+https://www.getcheapai.com/model?sort=input   # tier:3 kind:html role:agg
+https://apiranking.com/?bench=claude&category=all&model=grok&sort=score   # tier:3 kind:html role:agg
+
+# Not usable, kept for the record:
+# https://www.mnapi.com/pricing   # tier:4 kind:html role:seed   # FAILED: Cloudflare "Just a moment" interstitial through direct, curl_cffi, relay and reader
+# https://opencheap.si/#prices    # dropped: a #fragment is client-side only; identical to opencheap.si/ above
+
 # ---------------- Named providers ----------------
+# (the "Named providers" header was lost when the follow-up block was appended; restored here)
 https://agentrouter.org   # tier:3 kind:html role:seed
 https://kiro.dev   # tier:3 kind:html role:seed enabled:false   # marketing page, no public API/quota data

@@ -1,0 +1,6 @@
+{
+  "_comment": "Only add an entry when the provider itself publishes a \u79ef\u5206 to USD or CNY conversion. Without one, points stay points and are never converted.",
+  "_default": {
+    "points_per_usd": null
+  }
+}

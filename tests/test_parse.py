@@ -177,6 +177,14 @@ class TestScoring(unittest.TestCase):
         self.assertIsNone(usd)
         self.assertEqual(conf, "points")
 
+    def test_points_regression_inflated_checkin(self):
+        # an earlier version turned {"points_per_usd": None} into a 1:1
+        # points->USD rate and valued 2000 积分 at $140.80. A points quota with
+        # no published conversion must stay unvalued.
+        usd, conf = enrich.checkin_usd(2000.0, "points", "free.supxh.xin", "✅ 2000 积分")
+        self.assertIsNone(usd)
+        self.assertEqual(conf, "points")
+
     def test_score_ordering(self):
         strong = 90 * (0.55 + 0.45 * enrich.checkin_factor(5)) * 1.0 * 1.0
         weak = 60 * (0.55 + 0.45 * 0.0) * 0.4 * 0.75

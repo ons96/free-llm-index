@@ -189,6 +189,13 @@ def parse_checkin(text: str) -> dict:
     amount, unit = parse_amount(text[cue.start(): cue.start() + 80])
     if amount is None:
         amount, unit = parse_amount(snippet)
+    if amount is None:
+        # bare number right after the cue with no currency glyph at all:
+        # "签到 0.5" / "check-in 2" -- common in Chinese welfare lists, where
+        # the site is denominated in 元 but omits the symbol inside the table.
+        bare = re.match(r"[^0-9]{0,8}?(\d+(?:\.\d+)?)", text[cue.end(): cue.end() + 40])
+        if bare and not re.search(r"(分钟|次/|rpm|rpd|模型|models)", text[cue.end(): cue.end() + 40], re.I):
+            amount, unit = _num(bare.group(1)), "cny"
     ambiguous = bool(AMBIGUOUS_CUE.search(snippet))
     return {
         "checkin_raw": snippet[:160],
@@ -735,8 +742,92 @@ def parse_cards_html(body: str, source: str, models: ModelIndex) -> list[Candida
 
 
 # ---------------------------------------------------------------------------
-# Parser: machine-checkable model indexes
+# Parser: tables whose extra columns are yes/no flags (HughPython style)
 # ---------------------------------------------------------------------------
+
+FLAG_YES = re.compile(r"(^|\s)(✔|✅|✓|yes|是)", re.I)
+FLAG_NO = re.compile(r"(^|\s)(✖|✗|❌|—|–|no|否|-)(\s|$)", re.I)
+STAR_RE = re.compile(r"[★☆]")
+NEGATIVE_HEADER = re.compile(r"(绑卡|信用卡|card|支付|付费|充值)", re.I)
+POSITIVE_HEADER = re.compile(r"(免费|free|签到|check)", re.I)
+
+
+def host_of(url: str) -> str:
+    m = re.match(r"https?://([^/:?#]+)", url or "", re.I)
+    return (m.group(1) if m else "").lower()
+
+
+def registrable_domain(host: str) -> str:
+    host = (host or "").lower().strip(".")
+    parts = host.split(".")
+    if len(parts) <= 2:
+        return host
+    multi = {"com.cn", "net.cn", "org.cn", "gov.cn", "co.uk", "org.uk", "com.au", "co.jp", "com.tw"}
+    if ".".join(parts[-2:]) in multi:
+        return ".".join(parts[-3:])
+    return ".".join(parts[-2:])
+
+
+def is_outbound_site(url: str, source: str) -> bool:
+    """False when `url` points back into the same registrable domain as the
+    source page itself: a catalog (/models/x) is a model link, not a provider."""
+    src_dom = registrable_domain(host_of(source) or "")
+    url_dom = registrable_domain(host_of(url) or "")
+    return bool(url_dom) and url_dom != src_dom
+
+
+def parse_flags_md(body: str, source: str) -> list[Candidate]:
+    """Tables shaped `[site](link) | ★★★★ | ✔ | ✖`.
+
+    The extra columns are policy flags ("needs a card?", "needs a VPN?"), so
+    they are read through their header text instead of being guessed from the
+    symbol: a ✔ under a card column means *card required*, under a free column
+    it means *free*. Rows that mention a rating or at least one flag are kept.
+    """
+    out: list[Candidate] = []
+    for header, rows in iter_md_tables(body):
+        if len(header) < 3:
+            continue
+        if not re.match(r"(网站|平台|站点|名称|服务|site|platform|name)", header[0].strip(), re.I):
+            continue
+        for row in rows:
+            if not row:
+                continue
+            link = LINK_RE.search(row[0])
+            if not link:
+                continue
+            name = strip_md(link.group(1)).strip()
+            url = clean_url(link.group(2))
+            if not name or len(name) > 60 or not url or not is_outbound_site(url, source):
+                continue
+            cand = Candidate(provider=name, site_url=url, source=source, confidence=0.55)
+            has_signal = False
+            for i, cell_text in enumerate(row[1:], 1):
+                if i >= len(header):
+                    break
+                head = strip_md(header[i])
+                val = strip_md(cell_text)
+                if not val:
+                    continue
+                if STAR_RE.search(val) or re.fullmatch(r"[\d.]+\s*/\s*\d+", val):
+                    has_signal = True
+                    continue
+                if FLAG_YES.search(val):
+                    has_signal = True
+                    if NEGATIVE_HEADER.search(head):
+                        cand.notes.append(f"policy: {head} required")
+                        cand.signup_raw = (cand.signup_raw or "") + " card"
+                    elif POSITIVE_HEADER.search(head):
+                        cand.notes.append(f"policy: {head} available")
+                elif FLAG_NO.match(val):
+                    has_signal = True
+                    if NEGATIVE_HEADER.search(head):
+                        cand.notes.append(f"policy: no {head}")
+            if not has_signal:
+                continue  # a plain link row: navigation only
+            out.append(cand)
+    return out
+
 
 def parse_openrouter_free(body: str) -> tuple[list[str], int]:
     """Return free model ids and total count from the public models JSON."""
@@ -756,6 +847,62 @@ def parse_openrouter_free(body: str) -> tuple[list[str], int]:
         if is_free:
             free.append(m.get("id", ""))
     return free, len(data)
+
+
+def parse_heading_sections(body: str, source: str, models: ModelIndex) -> list[Candidate]:
+    """Split on heading tags, take the provider name from the heading and the
+    register link from the section body ("立即注册：<a>" / "Sign up: <a>").
+
+    This is the shape review articles use (haha0510 style): a numbered heading
+    per provider, then prose, then a call-to-action anchor.
+    """
+    parts = re.split(r"(?i)(?=<h[23][^>]*>)", body)
+    out: list[Candidate] = []
+    cta = re.compile(r"(立即注册|注册入口|注册链接|前往注册|sign\s*up|get\s*started|visit)", re.I)
+    for chunk in parts:
+        head = re.match(r"(?is)<h[23][^>]*>(.*?)</h[23]>", chunk)
+        if not head:
+            continue
+        name = strip_md(re.sub(r"(?is)<[^>]+>", " ", head.group(1)))
+        name = re.sub(r"^\s*\d+[.、)\s]+", "", name).split("：")[0].split(":")[0].strip()
+        if not name or len(name) > 40:
+            continue
+        section = chunk[head.end():]
+        anchors = [(m.group(2), clean_url(m.group(1))) for m in re.finditer(
+            r'(?is)<a[^>]+href="(https?://[^"]+)"[^>]*>(.*?)</a>', section)]
+        site = ""
+        for text, href in anchors:
+            if cta.search(strip_md(re.sub(r"(?is)<[^>]+>", " ", text))) and is_provider_url(href):
+                site = href
+                break
+        if not site:
+            site = next((h for _t, h in anchors if is_provider_url(h) and not DOC_PATH.search(h)), "")
+        if not site or not is_outbound_site(site, source):
+            continue
+        text = strip_md(re.sub(r"(?is)<[^>]+>", " ", section))
+        cand = Candidate(provider=name, site_url=site, source=source, confidence=0.65)
+        info = parse_checkin(text)
+        if info and info.get("checkin_amount") is not None:
+            cand.checkin_raw = info.get("checkin_raw")
+            cand.checkin_amount = info.get("checkin_amount")
+            cand.checkin_unit = info.get("checkin_unit")
+            cand.checkin_period = info.get("checkin_period")
+        rates = parse_rates(text)
+        cand.rpm, cand.rpd, cand.rate_raw = rates["rpm"], rates["rpd"], rates["rate_raw"]
+        method, raw = parse_signup(text)
+        if method != "unknown":
+            cand.signup_raw = raw
+            cand.notes.append(f"signup:{method}")
+        for entry in models.find(text[:3000] + " " + name):
+            if entry.model not in cand.models and len(cand.models) < 12:
+                cand.models.append(entry.model)
+        out.append(cand)
+    return out
+
+
+def parse_heading_sections_plain(body: str) -> list[Candidate]:
+    """Fallback shape: markdown-ish headings already flattened to text."""
+    return []
 
 
 def parse_article_cards(body: str, source: str, models: ModelIndex) -> list[Candidate]:
@@ -784,7 +931,7 @@ def parse_article_cards(body: str, source: str, models: ModelIndex) -> list[Cand
         status = "online" if re.search(r"(?i)\bactive\b|在线", text) else (
             "offline" if re.search(r"(?i)\b(ended|expired|upcoming)\b|已结束", text) else "unknown")
         hrefs = [clean_url(h) for h in re.findall(r'href="(https?://[^"]+)"', card_html)]
-        site = next((h for h in hrefs if is_provider_url(h)), "")
+        site = next((h for h in hrefs if is_provider_url(h) and is_outbound_site(h, source)), "")
         cand = Candidate(provider=name, site_url=site, source=source, confidence=0.6, status=status)
         info = parse_checkin(text)
         if info and info.get("checkin_amount") is not None:
@@ -802,6 +949,173 @@ def parse_article_cards(body: str, source: str, models: ModelIndex) -> list[Cand
             if entry.model not in cand.models and len(cand.models) < 12:
                 cand.models.append(entry.model)
         out.append(cand)
+    return out
+
+
+def parse_jsonld_itemlist(body: str, source: str, models: ModelIndex) -> list[Candidate]:
+    """schema.org ItemList embedded as JSON-LD (static directories, listings).
+
+    Many generated directory sites ship a clean `application/ld+json` block with
+    name/description/url per entry. It is far more reliable than guessing which
+    <div> holds a name, so it is tried before the HTML card heuristics.
+    """
+    out: list[Candidate] = []
+    for m in re.finditer(r'(?is)<script[^>]+type="application/ld\+json"[^>]*>(.*?)</script>', body):
+        raw = m.group(1).strip()
+        try:
+            doc = json.loads(raw)
+        except ValueError:
+            continue
+        nodes = doc if isinstance(doc, list) else [doc]
+        for node in nodes:
+            items = node.get("itemListElement") if isinstance(node, dict) else None
+            if not isinstance(items, list):
+                continue
+            for item in items:
+                if not isinstance(item, dict):
+                    continue
+                name = str(item.get("name") or "").strip()
+                desc = str(item.get("description") or "").strip()
+                url = str(item.get("url") or "").strip()
+                if not name or len(name) > 60 or not url.startswith("http"):
+                    continue
+                if not is_outbound_site(url, source):
+                    continue
+                cand = Candidate(provider=name, site_url=clean_url(url), source=source, confidence=0.7)
+                if desc:
+                    info = parse_checkin(desc)
+                    if info and info.get("checkin_amount") is not None:
+                        cand.checkin_raw = info.get("checkin_raw")
+                        cand.checkin_amount = info.get("checkin_amount")
+                        cand.checkin_unit = info.get("checkin_unit")
+                        cand.checkin_period = info.get("checkin_period")
+                    rates = parse_rates(desc)
+                    cand.rpm, cand.rpd, cand.rate_raw = rates["rpm"], rates["rpd"], rates["rate_raw"]
+                    method, raw = parse_signup(desc)
+                    if method != "unknown":
+                        cand.signup_raw = raw
+                        cand.notes.append(f"signup:{method}")
+                    # the description states verification state; keep it for review
+                    if re.search(r"(未核实|未验证|unverified)", desc):
+                        cand.notes.append("source marks this entry unverified")
+                        cand.confidence = 0.5
+                    for entry in models.find(desc + " " + name):
+                        if entry.model not in cand.models and len(cand.models) < 12:
+                            cand.models.append(entry.model)
+                out.append(cand)
+    return out
+
+
+def parse_json_directory(body: str, source: str, models: ModelIndex) -> list[Candidate]:
+    """A JSON array/object of provider records (quota/models/note fields).
+
+    Structured data like this is the most reliable input in the whole pipeline:
+    no HTML heuristics, no table-shape guessing. Keys are matched loosely so
+    `name`/`title`, `url`/`link`, `quota`/`bonus` all work.
+    """
+    try:
+        doc = json.loads(body)
+    except ValueError:
+        return []
+    items: list = []
+    if isinstance(doc, list):
+        items = doc
+    elif isinstance(doc, dict):
+        for value in doc.values():
+            if isinstance(value, list) and value and isinstance(value[0], dict):
+                items = value
+                break
+        if not items and isinstance(doc.get("stations"), list):
+            items = doc["stations"]
+    out: list[Candidate] = []
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        name = str(item.get("name") or item.get("title") or item.get("provider") or "").strip()
+        if not name or len(name) > 60:
+            continue
+        url = str(item.get("url") or item.get("link") or item.get("site") or "").strip()
+        if not url.startswith("http"):
+            continue
+        cand = Candidate(provider=name, site_url=clean_url(url), source=source, confidence=0.85)
+        quota = str(item.get("quota") or item.get("bonus") or item.get("credits") or "")
+        note = str(item.get("note") or item.get("notes") or item.get("remark") or "")
+        model_text = item.get("models")
+        if isinstance(model_text, list):
+            model_text = " ".join(str(x) for x in model_text)
+        model_text = str(model_text or "")
+        blob = " ".join(filter(None, [quota, note, model_text]))
+        info = parse_checkin(quota or blob)
+        if info and info.get("checkin_amount") is not None:
+            cand.checkin_raw = info.get("checkin_raw")
+            cand.checkin_amount = info.get("checkin_amount")
+            cand.checkin_unit = info.get("checkin_unit")
+            cand.checkin_period = info.get("checkin_period")
+            if info.get("checkin_ambiguous"):
+                cand.notes.append("check-in amount ambiguous")
+        rates = parse_rates(blob)
+        cand.rpm, cand.rpd, cand.rate_raw = rates["rpm"], rates["rpd"], rates["rate_raw"]
+        method, raw = parse_signup(blob)
+        if method != "unknown":
+            cand.signup_raw = raw
+            cand.notes.append(f"signup:{method}")
+        if note:
+            cand.notes.append(re.sub(r"\s+", " ", note)[:140])
+        for entry in models.find(blob):
+            if entry.model not in cand.models and len(cand.models) < 12:
+                cand.models.append(entry.model)
+        out.append(cand)
+    return out
+
+
+def parse_js_station_array(body: str, source: str, models: ModelIndex) -> list[Candidate]:
+    """Parse `{ name: '...', url: '...', models: [...], score: 9.9 }` arrays.
+
+    SPA dashboards (api-rank, relaywatch) ship their whole directory this way;
+    without it those sources contribute nothing. Only plain object literals are
+    read, so a malformed array degrades to zero candidates instead of raising.
+    """
+    out: list[Candidate] = []
+    for m in re.finditer(r"(?:const|let|var)\s+\w*[Ss]tations?\w*\s*=\s*\[", body):
+        open_at = m.end() - 1
+        depth, end = 0, None
+        for i in range(open_at, min(len(body), open_at + 400_000)):
+            ch = body[i]
+            if ch == "[":
+                depth += 1
+            elif ch == "]":
+                depth -= 1
+                if depth == 0:
+                    end = i
+                    break
+        if end is None:
+            continue
+        chunk = body[open_at:end + 1]
+        for obj in re.finditer(r"\{[^{}]*\}", chunk):
+            text = obj.group(0)
+            name = re.search(r"name\s*:\s*['\"]([^'\"]{2,60})['\"]", text)
+            if not name:
+                continue
+            link = re.search(r"link\s*:\s*['\"](https?://[^'\"]+)['\"]", text)
+            host = re.search(r"url\s*:\s*['\"]([^'\"]{4,80})['\"]", text)
+            site = clean_url(link.group(1)) if link else ""
+            if not site and host:
+                site = "https://" + re.sub(r"^https?://", "", host.group(1)).strip("/")
+            models_raw = re.search(r"models\s*:\s*\[([^\]]*)\]", text)
+            found_models = []
+            if models_raw:
+                for tok in re.findall(r"['\"]([^'\"]{2,40})['\"]", models_raw.group(1)):
+                    entry_pct = models.percentile_for(tok)
+                    if entry_pct is not None:
+                        found_models.append(tok)
+            score = re.search(r"score\s*:\s*([\d.]+)", text)
+            cand = Candidate(provider=name.group(1).strip(), site_url=site, source=source,
+                             confidence=0.5, models=found_models)
+            if score:
+                cand.notes.append(f"aggregator score {score.group(1)}")
+            if re.search(r"payment\s*:\s*['\"]free['\"]", text) or re.search(r"free\s*:\s*true", text):
+                cand.notes.append("listed as free")
+            out.append(cand)
     return out
 
 
@@ -874,6 +1188,10 @@ def parse_document(url: str, body: str, kind: str, role: str, models: ModelIndex
         result["free_models"], result["total_models"] = free, total
         return result
 
+    if kind == "json":
+        result["candidates"] = parse_json_directory(body, url, models)
+        return result
+
     if role == "modelindex" or "modelbenchmark" in url:
         tiers = parse_model_benchmark(body)
         if tiers["models"]:
@@ -883,20 +1201,39 @@ def parse_document(url: str, body: str, kind: str, role: str, models: ModelIndex
     if role in ("agg", "intel"):
         result["domains"] = extract_domains(body)
         result["names"] = extract_names(body)
+        # SPA dashboards carry their directory as a JS array; agg sources use
+        # it for corroboration only, so nothing here can pollute the ranking.
+        result["station_names"] = parse_js_station_array(body, url, models)
         return result
 
     if kind == "markdown":
-        cands = parse_welfare_md(body, url, models)
-        cands += parse_bullet_md(body, url, models)
-        if not cands:
-            cands = parse_free_table_md(body, url, models)
-        result["candidates"] = cands
+        # several shapes can coexist in one README: a summary table, a bullet
+        # list and a policy-flag table. Run them all and merge by name, so a
+        # provider picked up by two parsers ends up with the richer record.
+        merged: dict[str, Candidate] = {}
+        for parser in (lambda: parse_welfare_md(body, url, models),
+                       lambda: parse_bullet_md(body, url, models),
+                       lambda: parse_free_table_md(body, url, models),
+                       lambda: parse_flags_md(body, url)):
+            try:
+                found = parser()
+            except Exception as exc:  # noqa: BLE001 - one bad shape must not kill the source
+                result.setdefault("errors", []).append(f"{type(exc).__name__}: {exc}")
+                continue
+            for cand in found:
+                key = _norm(cand.provider)
+                merged[key] = merge_into(merged[key], cand) if key in merged else cand
+        result["candidates"] = list(merged.values())
         return result
 
-    # HTML seeds: article grids are richer than prose cards when both exist
-    cands = parse_article_cards(body, url, models)
+    # HTML seeds: JSON-LD listings first (cleanest), then heading sections,
+    # then article grids, then prose cards -- each only if it beats the last.
+    cands = parse_jsonld_itemlist(body, url, models)
     if len(cands) < 3:
-        cands = parse_cards_html(body, url, models)
+        for parser in (parse_heading_sections, parse_article_cards, parse_cards_html):
+            found = parser(body, url, models)
+            if len(found) > len(cands):
+                cands = found
     result["domains"] = extract_domains(body)
     result["candidates"] = cands
     return result

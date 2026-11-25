@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-11-25T21:17:27Z",
+    "generated_at": "2026-11-25T23:55:32Z",
     "prompt_version": "2026-11-25.1",
     "tier_source": "live:modelbenchmark.io",
     "cny_usd_rate": 0.1408,
     "baseline_percentile": 50,
     "counts": {
-      "ranked": 29,
-      "quota_only": 14,
-      "unverified": 116,
+      "ranked": 58,
+      "quota_only": 29,
+      "unverified": 149,
       "offline": 3,
-      "total": 184
+      "total": 261
     },
     "openrouter_free_models": 14
   },
@@ -21,7 +21,7 @@
       "endpoint_url": "https://agentrouter.org/v1",
       "backend_host": "agentrouter.org",
       "dedupe_key": "dom:agentrouter.org",
-      "models_free": 3,
+      "models_free": 4,
       "best_free_model": "Claude Opus 5",
       "tier_score": 93,
       "tier_source": "live:modelbenchmark.io",
@@ -40,24 +40,159 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md",
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md",
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md",
-        "https://raw.githubusercontent.com/jliushi/ai-relay/main/README.md"
+        "https://haha0510.github.io/llm-api-public-stations",
+        "https://raw.githubusercontent.com/jliushi/ai-relay/main/README.md",
+        "https://ytzzjx.github.io/topics/daily-checkin",
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
-        "protocols: anthropic / openai"
+        "protocols: anthropic / openai",
+        "policy: 每日签到 available",
+        "github 注册满 5 年或者 Linux Do 信任等级 ≥0 方可注册"
       ],
       "below_baseline": false,
-      "corroborations": 0,
+      "corroborations": 3,
       "site_url": "https://agentrouter.org/register",
       "models": [
         "Claude Opus 4.8",
         "Claude Opus 5",
-        "GLM 5"
+        "GLM 5",
+        "DeepSeek V4.1 Flash"
       ],
       "models_count": null,
       "score": 66.96,
       "quota_score": 72.0
+    },
+    {
+      "id": "0c18aedf6d14",
+      "provider": "星见雅 API",
+      "endpoint_url": "https://new.xinjianya.top/v1",
+      "backend_host": "new.xinjianya.top",
+      "dedupe_key": "dom:xinjianya.top",
+      "models_free": 6,
+      "best_free_model": "GPT-5.6 Sol",
+      "tier_score": 91,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "✅ 金额待确认",
+      "checkin_daily_value": 20.0,
+      "checkin_currency": "usd",
+      "checkin_usd_equiv": 20.0,
+      "checkin_confidence": "high",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "github",
+      "signup_score": 1.0,
+      "status": "online",
+      "sources": [
+        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md",
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T20:56:13Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "check-in amount ambiguous",
+        "protocols: openai / anthropic",
+        "policy: 每日签到 available"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://new.xinjianya.top/sign-up",
+      "models": [
+        "DeepSeek V4 Flash 0731",
+        "GPT-5.6 Terra",
+        "GLM-5.3-Flash",
+        "GPT-5.6 Sol",
+        "Kimi K3",
+        "GLM-5.3"
+      ],
+      "models_count": 24,
+      "score": 65.52,
+      "quota_score": 68.4
+    },
+    {
+      "id": "bd49dbb18bf3",
+      "provider": "Axis AI 公益站",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:onyxaxis.org",
+      "models_free": 8,
+      "best_free_model": "GPT-6 Astra",
+      "tier_score": 99,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "国庆期间福利较多，连续签到 5 天得一张重置卡（用户提供）",
+      "checkin_daily_value": 5.0,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": 0.704,
+      "checkin_confidence": "medium",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "github",
+      "signup_score": 1.0,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://ai.onyxaxis.org/register",
+      "models": [
+        "Claude Sonnet 5.5",
+        "Claude Opus 5.5",
+        "GPT-6 Astra",
+        "GPT-5.6 Luna",
+        "GPT-6.1 Sol",
+        "GPT-5.6 Sol",
+        "GPT-6 Luna",
+        "GPT-6 Sol"
+      ],
+      "models_count": null,
+      "score": 48.7454,
+      "quota_score": 21.42
+    },
+    {
+      "id": "f4b6925026d7",
+      "provider": "TokenForge（tokengate）",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:ai.studio",
+      "models_free": 1,
+      "best_free_model": "Claude Opus 5",
+      "tier_score": 93,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "站点已恢复正常，每日签到 20 刀，当前仍是主要的 Claude Opus 5 线路",
+      "checkin_daily_value": 20.0,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": 2.816,
+      "checkin_confidence": "medium",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "invite",
+      "signup_score": 0.8,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin",
+        "https://haha0510.github.io/llm-api-public-stations"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://tokenforge.ai.studio/sign-up",
+      "models": [
+        "Claude Opus 5"
+      ],
+      "models_count": null,
+      "score": 47.4795,
+      "quota_score": 40.36
     },
     {
       "id": "f98877faa04a",
@@ -84,9 +219,10 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
-        "protocols: anthropic"
+        "protocols: anthropic",
+        "policy: 每日签到 available"
       ],
       "below_baseline": false,
       "corroborations": 0,
@@ -97,6 +233,119 @@
       "models_count": null,
       "score": 46.8,
       "quota_score": 72.0
+    },
+    {
+      "id": "7a36c5f0e7be",
+      "provider": "SunAPI",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:",
+      "models_free": 65,
+      "best_free_model": "GPT-6 Astra",
+      "tier_score": 99,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "p — about 50 requests/min per account. The catch: login + real-name authentication (实名认证),",
+      "rpm": 50,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "online",
+      "sources": [
+        "https://raw.githubusercontent.com/posstos/ai-relay-welfare/main/README.md",
+        "https://raw.githubusercontent.com/HughPython/free-llm-api-cn/main/README.md",
+        "https://qubax.ai/models",
+        "https://www.china-ai-arbitrage.xyz/free-tokens",
+        "https://raw.githubusercontent.com/ULing19/sub2api-price-monitor/main/README.md",
+        "https://raw.githubusercontent.com/jliushi/ai-relay/main/README.md",
+        "https://raw.githubusercontent.com/Q-shuang-dot/ai-coding-welfare/main/README.md",
+        "https://liumowan.github.io/Free-API"
+      ],
+      "first_seen": "2026-11-25T20:56:13Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "protocols: Anthropic + OpenAI",
+        "protocols: 仅 gpt-6.1-sol（倍率 0.5）",
+        "protocols: OpenAI",
+        "protocols: OpenAI 兼容"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "",
+      "models": [
+        "Gemini 3 Flash Preview",
+        "DeepSeek V4 Flash 0731",
+        "Gemini 3.1 Pro Preview",
+        "DeepSeek V4 Pro 0813",
+        "Gemini 3.5 Flash-Lite",
+        "DeepSeek V4.1 Flash",
+        "Claude Sonnet 5.5",
+        "Claude Sonnet 4.6",
+        "Claude Fable 5.1",
+        "Gemini 3.7 Flash",
+        "Gemini 3.8 Flash",
+        "Gemini 3.5 Flash",
+        "Claude Sonnet 5",
+        "Claude Haiku 5.5",
+        "Gemini 3.6 Flash",
+        "Claude Sonnet 4",
+        "Mistral Large 4",
+        "Claude Fable 5",
+        "Claude Opus 5.5",
+        "Claude Opus 4.8",
+        "Claude Opus 4.7",
+        "Claude Opus 4.6",
+        "Claude Opus 4.5",
+        "Claude Opus 5",
+        "Muse Spark 1.3",
+        "Muse Spark 1.2",
+        "Muse Spark 1.1",
+        "Kimi K2.7 Code",
+        "GPT-5.6 Terra",
+        "Qwen3.6 Plus",
+        "GLM-5.3-Flash",
+        "gpt-oss-120b",
+        "GPT-6 Astra",
+        "Qwen3.8 Max",
+        "Qwen3.7-Max",
+        "GPT-5.6 Luna",
+        "Qwen3.6 27B",
+        "MiniMax M3",
+        "GPT-5.4 mini",
+        "GPT-5.4 nano",
+        "Gemma 3 27B",
+        "GPT-4o mini",
+        "GPT-6.1 Sol",
+        "GPT-5.6 Sol",
+        "GPT-6 Luna",
+        "GPT 5 mini",
+        "Qwen3 32B",
+        "GPT 5 nano",
+        "GPT-6 Sol",
+        "Kimi K2.5",
+        "Kimi K2.6",
+        "Grok 4.6",
+        "Kimi K3",
+        "Grok 4.7",
+        "Grok 4.5",
+        "GPT-5.5",
+        "GPT-5.4",
+        "Grok 4",
+        "GLM-5.3",
+        "GPT 5.2",
+        "GLM-5.2",
+        "GLM 4.6",
+        "GLM 4.5",
+        "GPT 5",
+        "GLM 5"
+      ],
+      "models_count": null,
+      "score": 40.8375,
+      "quota_score": 0.0
     },
     {
       "id": "fe5ad4ace000",
@@ -124,10 +373,11 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "check-in amount ambiguous",
         "protocols: anthropic / openai",
+        "policy: 每日签到 available",
         "navigation entry: no quota data published"
       ],
       "below_baseline": false,
@@ -140,6 +390,87 @@
       "models_count": 67,
       "score": 36.828,
       "quota_score": 0.0
+    },
+    {
+      "id": "fa31ab7d7c6c",
+      "provider": "NOFX",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:nofx.one",
+      "models_free": 1,
+      "best_free_model": "GPT-5.6 Sol",
+      "tier_score": 91,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "✅ 5 积分",
+      "checkin_daily_value": 5.0,
+      "checkin_currency": "points",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "points",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "github",
+      "signup_score": 1.0,
+      "status": "online",
+      "sources": [
+        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md",
+        "https://haha0510.github.io/llm-api-public-stations",
+        "https://ytzzjx.github.io/topics/daily-checkin",
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json"
+      ],
+      "first_seen": "2026-11-25T20:56:13Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "policy: 每日签到 available",
+        "任务制积分站；免密码登录（邮箱 magic link 或 GitHub 授权）；Discord/邀请/发推可加分"
+      ],
+      "below_baseline": false,
+      "corroborations": 3,
+      "site_url": "https://nofx.one/zh-CN/sign-in",
+      "models": [
+        "GPT-5.6 Sol"
+      ],
+      "models_count": null,
+      "score": 36.036,
+      "quota_score": 0.0
+    },
+    {
+      "id": "ee910ab9bd26",
+      "provider": "10API",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:nextapi.store",
+      "models_free": 2,
+      "best_free_model": "DeepSeek V4.1 Flash",
+      "tier_score": 84,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "公益站，每日签到可得 10M token，可用 deepseek-v4.1-flash 与 glm-5.3-flash（用户提供）",
+      "checkin_daily_value": 10.0,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": 1.408,
+      "checkin_confidence": "medium",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 2,
+      "site_url": "https://nextapi.store/login?inv=INVY5KXY1ZN",
+      "models": [
+        "DeepSeek V4.1 Flash",
+        "GLM-5.3-Flash"
+      ],
+      "models_count": null,
+      "score": 34.9594,
+      "quota_score": 26.49
     },
     {
       "id": "67645260ce11",
@@ -166,7 +497,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -210,7 +541,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "protocols: openai"
       ],
@@ -227,6 +558,44 @@
       ],
       "models_count": null,
       "score": 33.1452,
+      "quota_score": 0.0
+    },
+    {
+      "id": "0f6557cef7de",
+      "provider": "sunapi 公益站",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:5201201314.top",
+      "models_free": 2,
+      "best_free_model": "GPT-5.6 Sol",
+      "tier_score": 91,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "email",
+      "signup_score": 0.9,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://sunapi.5201201314.top/sign-up",
+      "models": [
+        "GLM-5.3-Flash",
+        "GPT-5.6 Sol"
+      ],
+      "models_count": null,
+      "score": 32.4324,
       "quota_score": 0.0
     },
     {
@@ -255,7 +624,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 2,
@@ -292,9 +661,10 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
-        "protocols: openai / anthropic"
+        "protocols: openai / anthropic",
+        "policy: 每日签到 available"
       ],
       "below_baseline": false,
       "corroborations": 0,
@@ -304,6 +674,128 @@
       ],
       "models_count": null,
       "score": 31.7196,
+      "quota_score": 0.0
+    },
+    {
+      "id": "9f39f2da66f0",
+      "provider": "墨白公益站",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:hinswu.top",
+      "models_free": 1,
+      "best_free_model": "DeepSeek V4.1 Flash",
+      "tier_score": 84,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "每日签到 1-10，注册后加入官方 QQ 群 444158239（进群答案 zakozako）可再签到一次，相当于每天签到两次",
+      "checkin_daily_value": 1.0,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "one-time",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "email",
+      "signup_score": 0.9,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://new.ai.hinswu.top/sign-up",
+      "models": [
+        "DeepSeek V4.1 Flash"
+      ],
+      "models_count": null,
+      "score": 29.9376,
+      "quota_score": 0.0
+    },
+    {
+      "id": "6f0ed5bbffdf",
+      "provider": "700+ models. Best Prices.",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:antseedstats.com",
+      "models_free": 12,
+      "best_free_model": "GPT-6 Astra",
+      "tier_score": 99,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://antseed.com"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 28,
+      "site_url": "https://antseedstats.com/network",
+      "models": [
+        "Gemini 3.1 Pro Preview",
+        "DeepSeek V4.1 Flash",
+        "Gemini 3.8 Flash",
+        "Claude Sonnet 5",
+        "Claude Haiku 5.5",
+        "Claude Opus 5.5",
+        "GLM-5.3-Flash",
+        "GPT-6 Astra",
+        "Qwen3.6 27B",
+        "MiniMax M3",
+        "GPT-6.1 Sol",
+        "GPT-5.6 Sol"
+      ],
+      "models_count": null,
+      "score": 29.403,
+      "quota_score": 0.0
+    },
+    {
+      "id": "f824518624de",
+      "provider": "FreeGG",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:freegg.app",
+      "models_free": 1,
+      "best_free_model": "GPT-6.1 Sol",
+      "tier_score": 99,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "公益站，GitHub 注册（推测一年以上），只有 gpt-6.1-sol，注册送 50，每天签到 20（均为用户提供）",
+      "checkin_daily_value": 20.0,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "one-time",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 2,
+      "site_url": "https://freegg.app/sign-up",
+      "models": [
+        "GPT-6.1 Sol"
+      ],
+      "models_count": null,
+      "score": 29.403,
       "quota_score": 0.0
     },
     {
@@ -331,7 +823,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -340,6 +832,45 @@
         "GPT-6 Astra",
         "GPT-5.6 Sol",
         "GPT-6 Sol"
+      ],
+      "models_count": null,
+      "score": 29.403,
+      "quota_score": 0.0
+    },
+    {
+      "id": "a297efb749a8",
+      "provider": "StarBridge 公益站",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:careke.cn",
+      "models_free": 3,
+      "best_free_model": "GPT-6 Astra",
+      "tier_score": 99,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "公益站，GitHub 注册送 20 元、每日签到 10 元",
+      "checkin_daily_value": 10.0,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "one-time",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://api.careke.cn/sign-up",
+      "models": [
+        "Gemini 3.8 Flash",
+        "GPT-6 Astra",
+        "GPT-5.6 Sol"
       ],
       "models_count": null,
       "score": 29.403,
@@ -370,7 +901,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -412,7 +943,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -425,6 +956,124 @@
       ],
       "models_count": null,
       "score": 28.908,
+      "quota_score": 0.0
+    },
+    {
+      "id": "b4b2d012762e",
+      "provider": "HyxAPI",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:hyxware.com",
+      "models_free": 2,
+      "best_free_model": "GPT 5",
+      "tier_score": 73,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "公益站，注册无赠送，签到 15 左右（用户提供）",
+      "checkin_daily_value": 15.0,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "one-time",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "github",
+      "signup_score": 1.0,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 2,
+      "site_url": "https://hyxware.com/auth?mode=register",
+      "models": [
+        "GPT 5",
+        "GLM 5"
+      ],
+      "models_count": null,
+      "score": 28.908,
+      "quota_score": 0.0
+    },
+    {
+      "id": "b4683c5b9841",
+      "provider": "Any Router",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:anyrouter.top",
+      "models_free": 1,
+      "best_free_model": "GPT-5.6 Sol",
+      "tier_score": 91,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "完全免费，新用户注册赠 $100，签到送 $25",
+      "checkin_daily_value": 25.0,
+      "checkin_currency": "usd",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "one-time",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "invite",
+      "signup_score": 0.8,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json",
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "Linux Do 信任等级需 ≥2 方可注册"
+      ],
+      "below_baseline": false,
+      "corroborations": 2,
+      "site_url": "https://anyrouter.top/register",
+      "models": [
+        "GPT-5.6 Sol"
+      ],
+      "models_count": null,
+      "score": 28.8288,
+      "quota_score": 0.0
+    },
+    {
+      "id": "ff066a206da9",
+      "provider": "ze（芙芙中转站）",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:kscsnkli.site",
+      "models_free": 4,
+      "best_free_model": "GPT-5.6 Sol",
+      "tier_score": 91,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "invite",
+      "signup_score": 0.8,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://api2.kscsnkli.site/sign-up",
+      "models": [
+        "GLM-5.3-Flash",
+        "GPT-5.6 Sol",
+        "Kimi K3",
+        "GLM-5.2"
+      ],
+      "models_count": null,
+      "score": 28.8288,
       "quota_score": 0.0
     },
     {
@@ -452,10 +1101,11 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "check-in amount ambiguous",
-        "protocols: openai / anthropic"
+        "protocols: openai / anthropic",
+        "policy: 每日签到 available"
       ],
       "below_baseline": false,
       "corroborations": 0,
@@ -493,7 +1143,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -509,50 +1159,328 @@
       "quota_score": 0.0
     },
     {
-      "id": "7a36c5f0e7be",
-      "provider": "SunAPI",
+      "id": "af0075ca5685",
+      "provider": "肖恩Ai",
       "endpoint_url": "",
       "backend_host": "",
-      "dedupe_key": "dom:",
-      "models_free": 1,
+      "dedupe_key": "dom:supxh.xin",
+      "models_free": 2,
+      "best_free_model": "GPT-5.5",
+      "tier_score": 89,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "✅ 2000 积分",
+      "checkin_daily_value": 2000.0,
+      "checkin_currency": "points",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "points",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "invite",
+      "signup_score": 0.8,
+      "status": "online",
+      "sources": [
+        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md",
+        "https://haha0510.github.io/llm-api-public-stations"
+      ],
+      "first_seen": "2026-11-25T20:56:13Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "policy: 每日签到 available"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://free.supxh.xin/register",
+      "models": [
+        "Claude Opus 4.7",
+        "GPT-5.5"
+      ],
+      "models_count": null,
+      "score": 28.1952,
+      "quota_score": 0.0
+    },
+    {
+      "id": "3d57b52839d7",
+      "provider": "Hyper 公益站",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:nyc.mn",
+      "models_free": 5,
+      "best_free_model": "GPT-5.6 Sol",
+      "tier_score": 91,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "GitHub 注册，注册送 5，签到 15-25",
+      "checkin_daily_value": 15.0,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "one-time",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://ai.hyper.nyc.mn/sign-up",
+      "models": [
+        "GPT-5.6 Terra",
+        "GPT-5.6 Luna",
+        "GPT-5.6 Sol",
+        "GPT-5.5",
+        "GPT 5"
+      ],
+      "models_count": null,
+      "score": 27.027,
+      "quota_score": 0.0
+    },
+    {
+      "id": "74402b3060d1",
+      "provider": "咕嘎咕嘎",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:xmiaom.com",
+      "models_free": 4,
+      "best_free_model": "GPT-5.6 Sol",
+      "tier_score": 91,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "微信注册，签到可获得约 1 元临时额度，每月月底清空",
+      "checkin_daily_value": 1.0,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "one-time",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://ai.xmiaom.com/sign-up",
+      "models": [
+        "Gemini 3.7 Flash",
+        "GLM-5.3-Flash",
+        "GPT-5.6 Sol",
+        "Grok 4.6"
+      ],
+      "models_count": null,
+      "score": 27.027,
+      "quota_score": 0.0
+    },
+    {
+      "id": "a61a1908a5b3",
+      "provider": "88888 AI",
+      "endpoint_url": "https://88888.qzz.io/v1",
+      "backend_host": "88888.qzz.io",
+      "dedupe_key": "dom:qzz.io",
+      "models_free": 3,
       "best_free_model": "GLM 5",
       "tier_score": 68,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "—",
+      "checkin_daily_value": 0.0,
+      "checkin_currency": "usd",
+      "checkin_usd_equiv": 0.0,
+      "checkin_confidence": "high",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "github",
+      "signup_score": 1.0,
+      "status": "online",
+      "sources": [
+        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md",
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T20:56:13Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "protocols: openai",
+        "protocols: openai / anthropic",
+        "policy: 每日签到 available"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://88888.qzz.io/",
+      "models": [
+        "MiniMax M3",
+        "Kimi K2.6",
+        "GLM 5"
+      ],
+      "models_count": null,
+      "score": 26.928,
+      "quota_score": 0.0
+    },
+    {
+      "id": "7aff48c95ba1",
+      "provider": "XXS 公益站",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:l.cd",
+      "models_free": 5,
+      "best_free_model": "DeepSeek V4.1 Flash",
+      "tier_score": 84,
       "tier_source": "live:modelbenchmark.io",
       "checkin_raw": "",
       "checkin_daily_value": null,
       "checkin_currency": "",
       "checkin_usd_equiv": null,
       "checkin_confidence": "none",
-      "rate_limit_raw": "p — about 50 requests/min per account. The catch: login + real-name authentication (实名认证),",
-      "rpm": 50,
+      "rate_limit_raw": "",
+      "rpm": null,
       "rpd": null,
-      "signup_method": "unknown",
-      "signup_score": 0.75,
-      "status": "online",
+      "signup_method": "invite",
+      "signup_score": 0.8,
+      "status": "unknown",
       "sources": [
-        "https://raw.githubusercontent.com/posstos/ai-relay-welfare/main/README.md",
-        "https://raw.githubusercontent.com/ULing19/sub2api-price-monitor/main/README.md",
-        "https://agentrouter.org",
-        "https://www.china-ai-arbitrage.xyz/free-tokens",
-        "https://raw.githubusercontent.com/jliushi/ai-relay/main/README.md",
-        "https://raw.githubusercontent.com/Q-shuang-dot/ai-coding-welfare/main/README.md"
+        "https://ytzzjx.github.io/topics/daily-checkin",
+        "https://haha0510.github.io/llm-api-public-stations",
+        "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
-        "protocols: Anthropic + OpenAI",
-        "protocols: 仅 gpt-6.1-sol（倍率 0.5）",
-        "protocols: OpenAI",
-        "protocols: OpenAI 兼容"
+        "navigation entry: no quota data published"
       ],
       "below_baseline": false,
       "corroborations": 0,
-      "site_url": "",
+      "site_url": "https://xxs.l.cd/sign-up",
       "models": [
-        "GLM 5"
+        "DeepSeek V4.1 Flash",
+        "GLM-5.3-Flash",
+        "Grok 4.6",
+        "Kimi K3",
+        "GLM-5.3"
       ],
       "models_count": null,
-      "score": 28.05,
+      "score": 26.6112,
+      "quota_score": 0.0
+    },
+    {
+      "id": "75464bce56b2",
+      "provider": "Krisphyn API",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:krisphyn.cc",
+      "models_free": 2,
+      "best_free_model": "Gemini 3.8 Flash",
+      "tier_score": 88,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://api.krisphyn.cc/sign-up",
+      "models": [
+        "Gemini 3.8 Flash",
+        "Kimi K3"
+      ],
+      "models_count": null,
+      "score": 26.136,
+      "quota_score": 0.0
+    },
+    {
+      "id": "e739928ed6a4",
+      "provider": "Piu酱",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:du4s.com",
+      "models_free": 3,
+      "best_free_model": "Gemini 3.8 Flash",
+      "tier_score": 88,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "注册送 20 额度，每日随机签到 1-10 刀",
+      "checkin_daily_value": 20.0,
+      "checkin_currency": "points",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "points",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://piu.du4s.com/sign-up",
+      "models": [
+        "DeepSeek V4.1 Flash",
+        "Gemini 3.8 Flash",
+        "GLM-5.3-Flash"
+      ],
+      "models_count": null,
+      "score": 26.136,
+      "quota_score": 0.0
+    },
+    {
+      "id": "fd35189fee4b",
+      "provider": "长春叙",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:changchunxu.xyz",
+      "models_free": 1,
+      "best_free_model": "Gemini 3.8 Flash",
+      "tier_score": 88,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "公益站，注册送 4.16，明天起改为送 1，签到 0.2 左右（用户提供）",
+      "checkin_daily_value": 0.2,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "one-time",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 2,
+      "site_url": "https://changchunxu.xyz/sign-up",
+      "models": [
+        "Gemini 3.8 Flash"
+      ],
+      "models_count": null,
+      "score": 26.136,
       "quota_score": 0.0
     },
     {
@@ -580,7 +1508,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -619,7 +1547,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -629,48 +1557,6 @@
       ],
       "models_count": null,
       "score": 24.948,
-      "quota_score": 0.0
-    },
-    {
-      "id": "a61a1908a5b3",
-      "provider": "88888 AI",
-      "endpoint_url": "https://88888.qzz.io/v1",
-      "backend_host": "88888.qzz.io",
-      "dedupe_key": "dom:qzz.io",
-      "models_free": 3,
-      "best_free_model": "GLM 5",
-      "tier_score": 68,
-      "tier_source": "live:modelbenchmark.io",
-      "checkin_raw": "—",
-      "checkin_daily_value": 0.0,
-      "checkin_currency": "usd",
-      "checkin_usd_equiv": 0.0,
-      "checkin_confidence": "high",
-      "rate_limit_raw": "",
-      "rpm": null,
-      "rpd": null,
-      "signup_method": "email",
-      "signup_score": 0.9,
-      "status": "online",
-      "sources": [
-        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
-      ],
-      "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
-      "notes": [
-        "protocols: openai",
-        "protocols: openai / anthropic"
-      ],
-      "below_baseline": false,
-      "corroborations": 0,
-      "site_url": "https://88888.qzz.io/",
-      "models": [
-        "MiniMax M3",
-        "Kimi K2.6",
-        "GLM 5"
-      ],
-      "models_count": null,
-      "score": 24.2352,
       "quota_score": 0.0
     },
     {
@@ -699,7 +1585,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 1,
@@ -738,7 +1624,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -748,6 +1634,82 @@
       ],
       "models_count": null,
       "score": 23.76,
+      "quota_score": 0.0
+    },
+    {
+      "id": "305294779feb",
+      "provider": "hiyo",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:hiyo.top",
+      "models_free": 1,
+      "best_free_model": "GPT-6 Luna",
+      "tier_score": 60,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "github",
+      "signup_score": 1.0,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin",
+        "https://haha0510.github.io/llm-api-public-stations"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://free.hiyo.top/register",
+      "models": [
+        "GPT-6 Luna"
+      ],
+      "models_count": null,
+      "score": 23.76,
+      "quota_score": 0.0
+    },
+    {
+      "id": "783ee6c430ca",
+      "provider": "GcmodAi",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:gcmod.bond",
+      "models_free": 2,
+      "best_free_model": "Kimi K3",
+      "tier_score": 78,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "注册送 1 块，现已开签到，每天约 1 毛、够跑十次请求",
+      "checkin_daily_value": 5.0,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "one-time",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 2,
+      "site_url": "https://gcmod.bond/register",
+      "models": [
+        "GPT-5.6 Luna",
+        "Kimi K3"
+      ],
+      "models_count": null,
+      "score": 23.166,
       "quota_score": 0.0
     },
     {
@@ -775,7 +1737,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 3,
@@ -793,7 +1755,7 @@
       "endpoint_url": "https://docode.cc/v1",
       "backend_host": "docode.cc",
       "dedupe_key": "dom:docode.cc",
-      "models_free": 1,
+      "models_free": 2,
       "best_free_model": "Claude Opus 4.6",
       "tier_score": 65,
       "tier_source": "live:modelbenchmark.io",
@@ -809,18 +1771,22 @@
       "signup_score": 0.9,
       "status": "online",
       "sources": [
-        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
+        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md",
+        "https://haha0510.github.io/llm-api-public-stations",
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
-        "protocols: anthropic / openai"
+        "protocols: anthropic / openai",
+        "New API 中转站；Anthropic + OpenAI 兼容，Claude Code / Codex 直连；加 QQ 群解锁福利；「站内刀」为站内计价单位非美元"
       ],
       "below_baseline": false,
-      "corroborations": 0,
+      "corroborations": 1,
       "site_url": "https://docode.cc/register",
       "models": [
-        "Claude Opus 4.6"
+        "Claude Opus 4.6",
+        "Claude Sonnet 5"
       ],
       "models_count": null,
       "score": 23.166,
@@ -851,7 +1817,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -861,6 +1827,162 @@
       ],
       "models_count": null,
       "score": 22.275,
+      "quota_score": 0.0
+    },
+    {
+      "id": "945634d4c699",
+      "provider": "星云智联API",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:xincloud.top",
+      "models_free": 1,
+      "best_free_model": "GPT 5",
+      "tier_score": 73,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "公益站，注册送 1、签到 2 左右（用户提供）",
+      "checkin_daily_value": 2.0,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "one-time",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://api.xincloud.top/sign-up",
+      "models": [
+        "GPT 5"
+      ],
+      "models_count": null,
+      "score": 21.681,
+      "quota_score": 0.0
+    },
+    {
+      "id": "3c758f2b293d",
+      "provider": "慧慧云",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:huihuiyun.top",
+      "models_free": 1,
+      "best_free_model": "Grok 4.7",
+      "tier_score": 71,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "有签到，随机得 0.4~1 额度（用户提供）",
+      "checkin_daily_value": 1.0,
+      "checkin_currency": "points",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "points",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://api.huihuiyun.top/register",
+      "models": [
+        "Grok 4.7"
+      ],
+      "models_count": null,
+      "score": 21.087,
+      "quota_score": 0.0
+    },
+    {
+      "id": "bc8caefbaf5b",
+      "provider": "hkai",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:hkai25.top",
+      "models_free": 1,
+      "best_free_model": "DeepSeek V4.1 Flash",
+      "tier_score": 84,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "linuxdo",
+      "signup_score": 0.6,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "只支持 Linux Do；信任等级需 ≥1"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://share.hkai25.top/sign-up",
+      "models": [
+        "DeepSeek V4.1 Flash"
+      ],
+      "models_count": null,
+      "score": 19.9584,
+      "quota_score": 0.0
+    },
+    {
+      "id": "b343ee7f1811",
+      "provider": "幻城网安",
+      "endpoint_url": "https://api.hcnsec.cn/v1",
+      "backend_host": "api.hcnsec.cn",
+      "dedupe_key": "dom:hcnsec.cn",
+      "models_free": 1,
+      "best_free_model": "GLM-5.3-Flash",
+      "tier_score": 56,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "✅ 金额待确认",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "email",
+      "signup_score": 0.9,
+      "status": "online",
+      "sources": [
+        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md",
+        "https://raw.githubusercontent.com/HughPython/free-llm-api-cn/main/README.md"
+      ],
+      "first_seen": "2026-11-25T20:56:13Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "check-in amount ambiguous",
+        "protocols: anthropic / openai",
+        "policy: 每日签到 available",
+        "policy: no 是否需要绑卡"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://api.hcnsec.cn/sign-up",
+      "models": [
+        "GLM-5.3-Flash"
+      ],
+      "models_count": null,
+      "score": 19.9584,
       "quota_score": 0.0
     },
     {
@@ -888,7 +2010,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -925,7 +2047,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -964,7 +2086,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -974,6 +2096,43 @@
       ],
       "models_count": null,
       "score": 19.47,
+      "quota_score": 0.0
+    },
+    {
+      "id": "56a75f72181f",
+      "provider": "Ovo 半公益站",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:ovoapi.cn",
+      "models_free": 1,
+      "best_free_model": "Claude Opus 4.6",
+      "tier_score": 65,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 2,
+      "site_url": "https://ovoapi.cn/sign-up",
+      "models": [
+        "Claude Opus 4.6"
+      ],
+      "models_count": null,
+      "score": 19.305,
       "quota_score": 0.0
     },
     {
@@ -1001,7 +2160,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -1016,50 +2175,10 @@
       "quota_score": 0.0
     },
     {
-      "id": "b343ee7f1811",
-      "provider": "幻城网安",
-      "endpoint_url": "https://api.hcnsec.cn/v1",
-      "backend_host": "api.hcnsec.cn",
-      "dedupe_key": "dom:hcnsec.cn",
-      "models_free": 1,
-      "best_free_model": "GLM-5.3-Flash",
-      "tier_score": 56,
-      "tier_source": "live:modelbenchmark.io",
-      "checkin_raw": "✅ 金额待确认",
-      "checkin_daily_value": null,
-      "checkin_currency": "",
-      "checkin_usd_equiv": null,
-      "checkin_confidence": "none",
-      "rate_limit_raw": "",
-      "rpm": null,
-      "rpd": null,
-      "signup_method": "email",
-      "signup_score": 0.9,
-      "status": "online",
-      "sources": [
-        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
-      ],
-      "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
-      "notes": [
-        "check-in amount ambiguous",
-        "protocols: anthropic / openai"
-      ],
-      "below_baseline": false,
-      "corroborations": 0,
-      "site_url": "https://api.hcnsec.cn/sign-up",
-      "models": [
-        "GLM-5.3-Flash"
-      ],
-      "models_count": null,
-      "score": 17.9626,
-      "quota_score": 0.0
-    },
-    {
       "id": "e0ba20029cb7",
-      "provider": "SenseNova Token Plan (SenseTime)",
-      "endpoint_url": "",
-      "backend_host": "",
+      "provider": "商汤日日新 SenseNova",
+      "endpoint_url": "https://token.sensenova.cn/v1",
+      "backend_host": "token.sensenova.cn",
       "dedupe_key": "dom:sensenova.cn",
       "models_free": 1,
       "best_free_model": "GLM-5.2",
@@ -1077,14 +2196,17 @@
       "signup_score": 0.75,
       "status": "online",
       "sources": [
+        "https://raw.githubusercontent.com/HughPython/free-llm-api-cn/main/README.md",
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
-      "notes": [],
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "policy: no 是否需要绑卡"
+      ],
       "below_baseline": false,
       "corroborations": 1,
-      "site_url": "https://www.sensenova.cn/token-plan",
+      "site_url": "https://platform.sensenova.cn/",
       "models": [
         "GLM-5.2"
       ],
@@ -1118,7 +2240,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 1,
@@ -1133,6 +2255,44 @@
       "models_count": null,
       "score": 16.9092,
       "quota_score": 0.0
+    },
+    {
+      "id": "9ea1a71042fe",
+      "provider": "Txcxgzs 公益站",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:txcxgzs.com",
+      "models_free": 2,
+      "best_free_model": "GLM-5.3-Flash",
+      "tier_score": 56,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "主要提供 free2-glm-5.3-flash、free2-qwen3.8-flash、free2-mimo-v2.5，另有 nvd-minimaxai/minimax-m3，签到约 0.1",
+      "checkin_daily_value": 0.1,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": 0.0141,
+      "checkin_confidence": "medium",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://ai.txcxgzs.com/sign-up",
+      "models": [
+        "GLM-5.3-Flash",
+        "MiniMax M3"
+      ],
+      "models_count": null,
+      "score": 16.7383,
+      "quota_score": 0.42
     },
     {
       "id": "bbe8c54018cb",
@@ -1159,7 +2319,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 2,
@@ -1169,6 +2329,85 @@
       ],
       "models_count": null,
       "score": 16.3548,
+      "quota_score": 0.0
+    },
+    {
+      "id": "c825d13009b2",
+      "provider": "智谱 GLM 开放平台",
+      "endpoint_url": "https://open.bigmodel.cn/api/paas/v4",
+      "backend_host": "open.bigmodel.cn",
+      "dedupe_key": "dom:bigmodel.cn",
+      "models_free": 1,
+      "best_free_model": "GLM 4.6",
+      "tier_score": 37,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "online",
+      "sources": [
+        "https://raw.githubusercontent.com/HughPython/free-llm-api-cn/main/README.md",
+        "https://www.china-ai-arbitrage.xyz/free-tokens"
+      ],
+      "first_seen": "2026-11-25T20:56:13Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "policy: no 是否需要绑卡"
+      ],
+      "below_baseline": true,
+      "corroborations": 1,
+      "site_url": "https://open.bigmodel.cn/",
+      "models": [
+        "GLM 4.6"
+      ],
+      "models_count": null,
+      "score": 10.989,
+      "quota_score": 0.0
+    },
+    {
+      "id": "f80042100530",
+      "provider": "NovAI（AI API Pro）",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:aiapi-pro.com",
+      "models_free": 1,
+      "best_free_model": "GLM 4.6",
+      "tier_score": 37,
+      "tier_source": "live:modelbenchmark.io",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "phone",
+      "signup_score": 0.7,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "121 个中国前沿模型聚合在一个 OpenAI 兼容端点；0% 平台加价；海外无需中国手机号/支付宝"
+      ],
+      "below_baseline": true,
+      "corroborations": 0,
+      "site_url": "https://aiapi-pro.com/register",
+      "models": [
+        "GLM 4.6"
+      ],
+      "models_count": null,
+      "score": 10.2564,
       "quota_score": 0.0
     },
     {
@@ -1196,9 +2435,10 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
-        "protocols: openai / anthropic"
+        "protocols: openai / anthropic",
+        "policy: 每日签到 available"
       ],
       "below_baseline": false,
       "corroborations": 0,
@@ -1209,16 +2449,16 @@
       "quota_score": 72.0
     },
     {
-      "id": "0c18aedf6d14",
-      "provider": "星见雅 API",
-      "endpoint_url": "https://new.xinjianya.top/v1",
-      "backend_host": "new.xinjianya.top",
-      "dedupe_key": "dom:xinjianya.top",
+      "id": "bf9e551b45b2",
+      "provider": "KKtoken AI",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:kktoken.cc",
       "models_free": 0,
       "best_free_model": "",
       "tier_score": null,
       "tier_source": "",
-      "checkin_raw": "✅ 金额待确认",
+      "checkin_raw": "之后每天签到 $20",
       "checkin_daily_value": 20.0,
       "checkin_currency": "usd",
       "checkin_usd_equiv": 20.0,
@@ -1226,25 +2466,25 @@
       "rate_limit_raw": "",
       "rpm": null,
       "rpd": null,
-      "signup_method": "oauth",
-      "signup_score": 0.95,
-      "status": "online",
+      "signup_method": "github",
+      "signup_score": 1.0,
+      "status": "unknown",
       "sources": [
-        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json",
+        "https://haha0510.github.io/llm-api-public-stations"
       ],
-      "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
-        "check-in amount ambiguous",
-        "protocols: openai / anthropic"
+        "New API 中转站；仅支持 GitHub 注册；按 token 计费（输入/输出各 $1/百万 tokens）；Anthropic + OpenAI 兼容"
       ],
       "below_baseline": false,
-      "corroborations": 0,
-      "site_url": "https://new.xinjianya.top/sign-up",
+      "corroborations": 1,
+      "site_url": "https://kktoken.cc/sign-up",
       "models": [],
-      "models_count": 24,
+      "models_count": null,
       "score": 0.0,
-      "quota_score": 68.4
+      "quota_score": 72.0
     },
     {
       "id": "f76d47abb9b9",
@@ -1271,9 +2511,10 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
-        "protocols: openai / anthropic"
+        "protocols: openai / anthropic",
+        "policy: 每日签到 available"
       ],
       "below_baseline": false,
       "corroborations": 0,
@@ -1305,12 +2546,14 @@
       "signup_score": 0.9,
       "status": "online",
       "sources": [
-        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
+        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md",
+        "https://haha0510.github.io/llm-api-public-stations"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
-        "protocols: openai / anthropic"
+        "protocols: openai / anthropic",
+        "policy: 每日签到 available"
       ],
       "below_baseline": false,
       "corroborations": 0,
@@ -1342,13 +2585,15 @@
       "signup_score": 0.9,
       "status": "online",
       "sources": [
-        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
+        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md",
+        "https://haha0510.github.io/llm-api-public-stations"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "check-in amount ambiguous",
-        "protocols: openai / anthropic"
+        "protocols: openai / anthropic",
+        "policy: 每日签到 available"
       ],
       "below_baseline": false,
       "corroborations": 0,
@@ -1376,16 +2621,18 @@
       "rate_limit_raw": "",
       "rpm": null,
       "rpd": null,
-      "signup_method": "email",
-      "signup_score": 0.9,
+      "signup_method": "github",
+      "signup_score": 1.0,
       "status": "online",
       "sources": [
-        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
+        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md",
+        "https://ytzzjx.github.io/topics/daily-checkin"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
-        "protocols: openai / anthropic"
+        "protocols: openai / anthropic",
+        "policy: 每日签到 available"
       ],
       "below_baseline": false,
       "corroborations": 0,
@@ -1420,9 +2667,10 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
-        "protocols: openai / anthropic"
+        "protocols: openai / anthropic",
+        "policy: 每日签到 available"
       ],
       "below_baseline": false,
       "corroborations": 0,
@@ -1431,6 +2679,41 @@
       "models_count": 53,
       "score": 0.0,
       "quota_score": 49.48
+    },
+    {
+      "id": "28b67acc9d26",
+      "provider": "Rinko NAI 生图公益站",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:rinko.ai",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "每日签到可领 25 代币，设有作品广场",
+      "checkin_daily_value": 25.0,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": 3.52,
+      "checkin_confidence": "medium",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://nai.rinko.ai/sign-up",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 45.46
     },
     {
       "id": "e3d26c7f6a16",
@@ -1458,10 +2741,11 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "check-in amount ambiguous",
-        "protocols: openai / anthropic"
+        "protocols: openai / anthropic",
+        "policy: 每日签到 available"
       ],
       "below_baseline": false,
       "corroborations": 0,
@@ -1470,6 +2754,41 @@
       "models_count": 6,
       "score": 0.0,
       "quota_score": 25.07
+    },
+    {
+      "id": "19eaf63bf329",
+      "provider": "大肥鱼公益站",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:sslip.io",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "每日签到，连续 5 天领重置卡",
+      "checkin_daily_value": 5.0,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": 0.704,
+      "checkin_confidence": "medium",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "email",
+      "signup_score": 0.9,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://arc.103-121-95-72.sslip.io/register",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 19.28
     },
     {
       "id": "354dd84d2f3f",
@@ -1496,9 +2815,10 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
-        "protocols: openai / anthropic"
+        "protocols: openai / anthropic",
+        "policy: 每日签到 available"
       ],
       "below_baseline": false,
       "corroborations": 0,
@@ -1507,6 +2827,41 @@
       "models_count": 52,
       "score": 0.0,
       "quota_score": 16.29
+    },
+    {
+      "id": "c62df206ffa7",
+      "provider": "Zenshi",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:pages.dev",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "每日登录抽奖、发帖额外额度（均为用户提供）",
+      "checkin_daily_value": 3.0,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": 0.4224,
+      "checkin_confidence": "medium",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "email",
+      "signup_score": 0.9,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://zenshi.pages.dev/login?next=/forum",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 10.62
     },
     {
       "id": "2e16484c9b63",
@@ -1533,10 +2888,11 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "check-in amount ambiguous",
-        "protocols: openai / anthropic"
+        "protocols: openai / anthropic",
+        "policy: 每日签到 available"
       ],
       "below_baseline": false,
       "corroborations": 0,
@@ -1545,6 +2901,115 @@
       "models_count": 0,
       "score": 0.0,
       "quota_score": 9.49
+    },
+    {
+      "id": "7f1678eed1a7",
+      "provider": "万家灯火",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:wjapi.vip",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "进群绑定后每日签到随机领 ¥0.1~1 通用余额",
+      "checkin_daily_value": 0.1,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": 0.0141,
+      "checkin_confidence": "medium",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "email",
+      "signup_score": 0.9,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json",
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "check-in amount ambiguous",
+        "邮箱注册（需验证码，支持 QQ/126/163/Gmail）；签到与邀请需加 QQ 群 1064350952 并绑定账号；支持 Anthropic + OpenAI 兼容"
+      ],
+      "below_baseline": false,
+      "corroborations": 2,
+      "site_url": "https://wjapi.vip",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.51
+    },
+    {
+      "id": "5d85069b2e2a",
+      "provider": "GemAI（哈基米公益站）",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:gemai.cc",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "邀请注册送 200，每日签到奖励数额可观，2026 年 8 月 17 日实测签到为 13",
+      "checkin_daily_value": 2026.0,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "one-time",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "invite",
+      "signup_score": 0.8,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://api.gemai.cc/sign-up",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "bdef426053ac",
+      "provider": "Ksir的小饭锅",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:ggff.net",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "公益酒馆站，邀请注册送 0.2 刀、每日签到 5 刀",
+      "checkin_daily_value": 5.0,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "one-time",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "invite",
+      "signup_score": 0.8,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://api.biliksir.ggff.net/sign-up",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
     },
     {
       "id": "3816df4e3e04",
@@ -1571,9 +3036,10 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
-        "protocols: openai / anthropic"
+        "protocols: openai / anthropic",
+        "policy: 每日签到 available"
       ],
       "below_baseline": false,
       "corroborations": 0,
@@ -1584,17 +3050,17 @@
       "quota_score": 0.0
     },
     {
-      "id": "fa31ab7d7c6c",
-      "provider": "NOFX",
+      "id": "eb73c8e206ed",
+      "provider": "PAI 生图公益站",
       "endpoint_url": "",
       "backend_host": "",
-      "dedupe_key": "dom:nofx.one",
+      "dedupe_key": "dom:zaiduyu.top",
       "models_free": 0,
       "best_free_model": "",
       "tier_score": null,
       "tier_source": "",
-      "checkin_raw": "✅ 5 积分",
-      "checkin_daily_value": 5.0,
+      "checkin_raw": "登录赠送 2,000 积分，2026 年 8 月 18 日注册送 888 限时积分，今日签到实测获得 620 积分",
+      "checkin_daily_value": 620.0,
       "checkin_currency": "points",
       "checkin_usd_equiv": null,
       "checkin_confidence": "points",
@@ -1603,16 +3069,51 @@
       "rpd": null,
       "signup_method": "unknown",
       "signup_score": 0.75,
-      "status": "online",
+      "status": "unknown",
       "sources": [
-        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
+        "https://ytzzjx.github.io/topics/daily-checkin"
       ],
-      "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
-      "site_url": "https://nofx.one/zh-CN/sign-in",
+      "site_url": "https://pai.zaiduyu.top/#/auth",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "9f1f3b532c34",
+      "provider": "TheFirstSnow",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:thefirstsnow.top",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "公益站，注册送 2.5 元、签到 0.5（均为用户提供）",
+      "checkin_daily_value": 2.5,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "one-time",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "email",
+      "signup_score": 0.9,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 2,
+      "site_url": "https://thefirstsnow.top/sign-up",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -1643,9 +3144,10 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
-        "protocols: openai / anthropic"
+        "protocols: openai / anthropic",
+        "policy: 每日签到 available"
       ],
       "below_baseline": false,
       "corroborations": 0,
@@ -1656,35 +3158,320 @@
       "quota_score": 0.0
     },
     {
-      "id": "af0075ca5685",
-      "provider": "肖恩Ai",
+      "id": "597a0327bc59",
+      "provider": "南源API",
       "endpoint_url": "",
       "backend_host": "",
-      "dedupe_key": "dom:supxh.xin",
+      "dedupe_key": "dom:nanyuanapi.com",
       "models_free": 0,
       "best_free_model": "",
       "tier_score": null,
       "tier_source": "",
-      "checkin_raw": "✅ 2000 积分",
-      "checkin_daily_value": 2000.0,
+      "checkin_raw": "公益站，注册送 40，每日签到 10-30，ds4.1 按次 0.2（均为用户提供）",
+      "checkin_daily_value": 10.0,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "one-time",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "source marks this entry unverified"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://api.nanyuanapi.com/sign-up",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "a8641e427bdd",
+      "provider": "少十元",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:shaoshiyuan.xyz",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "公益站，注册送 8888 额度，签到 6666-8888 额度",
+      "checkin_daily_value": 8888.0,
       "checkin_currency": "points",
       "checkin_usd_equiv": null,
       "checkin_confidence": "points",
       "rate_limit_raw": "",
       "rpm": null,
       "rpd": null,
-      "signup_method": "invite",
-      "signup_score": 0.8,
-      "status": "online",
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
       "sources": [
-        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
+        "https://ytzzjx.github.io/topics/daily-checkin"
       ],
-      "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 3,
+      "site_url": "https://shaoshiyuan.xyz/sign-up",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "165983d77517",
+      "provider": "易辞寻",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:xydaim.cn",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "公益站，走邀请链接注册送 4.2，签到 2，gpt-6.2-astra 按次 0.021（均为用户提供）",
+      "checkin_daily_value": 2.0,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "one-time",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "email",
+      "signup_score": 0.9,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
-      "site_url": "https://free.supxh.xin/register",
+      "site_url": "https://acf.xydaim.cn/sign-up",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "621c7a941c87",
+      "provider": "星桥 公益站",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:xingqiao.chat",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "公益站，邀请码注册送 200 次，每拉一人再送 100 次，每日签到 20 次",
+      "checkin_daily_value": 0.02,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "one-time",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "invite",
+      "signup_score": 0.8,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 2,
+      "site_url": "https://xingqiao.chat/sign-up",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "2c6b6f2a28a3",
+      "provider": "晚晚舟",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:wanwanzhou.top",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "公益站，注册送 1，拉 5 人后可每天签到领 1r（用户提供）",
+      "checkin_daily_value": 1.0,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "one-time",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 2,
+      "site_url": "https://wanwanzhou.top/register",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "06ace363c770",
+      "provider": "汐のAPI",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:203236.xyz",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "公益站，QQ 邮箱注册，注册送 15 额度、签到 10（用户提供）",
+      "checkin_daily_value": 15.0,
+      "checkin_currency": "points",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "points",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "email",
+      "signup_score": 0.9,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://api.203236.xyz/sign-up",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "afe792a44b1d",
+      "provider": "玖时API 半公益站",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:jiushi.xin",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "半公益站，注册送 3 元、有签到",
+      "checkin_daily_value": 0.1078,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "one-time",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://api.jiushi.xin/register",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "2a7330356a7a",
+      "provider": "风绘 API",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:huidev.com",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "公益站，只能 GitHub 注册，注册送 2、签到 0.3（用户提供）",
+      "checkin_daily_value": 0.3,
+      "checkin_currency": "cny",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "one-time",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://api.huidev.com/sign-up",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "9ac83369e436",
+      "provider": "魔搭社区 ModelScope",
+      "endpoint_url": "https://api-inference.modelscope.cn/v1",
+      "backend_host": "api-inference.modelscope.cn",
+      "dedupe_key": "dom:modelscope.cn",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "福利模式**：每日登录领 250 积分（24 小时内有效）",
+      "checkin_daily_value": 250.0,
+      "checkin_currency": "points",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "points",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "online",
+      "sources": [
+        "https://raw.githubusercontent.com/HughPython/free-llm-api-cn/main/README.md",
+        "https://www.china-ai-arbitrage.xyz/free-tokens"
+      ],
+      "first_seen": "2026-11-25T20:56:13Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "policy: no 是否需要绑卡"
+      ],
+      "below_baseline": false,
+      "corroborations": 3,
+      "site_url": "https://modelscope.cn/",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -1692,6 +3479,43 @@
     }
   ],
   "unverified": [
+    {
+      "id": "d52c2ec66579",
+      "provider": "42 API",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:42x.shop",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "linuxdo",
+      "signup_score": 0.6,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "Linux Do 信任等级需 ≥2 方可注册"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://api.42x.shop/sign-up",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
     {
       "id": "93ff420ae71a",
       "provider": "Aerolink",
@@ -1717,11 +3541,48 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
       "site_url": "https://aerolink.lat/register",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "ec88a1209bb3",
+      "provider": "Agnes AI",
+      "endpoint_url": "https://api.agnes-ai.cn/v1",
+      "backend_host": "api.agnes-ai.cn",
+      "dedupe_key": "dom:agnes-ai.cn",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "免费开放，免费档约 20 RPM，日常写文档、跑 Agent 足够用。 - **小tip：**&#x7B80;单易申请企业账号，免费额度翻倍 - **注意**：视频模型稳定性一般；",
+      "rpm": 20,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/HughPython/free-llm-api-cn/main/README.md"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "policy: no 是否需要绑卡"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://platform.agnes-ai.cn/",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -1752,50 +3613,13 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
       "below_baseline": false,
       "corroborations": 0,
       "site_url": "https://ai.alsl.xyz/register",
-      "models": [],
-      "models_count": null,
-      "score": 0.0,
-      "quota_score": 0.0
-    },
-    {
-      "id": "788cea710b3f",
-      "provider": "aiapi",
-      "endpoint_url": "",
-      "backend_host": "",
-      "dedupe_key": "dom:cc.cd",
-      "models_free": 0,
-      "best_free_model": "",
-      "tier_score": null,
-      "tier_source": "",
-      "checkin_raw": "",
-      "checkin_daily_value": null,
-      "checkin_currency": "",
-      "checkin_usd_equiv": null,
-      "checkin_confidence": "none",
-      "rate_limit_raw": "",
-      "rpm": null,
-      "rpd": null,
-      "signup_method": "unknown",
-      "signup_score": 0.75,
-      "status": "unverified",
-      "sources": [
-        "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
-      ],
-      "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
-      "notes": [
-        "navigation entry: no quota data published"
-      ],
-      "below_baseline": false,
-      "corroborations": 0,
-      "site_url": "https://aiapi1.cc.cd/register",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -1826,7 +3650,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -1863,7 +3687,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -1900,7 +3724,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -1937,7 +3761,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 1,
@@ -1972,7 +3796,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -1981,44 +3805,6 @@
       "site_url": "https://aotera.cc/sign-up",
       "models": [],
       "models_count": null,
-      "score": 0.0,
-      "quota_score": 0.0
-    },
-    {
-      "id": "38f39aa8f19d",
-      "provider": "api456 公益站",
-      "endpoint_url": "https://api456.me/v1",
-      "backend_host": "api456.me",
-      "dedupe_key": "dom:api456.me",
-      "models_free": 0,
-      "best_free_model": "",
-      "tier_score": null,
-      "tier_source": "",
-      "checkin_raw": "✅ 金额待确认",
-      "checkin_daily_value": null,
-      "checkin_currency": "",
-      "checkin_usd_equiv": null,
-      "checkin_confidence": "none",
-      "rate_limit_raw": "",
-      "rpm": null,
-      "rpd": null,
-      "signup_method": "email",
-      "signup_score": 0.9,
-      "status": "online",
-      "sources": [
-        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
-      ],
-      "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
-      "notes": [
-        "check-in amount ambiguous",
-        "protocols: openai / anthropic"
-      ],
-      "below_baseline": false,
-      "corroborations": 0,
-      "site_url": "https://api456.me/register",
-      "models": [],
-      "models_count": 37,
       "score": 0.0,
       "quota_score": 0.0
     },
@@ -2047,7 +3833,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -2084,7 +3870,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -2121,7 +3907,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -2158,11 +3944,46 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
       "site_url": "https://app.arenahero.io/arena",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "990e5bea198a",
+      "provider": "ArityFlow",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:arityflow.top",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 2,
+      "site_url": "https://www.arityflow.top/sign-up",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -2193,7 +4014,7 @@
         "https://raw.githubusercontent.com/jliushi/ai-relay/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -2228,7 +4049,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -2265,7 +4086,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -2302,7 +4123,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 1,
@@ -2337,11 +4158,118 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
       "site_url": "https://qianfan.cloud.baidu.com",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "9a3506438dec",
+      "provider": "BER分公益站",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:berf1.cn",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "注册无限制"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://ai.berf1.cn/sign-up",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "9178f5541349",
+      "provider": "BlockRun",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:blockrun.ai",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://blockrun.ai",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "ee78030fa083",
+      "provider": "Camel Hub",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:camel-hub.com",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "invite",
+      "signup_score": 0.8,
+      "status": "unknown",
+      "sources": [
+        "https://haha0510.github.io/llm-api-public-stations"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://api.camel-hub.com/register",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -2372,7 +4300,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -2407,7 +4335,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -2441,10 +4369,11 @@
       "signup_score": 0.9,
       "status": "online",
       "sources": [
-        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
+        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md",
+        "https://haha0510.github.io/llm-api-public-stations"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "protocols: openai"
       ],
@@ -2481,7 +4410,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -2518,11 +4447,50 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 1,
       "site_url": "https://cline.bot/desktop",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "788cea710b3f",
+      "provider": "CM-API-公益站",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:cc.cd",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "linuxdo",
+      "signup_score": 0.6,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json",
+        "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
+      ],
+      "first_seen": "2026-11-25T20:56:13Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "注册无限制；Linux Do 需 ≥1 方可注册",
+        "navigation entry: no quota data published"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://api.chengmo.cc.cd/sign-up",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -2553,13 +4521,50 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
       "below_baseline": false,
       "corroborations": 0,
       "site_url": "https://api.code-relay.com/register",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "ff1ae620ae7c",
+      "provider": "Codex Relay",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:codex-relay.codes",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "OpenAI 兼容；注册后在控制台查看 API 接入地址与模型 ID"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://codex-relay.codes/register",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -2590,7 +4595,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -2625,7 +4630,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 1,
@@ -2660,7 +4665,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -2697,7 +4702,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -2734,7 +4739,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -2769,7 +4774,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -2804,11 +4809,83 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 1,
       "site_url": "https://digen.ai/",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "3344d0213dfa",
+      "provider": "Dubhe Free API",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:skill.wales",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://ai.skill.wales/sign-up",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "f67ef5361695",
+      "provider": "Factory.pub",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:factory.pub",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "目前只支持 yaohuo 和 github 注册"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://factory.pub/sign-up",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -2839,7 +4916,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -2874,7 +4951,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -2909,7 +4986,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -2947,7 +5024,7 @@
         "https://raw.githubusercontent.com/howardpen9/awesome-ai-api-proxy/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -2982,7 +5059,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -3019,7 +5096,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -3054,7 +5131,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "check-in amount ambiguous"
       ],
@@ -3068,7 +5145,7 @@
     },
     {
       "id": "95f6eb463d5f",
-      "provider": "gorouter",
+      "provider": "GoRouter",
       "endpoint_url": "",
       "backend_host": "",
       "dedupe_key": "dom:gorouter.app",
@@ -3084,19 +5161,20 @@
       "rate_limit_raw": "",
       "rpm": null,
       "rpd": null,
-      "signup_method": "unknown",
-      "signup_score": 0.75,
-      "status": "unverified",
+      "signup_method": "invite",
+      "signup_score": 0.8,
+      "status": "unknown",
       "sources": [
+        "https://haha0510.github.io/llm-api-public-stations",
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
       "below_baseline": false,
-      "corroborations": 0,
+      "corroborations": 1,
       "site_url": "https://gorouter.app/sign-up",
       "models": [],
       "models_count": null,
@@ -3128,7 +5206,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "protocols: openai"
       ],
@@ -3165,7 +5243,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -3202,11 +5280,48 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 1,
       "site_url": "https://hailuoai.video/tools/minimax-h3",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "d596b4b2c34a",
+      "provider": "Happy Code",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:happycodeai.com",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "支持 OIDC（NodeLoc）/ 账号密码登录；需加 QQ 群 367746547 找群主领取新人体验包"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://happycodeai.com/register",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -3237,7 +5352,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -3274,10 +5389,11 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "check-in amount ambiguous",
-        "protocols: openai / anthropic"
+        "protocols: openai / anthropic",
+        "policy: 每日签到 available"
       ],
       "below_baseline": false,
       "corroborations": 0,
@@ -3312,16 +5428,89 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "check-in amount ambiguous",
-        "protocols: openai / anthropic"
+        "protocols: openai / anthropic",
+        "policy: 每日签到 available"
       ],
       "below_baseline": false,
       "corroborations": 0,
       "site_url": "https://ai.huaibao.top/register",
       "models": [],
       "models_count": 0,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "24cb01059747",
+      "provider": "Huan api",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:novalyte.cn",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://api.novalyte.cn/sign-up",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "4b0ad4edf5b3",
+      "provider": "Huan API",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:huan666.de",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "linuxdo",
+      "signup_score": 0.6,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "Linux Do 信任等级需 ≥2 方可注册"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://ai.huan666.de/sign-up",
+      "models": [],
+      "models_count": null,
       "score": 0.0,
       "quota_score": 0.0
     },
@@ -3350,7 +5539,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -3386,7 +5575,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "protocols: openai",
         "navigation entry: no quota data published"
@@ -3424,11 +5613,46 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
       "site_url": "https://xinghuo.xfyun.cn",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "7fde94ff0f71",
+      "provider": "Jasper",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:yjs.im",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://api.yjs.im/sign-up",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -3459,7 +5683,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -3496,7 +5720,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -3533,7 +5757,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -3568,13 +5792,48 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
       "below_baseline": false,
       "corroborations": 0,
       "site_url": "https://jucodex.com/register",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "c1020f262164",
+      "provider": "JustWoker API",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:justwoker.icu",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "invite",
+      "signup_score": 0.8,
+      "status": "unknown",
+      "sources": [
+        "https://haha0510.github.io/llm-api-public-stations"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://api.justwoker.icu/register",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -3606,13 +5865,48 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
       "below_baseline": false,
       "corroborations": 0,
       "site_url": "https://kilo.ai/leaderboard",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "b5cd7df1a758",
+      "provider": "Leo Studio",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:leostudio.cc",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "invite",
+      "signup_score": 0.8,
+      "status": "unknown",
+      "sources": [
+        "https://haha0510.github.io/llm-api-public-stations"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 1,
+      "site_url": "https://api.leostudio.cc/sign-up",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -3643,7 +5937,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -3678,7 +5972,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -3715,7 +6009,7 @@
         "https://raw.githubusercontent.com/howardpen9/awesome-ai-api-proxy/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -3750,7 +6044,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -3784,11 +6078,14 @@
       "signup_score": 0.9,
       "status": "online",
       "sources": [
-        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
+        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md",
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
-      "notes": [],
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "统一 API 网关 + 开源应用商店；OpenAI 兼容；登录后台查看网关地址与 mat- Key"
+      ],
       "below_baseline": false,
       "corroborations": 0,
       "site_url": "https://matrix.mzsjai.com/login",
@@ -3823,7 +6120,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -3858,7 +6155,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -3895,7 +6192,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -3908,11 +6205,11 @@
       "quota_score": 0.0
     },
     {
-      "id": "9ac83369e436",
-      "provider": "ModelScope (魔搭)",
+      "id": "1296adae35af",
+      "provider": "Models by lab",
       "endpoint_url": "",
       "backend_host": "",
-      "dedupe_key": "dom:modelscope.cn",
+      "dedupe_key": "dom:theresanaiforthat.com",
       "models_free": 0,
       "best_free_model": "",
       "tier_score": null,
@@ -3925,18 +6222,19 @@
       "rate_limit_raw": "",
       "rpm": null,
       "rpd": null,
-      "signup_method": "unknown",
-      "signup_score": 0.75,
-      "status": "online",
+      "signup_method": "email",
+      "signup_score": 0.9,
+      "status": "unknown",
       "sources": [
-        "https://www.china-ai-arbitrage.xyz/free-tokens"
+        "https://opencheap.si/models",
+        "https://opencheap.si"
       ],
-      "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
-      "corroborations": 3,
-      "site_url": "https://modelscope.cn",
+      "corroborations": 4,
+      "site_url": "https://theresanaiforthat.com/ai/opencheap/?amp;v=14163107",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -3968,7 +6266,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "protocols: openai / anthropic",
         "navigation entry: no quota data published"
@@ -3978,6 +6276,41 @@
       "site_url": "https://moyuu.cc/register",
       "models": [],
       "models_count": 57,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "289c7654ad86",
+      "provider": "MyAPI公益",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:myaiapi.site",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "http://free.myaiapi.site:8080/register",
+      "models": [],
+      "models_count": null,
       "score": 0.0,
       "quota_score": 0.0
     },
@@ -4006,48 +6339,11 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 2,
       "site_url": "https://tokenfactory.nebius.com/",
-      "models": [],
-      "models_count": null,
-      "score": 0.0,
-      "quota_score": 0.0
-    },
-    {
-      "id": "7aff48c95ba1",
-      "provider": "New API",
-      "endpoint_url": "",
-      "backend_host": "",
-      "dedupe_key": "dom:l.cd",
-      "models_free": 0,
-      "best_free_model": "",
-      "tier_score": null,
-      "tier_source": "",
-      "checkin_raw": "",
-      "checkin_daily_value": null,
-      "checkin_currency": "",
-      "checkin_usd_equiv": null,
-      "checkin_confidence": "none",
-      "rate_limit_raw": "",
-      "rpm": null,
-      "rpd": null,
-      "signup_method": "unknown",
-      "signup_score": 0.75,
-      "status": "unverified",
-      "sources": [
-        "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
-      ],
-      "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
-      "notes": [
-        "navigation entry: no quota data published"
-      ],
-      "below_baseline": false,
-      "corroborations": 0,
-      "site_url": "https://xxs.l.cd/sign-up",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -4078,7 +6374,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -4115,7 +6411,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -4153,9 +6449,10 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
-        "protocols: openai"
+        "protocols: openai",
+        "policy: 每日签到 available"
       ],
       "below_baseline": false,
       "corroborations": 0,
@@ -4190,13 +6487,87 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
       "below_baseline": false,
       "corroborations": 0,
       "site_url": "https://www.okkmax.com/",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "a7ec124cd08a",
+      "provider": "onomeo",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:onomeo.com",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "站，限制严格：每密钥每分钟 12 次；全站免费次数共用总量；付费可选，不付费也能用免费模型 一个 OpenAI 格式密钥可调 17 个免费模型（DeepSeek V4 Flash",
+      "rpm": 12,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "个人小站，限制严格：每密钥每分钟 12 次；全站免费次数共用总量；付费可选，不付费也能用免费模型"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://onomeo.com",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "ff056792eca8",
+      "provider": "OpenCode Zen",
+      "endpoint_url": "https://opencode.ai/zen/v1",
+      "backend_host": "opencode.ai",
+      "dedupe_key": "dom:opencode.ai",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "度，平台整体限速约 30 RPM / 500 RPD，模型列表见 <https://opencode.ai/zen/v1/models>。 - **推荐指数**：★★★★☆",
+      "rpm": 30,
+      "rpd": 500,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/HughPython/free-llm-api-cn/main/README.md"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "policy: no 是否需要绑卡"
+      ],
+      "below_baseline": false,
+      "corroborations": 7,
+      "site_url": "https://opencode.ai/zen",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -4227,13 +6598,159 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
       "below_baseline": false,
       "corroborations": 0,
       "site_url": "https://nova.vcrauo.com/sign-up",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "bfd9ed4e442a",
+      "provider": "Orevx Engine 半公益站",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:orevx.ai",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "email",
+      "signup_score": 0.9,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 4,
+      "site_url": "https://orevx.ai/login?mode=register",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "b7a94a44f203",
+      "provider": "PM-API",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:pmcat.top",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "linuxdo",
+      "signup_score": 0.6,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "Linux Do 信任等级需 ≥1 方可注册"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://pmcat.top/#/register",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "680328443648",
+      "provider": "Pomelo",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:67.si",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "linuxdo",
+      "signup_score": 0.6,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "不支持账号密码注册，只支持第三方注册；Linux Do 信任等级需 ≥1"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://api.67.si/sign-up",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "a044d98303e5",
+      "provider": "Prime Relay",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:primerelay.online",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "OpenAI 兼容；需进 QQ 群 239561070"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://www.primerelay.online/register",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -4264,7 +6781,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -4301,7 +6818,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -4338,7 +6855,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -4375,7 +6892,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -4403,17 +6920,19 @@
       "rate_limit_raw": "",
       "rpm": null,
       "rpd": null,
-      "signup_method": "unknown",
-      "signup_score": 0.75,
+      "signup_method": "invite",
+      "signup_score": 0.8,
       "status": "online",
       "sources": [
-        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
+        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md",
+        "https://haha0510.github.io/llm-api-public-stations",
+        "https://ytzzjx.github.io/topics/daily-checkin"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
-      "corroborations": 0,
+      "corroborations": 3,
       "site_url": "https://seekai.cc/sign-up",
       "models": [],
       "models_count": null,
@@ -4445,48 +6964,13 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
       "below_baseline": false,
       "corroborations": 0,
       "site_url": "https://sharellm.net/register",
-      "models": [],
-      "models_count": null,
-      "score": 0.0,
-      "quota_score": 0.0
-    },
-    {
-      "id": "8c94804b9b91",
-      "provider": "SiliconFlow",
-      "endpoint_url": "",
-      "backend_host": "",
-      "dedupe_key": "dom:siliconflow.cn",
-      "models_free": 0,
-      "best_free_model": "",
-      "tier_score": null,
-      "tier_source": "",
-      "checkin_raw": "",
-      "checkin_daily_value": null,
-      "checkin_currency": "",
-      "checkin_usd_equiv": null,
-      "checkin_confidence": "none",
-      "rate_limit_raw": "",
-      "rpm": null,
-      "rpd": null,
-      "signup_method": "unknown",
-      "signup_score": 0.75,
-      "status": "online",
-      "sources": [
-        "https://www.china-ai-arbitrage.xyz/free-tokens"
-      ],
-      "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
-      "notes": [],
-      "below_baseline": false,
-      "corroborations": 1,
-      "site_url": "https://siliconflow.cn",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -4517,7 +7001,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -4552,7 +7036,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -4589,7 +7073,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -4626,7 +7110,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -4640,7 +7124,7 @@
     },
     {
       "id": "d03242220d8c",
-      "provider": "tabitoken",
+      "provider": "TaBiAI",
       "endpoint_url": "",
       "backend_host": "",
       "dedupe_key": "dom:tabitoken.com",
@@ -4656,19 +7140,20 @@
       "rate_limit_raw": "",
       "rpm": null,
       "rpd": null,
-      "signup_method": "unknown",
-      "signup_score": 0.75,
-      "status": "unverified",
+      "signup_method": "invite",
+      "signup_score": 0.8,
+      "status": "unknown",
       "sources": [
+        "https://haha0510.github.io/llm-api-public-stations",
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
       "below_baseline": false,
-      "corroborations": 0,
+      "corroborations": 1,
       "site_url": "https://tabitoken.com/sign-up",
       "models": [],
       "models_count": null,
@@ -4700,7 +7185,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -4735,7 +7220,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -4770,11 +7255,49 @@
         "https://raw.githubusercontent.com/howardpen9/awesome-ai-api-proxy/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
       "site_url": "https://www.tbench.ai/",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "9fcb7033390b",
+      "provider": "ThousandYuan Ai",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:dpdns.org",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin",
+        "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
+      ],
+      "first_seen": "2026-11-25T20:56:13Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "navigation entry: no quota data published"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://api.thousandyuan.dpdns.org/sign-up",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -4805,7 +7328,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -4842,7 +7365,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -4872,19 +7395,21 @@
       "rate_limit_raw": "",
       "rpm": null,
       "rpd": null,
-      "signup_method": "unknown",
-      "signup_score": 0.75,
+      "signup_method": "invite",
+      "signup_score": 0.8,
       "status": "online",
       "sources": [
-        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
+        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md",
+        "https://haha0510.github.io/llm-api-public-stations"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
-        "protocols: openai"
+        "protocols: openai",
+        "policy: 每日签到 available"
       ],
       "below_baseline": false,
-      "corroborations": 0,
+      "corroborations": 1,
       "site_url": "https://true-sota.com/register",
       "models": [],
       "models_count": null,
@@ -4916,13 +7441,48 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
       "below_baseline": false,
       "corroborations": 0,
       "site_url": "https://v-api.de5.net/register",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "0473a8002711",
+      "provider": "Velunqi",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:velunqi.asia",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 2,
+      "site_url": "https://velunqi.asia/sign-up",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -4953,7 +7513,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -4990,7 +7550,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 3,
@@ -5025,7 +7585,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -5060,7 +7620,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -5071,11 +7631,11 @@
       "quota_score": 0.0
     },
     {
-      "id": "c825d13009b2",
-      "provider": "Zhipu AI (GLM)",
+      "id": "18bb730d40ff",
+      "provider": "Yezi API",
       "endpoint_url": "",
       "backend_host": "",
-      "dedupe_key": "dom:bigmodel.cn",
+      "dedupe_key": "dom:yezi.help",
       "models_free": 0,
       "best_free_model": "",
       "tier_score": null,
@@ -5090,16 +7650,53 @@
       "rpd": null,
       "signup_method": "unknown",
       "signup_score": 0.75,
-      "status": "online",
+      "status": "unknown",
       "sources": [
-        "https://www.china-ai-arbitrage.xyz/free-tokens"
+        "https://ytzzjx.github.io/topics/daily-checkin"
       ],
-      "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "source marks this entry unverified"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://ai.yezi.help:2053/register?lottery_invite=b298cb1d22459ccfb2bbaddd218cb115f32605e9592f5b5275c5fa50f7da1207",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "e71b918a0b48",
+      "provider": "ZeroCat",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:zero.cat",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
-      "corroborations": 1,
-      "site_url": "https://open.bigmodel.cn",
+      "corroborations": 0,
+      "site_url": "https://zero.cat/sign-up",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -5130,7 +7727,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -5167,7 +7764,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -5204,7 +7801,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -5241,7 +7838,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -5278,7 +7875,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -5315,13 +7912,55 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
       "below_baseline": false,
-      "corroborations": 0,
+      "corroborations": 1,
       "site_url": "https://kapibala.asia/sign-up",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "38f39aa8f19d",
+      "provider": "可萌中转站",
+      "endpoint_url": "https://api456.me/v1",
+      "backend_host": "",
+      "dedupe_key": "dom:api456.me",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "✅ 金额待确认",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "email",
+      "signup_score": 0.9,
+      "status": "online",
+      "sources": [
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json",
+        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md",
+        "https://haha0510.github.io/llm-api-public-stations"
+      ],
+      "first_seen": "2026-11-25T20:56:13Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "注册无限制",
+        "check-in amount ambiguous",
+        "protocols: openai / anthropic",
+        "policy: 每日签到 available"
+      ],
+      "below_baseline": false,
+      "corroborations": 2,
+      "site_url": "https://api456.me/sign-up",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -5352,7 +7991,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "protocols: openai"
       ],
@@ -5389,13 +8028,48 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
       "below_baseline": false,
       "corroborations": 0,
       "site_url": "https://756777.xyz/register",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "39b19ceff1c1",
+      "provider": "奶酪公益站",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:nailao.biz",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "email",
+      "signup_score": 0.9,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 3,
+      "site_url": "https://nailao.biz/sign-up",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -5426,7 +8100,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -5461,7 +8135,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -5498,13 +8172,50 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
       "below_baseline": false,
       "corroborations": 0,
       "site_url": "https://9aib.com/",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "eee045be2a42",
+      "provider": "快跑API",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:kuaipao.ai",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "注册无限制"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://kuaipao.ai/register",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -5535,13 +8246,50 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
       "below_baseline": false,
       "corroborations": 0,
       "site_url": "https://t.me/xingchi66bot?start=inv_1751327121",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "6ef66778d37d",
+      "provider": "月城公益站",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:52ccl.net",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "linuxdo",
+      "signup_score": 0.6,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "Linux Do 信任等级需 ≥1 方可注册"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://52ccl.net/sign-up",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -5572,7 +8320,7 @@
         "https://raw.githubusercontent.com/ULing19/sub2api-price-monitor/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -5607,7 +8355,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -5644,13 +8392,48 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
       "below_baseline": false,
       "corroborations": 0,
       "site_url": "https://shuita.xyz/",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "722e9922298a",
+      "provider": "渡舟AI",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:ccwu.cc",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "github",
+      "signup_score": 1.0,
+      "status": "unknown",
+      "sources": [
+        "https://ytzzjx.github.io/topics/daily-checkin"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://duzhouai.ccwu.cc/register",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -5678,15 +8461,16 @@
       "signup_score": 0.9,
       "status": "online",
       "sources": [
-        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
+        "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md",
+        "https://haha0510.github.io/llm-api-public-stations"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
       "below_baseline": false,
-      "corroborations": 0,
+      "corroborations": 2,
       "site_url": "https://api520.pro/register",
       "models": [],
       "models_count": 80,
@@ -5694,11 +8478,11 @@
       "quota_score": 0.0
     },
     {
-      "id": "9fcb7033390b",
-      "provider": "猫羽霖",
+      "id": "3edadd281885",
+      "provider": "狸猫 AI",
       "endpoint_url": "",
       "backend_host": "",
-      "dedupe_key": "dom:dpdns.org",
+      "dedupe_key": "dom:limao-api.com",
       "models_free": 0,
       "best_free_model": "",
       "tier_score": null,
@@ -5711,20 +8495,18 @@
       "rate_limit_raw": "",
       "rpm": null,
       "rpd": null,
-      "signup_method": "unknown",
-      "signup_score": 0.75,
-      "status": "unverified",
+      "signup_method": "email",
+      "signup_score": 0.9,
+      "status": "unknown",
       "sources": [
-        "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
+        "https://ytzzjx.github.io/topics/daily-checkin"
       ],
-      "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
-      "notes": [
-        "navigation entry: no quota data published"
-      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
       "below_baseline": false,
-      "corroborations": 0,
-      "site_url": "https://huashang.dpdns.org/sign-up",
+      "corroborations": 2,
+      "site_url": "https://limao-api.com/sign-up",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -5755,7 +8537,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -5792,13 +8574,88 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
       "below_baseline": false,
       "corroborations": 0,
       "site_url": "https://price.yufu.pub/",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "8c94804b9b91",
+      "provider": "硅基流动 SiliconFlow",
+      "endpoint_url": "https://api.siliconflow.cn/v1",
+      "backend_host": "api.siliconflow.cn",
+      "dedupe_key": "dom:siliconflow.cn",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "online",
+      "sources": [
+        "https://raw.githubusercontent.com/HughPython/free-llm-api-cn/main/README.md",
+        "https://www.china-ai-arbitrage.xyz/free-tokens"
+      ],
+      "first_seen": "2026-11-25T20:56:13Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "policy: no 是否需要绑卡"
+      ],
+      "below_baseline": false,
+      "corroborations": 1,
+      "site_url": "https://cloud.siliconflow.cn/i/7PbesMGR",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "5067c34beba0",
+      "provider": "简单AI聚合站（APIOP）",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:apiop.cn",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "OpenAI 兼容 · 按量付费；官方折扣渠道，一个 Key 全网调用"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://apiop.cn/register",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -5829,13 +8686,161 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
       "below_baseline": false,
       "corroborations": 0,
       "site_url": "https://chunduai.com/",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "9b8801f951a4",
+      "provider": "维云模型开放平台",
+      "endpoint_url": "https://vsllm.cc/v1",
+      "backend_host": "",
+      "dedupe_key": "dom:vsllm.cc",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json",
+        "https://raw.githubusercontent.com/HughPython/free-llm-api-cn/main/README.md"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "注册无限制",
+        "policy: no 是否需要绑卡"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://vsllm.cc/register",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "c93d7be2d2d0",
+      "provider": "肖恩 AI",
+      "endpoint_url": "https://speed1.toter.me/v1",
+      "backend_host": "speed1.toter.me",
+      "dedupe_key": "dom:toter.me",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/HughPython/free-llm-api-cn/main/README.md"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "policy: no 是否需要绑卡"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://go.toter.me/register",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "42d8aa6e2c24",
+      "provider": "芙卡卡の小食堂",
+      "endpoint_url": "",
+      "backend_host": "",
+      "dedupe_key": "dom:fuka.win",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "email",
+      "signup_score": 0.9,
+      "status": "unknown",
+      "sources": [
+        "https://haha0510.github.io/llm-api-public-stations"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://api.fuka.win/sign-up",
+      "models": [],
+      "models_count": null,
+      "score": 0.0,
+      "quota_score": 0.0
+    },
+    {
+      "id": "b8e369092818",
+      "provider": "蚂蚁百灵大模型",
+      "endpoint_url": "https://api.ant-ling.com/v1",
+      "backend_host": "api.ant-ling.com",
+      "dedupe_key": "dom:ant-ling.com",
+      "models_free": 0,
+      "best_free_model": "",
+      "tier_score": null,
+      "tier_source": "",
+      "checkin_raw": "",
+      "checkin_daily_value": null,
+      "checkin_currency": "",
+      "checkin_usd_equiv": null,
+      "checkin_confidence": "none",
+      "rate_limit_raw": "",
+      "rpm": null,
+      "rpd": null,
+      "signup_method": "unknown",
+      "signup_score": 0.75,
+      "status": "unknown",
+      "sources": [
+        "https://raw.githubusercontent.com/HughPython/free-llm-api-cn/main/README.md"
+      ],
+      "first_seen": "2026-11-25T23:47:07Z",
+      "last_seen": "2026-11-25T23:55:32Z",
+      "notes": [
+        "policy: 是否需要绑卡 required"
+      ],
+      "below_baseline": false,
+      "corroborations": 0,
+      "site_url": "https://chat.ant-ling.com/open",
       "models": [],
       "models_count": null,
       "score": 0.0,
@@ -5867,7 +8872,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "protocols: openai / anthropic",
         "navigation entry: no quota data published"
@@ -5905,7 +8910,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -5944,7 +8949,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -5984,9 +8989,10 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
-        "protocols: openai / anthropic"
+        "protocols: openai / anthropic",
+        "policy: 每日签到 available"
       ],
       "below_baseline": false,
       "corroborations": 0,
@@ -6021,7 +9027,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:27Z",
+      "last_seen": "2026-11-25T23:55:32Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
