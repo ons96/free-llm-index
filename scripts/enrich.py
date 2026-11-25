@@ -194,6 +194,8 @@ def load_documents() -> list[dict]:
 
 def main() -> int:
     sources = {norm_url(s.url): s for s in load_sources()}
+    agg_hosts = {registrable_domain(host_of(s.url)) for s in sources.values()
+                 if s.role in ("agg", "intel", "modelindex")}
     docs = load_documents()
     log(f"{len(docs)} cached documents, {len(sources)} registered sources")
 
@@ -349,24 +351,36 @@ def main() -> int:
 
     # ---- partition
     all_rows = list(rows.values())
-    unverified = [r for r in all_rows if r["status"] == "unverified" or (r["tier_score"] is None and not r["checkin_usd_equiv"])]
-    ranked = [r for r in all_rows if r not in unverified and r["status"] != "offline"]
+
+    def has_quota(row: dict) -> bool:
+        return bool(row["checkin_usd_equiv"]) or bool(row["checkin_daily_value"])
+
     offline = [r for r in all_rows if r["status"] == "offline"]
+    scored, quota_only, unverified, dropped = [], [], [], []
+    for r in all_rows:
+        if r["status"] == "offline":
+            continue
+        if r["tier_score"] is not None:
+            scored.append(r)
+        elif has_quota(r):
+            quota_only.append(r)
+        elif plausible_provider(r, agg_hosts):
+            unverified.append(r)
+        else:
+            dropped.append(r)
 
     for r in all_rows:
         r["below_baseline"] = bool(r["tier_score"] is not None and r["tier_score"] < BASELINE_PERCENTILE)
         r["corroborations"] = corroboration.get(registrable_domain(r["backend_host"] or host_of(r["_site_url"]) or ""), 0)
 
-    scored = [r for r in ranked if r["tier_score"] is not None]
-    quota_only = [r for r in ranked if r["tier_score"] is None]
     scored.sort(key=lambda r: (-r["_score"], -(r["tier_score"] or 0), r["provider"].lower()))
     quota_only.sort(key=lambda r: (-(r["_quota_score"] or 0), r["provider"].lower()))
     ranked = scored + quota_only
     unverified.sort(key=lambda r: r["provider"].lower())
 
     # ---- write
-    write_outputs(ranked, scored, quota_only, unverified, offline, all_rows, parsed_stats, tier_source,
-                  free_model_index, corroboration)
+    write_outputs(ranked, scored, quota_only, unverified, offline, dropped, all_rows, parsed_stats,
+                  tier_source, free_model_index, corroboration)
     log(f"ranked={len(scored)} quota_only={len(quota_only)} unverified={len(unverified)} offline={len(offline)}")
     top = ranked[0] if ranked else None
     if top:
@@ -374,8 +388,8 @@ def main() -> int:
     return 0
 
 
-def write_outputs(ranked, scored, quota_only, unverified, offline, all_rows, parsed_stats, tier_source,
-                  free_models, corroboration):
+def write_outputs(ranked, scored, quota_only, unverified, offline, dropped, all_rows, parsed_stats,
+                  tier_source, free_models, corroboration):
     public = lambda r: {k: v for k, v in r.items() if not k.startswith("_")} | {
         "site_url": r["_site_url"], "models": r["_models"], "models_count": r["_models_count"],
         "score": r["_score"], "quota_score": r["_quota_score"]}
@@ -408,6 +422,23 @@ def write_outputs(ranked, scored, quota_only, unverified, offline, all_rows, par
     atomic_write(ROOT / "LEADERBOARD.md", render_markdown(scored, quota_only, unverified, tier_source))
     build_status(ranked, unverified, all_rows, parsed_stats, tier_source, free_models)
     write_dashboard(scored, quota_only, unverified, tier_source)
+
+
+def plausible_provider(row: dict, agg_hosts: set[str]) -> bool:
+    """Drop navigation noise: numeric labels, aggregator self-links, empty sites."""
+    name = row["provider"].strip()
+    if len(name) < 3 or name.isdigit():
+        return False
+    site = row["_site_url"] or row["endpoint_url"] or ""
+    if not site:
+        return False
+    host = registrable_domain(host_of(site))
+    if not host or host in agg_hosts:
+        return False
+    label = re.sub(r"[^a-z0-9]", "", host.split(".")[0])
+    if label and re.sub(r"[^a-z0-9]", "", name.lower()) == label and len(name) <= 4:
+        return False
+    return True
 
 
 def fmt_usd(r: dict) -> str:
@@ -501,6 +532,7 @@ def build_status(ranked, unverified, all_rows, parsed_stats, tier_source, free_m
     src = health.get("sources", [])
     ok = [s for s in src if s.get("ok")]
     failed = [s for s in src if not s.get("ok")]
+    scored = [r for r in ranked if r["tier_score"] is not None]
     write_json(ROOT / "status.json", {
         "last_updated": iso(),
         "prompt_version": PROMPT_VERSION,
@@ -509,7 +541,8 @@ def build_status(ranked, unverified, all_rows, parsed_stats, tier_source, free_m
             "sources_ok": len(ok),
             "sources_failed": len(failed),
             "providers_total": len(all_rows),
-            "providers_ranked": len(ranked),
+            "providers_ranked": len(scored),
+            "providers_quota_only": len(ranked) - len(scored),
             "providers_unverified": len(unverified),
             "openrouter_free_models": len(free_models),
         },

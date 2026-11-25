@@ -1,8 +1,8 @@
 # Free LLM API leaderboard
 
-Auto-generated 2026-11-25T21:05:50Z by the GitHub Actions pipeline in this repo. Tier scores: `live:modelbenchmark.io`. Full data: `free_llm_providers.csv` / `.json`.
+Auto-generated 2026-11-25T21:11:16Z by the GitHub Actions pipeline in this repo. Tier scores: `live:modelbenchmark.io`. Full data: `free_llm_providers.csv` / `.json`.
 
-**29** ranked providers · **10** more with quota but no verified model tier · **143** unverified entries · baseline = MiniMax M3.1 Flash (p50).
+**29** ranked providers · **14** more with quota but no verified model tier · **116** unverified entries · baseline = MiniMax M3.1 Flash (p50).
 
 | # | Provider | Best free model | Tier | Daily check-in | Rate limit | Signup | Endpoint | Score |
 |---|----------|-----------------|------|----------------|------------|--------|----------|-------|
@@ -32,7 +32,7 @@ Auto-generated 2026-11-25T21:05:50Z by the GitHub Actions pipeline in this repo.
 | 24 | **NVIDIA NIM** | GLM-5.2 | 59 | — | 40 RPM | card | [build.nvidia.com](https://build.nvidia.com) | 19.5 |
 | 25 | **薄荷公益站** | Gemini 2.5 Pro | 51 | — | — | oauth | [x666.me](https://x666.me/v1) | 19.2 |
 
-## Generous quotas, model tier not verifiable (10)
+## Generous quotas, model tier not verifiable (14)
 
 These publish a daily quota but never name a benchmark-listed model, so they cannot be scored on quality. Sorted by normalized check-in value; verify the model list before trusting one.
 
@@ -48,6 +48,10 @@ These publish a daily quota but never name a benchmark-listed model, so they can
 | DGB 公益站 | $1.00 | 6 | — | email | [freeapi.dgbmc.top](https://freeapi.dgbmc.top/v1) |
 | Tokeness | $0.50 | 52 | — | github | [n.tokeness.dev](https://n.tokeness.dev/v1) |
 | 聚合 API（aiyiwei） | $0.30 | — | — | email | [aiyiwei.vip](https://aiyiwei.vip/v1) |
+| Liminality | 100 pts | 13 | — | email | [beizhi.dedyn.io](https://beizhi.dedyn.io/v1) |
+| NOFX | 5 pts | — | — | unknown | [nofx.one](https://nofx.one/zh-CN/sign-in) |
+| 初叶 Furry API | 10 pts | 80 | — | email | [ai.chuyel.top](https://ai.chuyel.top/v1) |
+| 肖恩Ai | 2000 pts | — | — | invite | [free.supxh.xin](https://free.supxh.xin/register) |
 
 ## How the score works
 

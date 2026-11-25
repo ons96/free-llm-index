@@ -68,7 +68,11 @@ jobs:
         run: python scripts/enrich.py
 
       - name: Unit tests
-        run: python -m pytest -q tests/ || python tests/test_parse.py
+        run: python tests/test_parse.py
+
+      - name: Job summary
+        if: always()
+        run: python scripts/summary.py
 
       - name: Commit results
         run: |
@@ -90,7 +94,18 @@ jobs:
         with:
           path: dist
 
-      - name: Deploy dashboard
+      # deploy-pages can race the artifact upload; give it a moment, then retry once
+      - name: Wait for artifact
         if: github.ref == 'refs/heads/main'
+        run: sleep 10
+
+      - name: Deploy dashboard
+        id: pages1
+        if: github.ref == 'refs/heads/main'
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      - name: Deploy dashboard (retry)
+        if: github.ref == 'refs/heads/main' && steps.pages1.outcome == 'failure'
         continue-on-error: true
         uses: actions/deploy-pages@v4
