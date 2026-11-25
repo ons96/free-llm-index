@@ -7,6 +7,7 @@ State as of 2026-11-25 (first full CI run).
 - Repo: https://github.com/ons96/free-llm-index (public — unlimited Actions minutes)
 - Workflow: `scrape-free-llm-providers`, cron `0 6,18 * * *` + manual dispatch
 - First run: [45700991841](https://github.com/ons96/free-llm-index/actions/runs/45700991841) — **25/25 sources healthy, 45 s** end to end, data committed
+- Third run: [45702941185](https://github.com/ons96/free-llm-index/actions/runs/45702941185) — cache hit, **~10 s**, Pages deploy green
 - Dashboard: https://ons96.github.io/free-llm-index/ (Pages enabled with `build_type=workflow`)
 
 ## Verified working
@@ -24,8 +25,8 @@ State as of 2026-11-25 (first full CI run).
 
 ## Next action
 
-1. Confirm the Pages deploy step now succeeds (a 10 s wait + one retry were added after
-   the first run raced the artifact upload: "Found 0 artifact(s)" while the artifact did upload).
+1. ~~Confirm the Pages deploy step~~ — done: it was racing the artifact upload; a 10 s wait plus
+   one retry fixed it and the deploy is green. https://ons96.github.io/free-llm-index/ returns 200.
 2. Let the 18:00 UTC cron run once unattended and check `status.json` for flapping sources.
 3. Worth doing when there is time: promote `scraped/` to a committed, gzipped snapshot if
    reproducibility matters more than repo size (today it lives in the Actions cache).

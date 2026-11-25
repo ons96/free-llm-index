@@ -9,7 +9,7 @@ solvers, no API keys, no logins.
 
 - **Leaderboard:** [`LEADERBOARD.md`](LEADERBOARD.md)
 - **Full data:** [`free_llm_providers.csv`](free_llm_providers.csv) · [`free_llm_providers.json`](free_llm_providers.json)
-- **Live dashboard:** `dist/index.html`, published by the workflow to GitHub Pages when Pages is enabled
+- **Live dashboard:** https://ons96.github.io/free-llm-index/ (source: `dist/index.html`)
 - **Run stats:** [`status.json`](status.json)
 
 ## What it collects
