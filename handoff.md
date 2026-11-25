@@ -25,6 +25,8 @@ State as of 2026-11-25 (first full CI run).
 
 ## Next action
 
+- Final run [45725007317](https://github.com/ons96/free-llm-index/actions/runs/45725007317): 46/46 sources, 58 scored, 29 quota-only, 149 unverified, 3 offline; Pages deploy green. Dashboard now shows all 239 providers with clickable site + endpoint URLs and model lists (was 43).
+
 1. ~~Confirm the Pages deploy step~~ — done: it was racing the artifact upload; a 10 s wait plus
    one retry fixed it and the deploy is green. https://ons96.github.io/free-llm-index/ returns 200.
 2. Let the 18:00 UTC cron run once unattended and check `status.json` for flapping sources.
@@ -32,6 +34,8 @@ State as of 2026-11-25 (first full CI run).
    reproducibility matters more than repo size (today it lives in the Actions cache).
 
 ## Known gaps (not blockers)
+
+- The repo has more data than the dashboard: `free_llm_providers.csv` carries 261 rows with check-in raw wording, rate limits, signup method, source URLs, first/last seen and notes, and `data/` holds corroboration counts, the tier index and source health. The dashboard is a filtered view.
 
 - **Coverage is quota-skewed.** Most scored providers come from one Chinese welfare list;
   first-party free tiers (Groq, OpenRouter, Gemini, Cerebras, NVIDIA) appear but with fewer
