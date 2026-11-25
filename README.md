@@ -48,7 +48,7 @@ scripts/enrich.py   normalize → dedupe by backend host → score → publish
 ```
 
 The workflow runs at **06:00 and 18:00 UTC** (`.github/workflows/scrape.yml`),
-takes roughly 10 minutes, and commits the refreshed outputs back to the branch
+takes 1–2 minutes (measured 45 s on the first full run), and commits the refreshed outputs back to the branch
 with `[skip ci]`.
 
 ### Ranking

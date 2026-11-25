@@ -36,7 +36,7 @@ Every swap is mirrored in `decisions.md`.
 
 ## 3. Workflow structure
 
-One job (`scrape`), `timeout-minutes: 90`, expected **6–12 min**:
+One job (`scrape`), `timeout-minutes: 90`, expected **1–3 min** (measured 45 s on the first real run):
 
 1. `actions/checkout` (with `contents: write` so it can commit back)
 2. `actions/setup-python@v5` 3.12 + `actions/cache` on `scraped/` and the Obscura binary

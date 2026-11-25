@@ -370,6 +370,12 @@ def main() -> int:
             dropped.append(r)
 
     for r in all_rows:
+        if r["tier_score"] is not None and not r["tier_source"]:
+            r["tier_source"] = tier_source
+        # notes are unioned during merges; drop the ones that duplicate a column
+        r["notes"] = [n for n in r["notes"] if not n.startswith("signup:")]
+        if has_quota(r):
+            r["notes"] = [n for n in r["notes"] if not n.startswith("navigation entry")]
         r["below_baseline"] = bool(r["tier_score"] is not None and r["tier_score"] < BASELINE_PERCENTILE)
         r["corroborations"] = corroboration.get(registrable_domain(r["backend_host"] or host_of(r["_site_url"]) or ""), 0)
 
