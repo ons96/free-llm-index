@@ -1,0 +1,272 @@
+{
+  "generated_at": "2026-11-25T20:42:36Z",
+  "sources": [
+    {
+      "url": "https://agentrouter.org",
+      "ok": false,
+      "tool": "robots",
+      "error": "robots.txt disallows /",
+      "cache": "skip"
+    },
+    {
+      "url": "https://openrouter.ai/api/v1/models",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 918835,
+      "elapsed": 0.26,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://www.china-ai-arbitrage.xyz/free-tokens",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 200157,
+      "elapsed": 0.25,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jliushi/ai-relay/main/README.md",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 4703,
+      "elapsed": 0.32,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 7265,
+      "elapsed": 0.35,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 75254,
+      "elapsed": 0.5,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://raw.githubusercontent.com/posstos/ai-relay-welfare/main/README.md",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 11042,
+      "elapsed": 0.31,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ULing19/sub2api-price-monitor/main/README.md",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 6682,
+      "elapsed": 0.29,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Q-shuang-dot/ai-coding-welfare/main/README.md",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 74357,
+      "elapsed": 0.36,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://raw.githubusercontent.com/howardpen9/awesome-ai-api-proxy/main/README.md",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 35330,
+      "elapsed": 0.29,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 6265,
+      "elapsed": 0.29,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 6912,
+      "elapsed": 0.33,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://www.eggstriker.com/ai-api",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 218814,
+      "elapsed": 0.36,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://apitokennav.com",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 148295,
+      "elapsed": 0.36,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://www.apizdm.com",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 52182,
+      "elapsed": 0.76,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://www.openprice.cc",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 69047,
+      "elapsed": 0.7,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://apiranking.com",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 812714,
+      "elapsed": 1.58,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cheahjs/free-llm-api-resources/main/README.md",
+      "ok": false,
+      "tool": "chain",
+      "status": 404,
+      "error": "all tiers failed: relay: relay not configured; obscura: obscura binary not found; stealthy: ModuleNotFoundError: No module named 'patchright'",
+      "notes": [
+        "relay: relay not configured",
+        "obscura: obscura binary not found",
+        "stealthy: ModuleNotFoundError: No module named 'patchright'"
+      ],
+      "attempts": 1,
+      "cache": "miss"
+    },
+    {
+      "url": "https://priceai.cc",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 150923,
+      "elapsed": 0.52,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://www.hvoyai.com/en/leaderboard/opus55",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 100029,
+      "elapsed": 0.61,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://getcheapai.com",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 419379,
+      "elapsed": 2.11,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://www.cocoloop.cn",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 301971,
+      "elapsed": 2.43,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://modelbenchmark.io/leaderboard",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 167815,
+      "elapsed": 0.41,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://freellm.net",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 171034,
+      "elapsed": 0.38,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://linux.do/t/topic/3105499/19",
+      "ok": true,
+      "tool": "reader",
+      "status": 200,
+      "bytes": 12300,
+      "elapsed": 0.62,
+      "cache": "miss",
+      "notes": [
+        "relay: relay not configured",
+        "obscura: obscura binary not found"
+      ]
+    },
+    {
+      "url": "https://grandet.ai",
+      "ok": true,
+      "tool": "reader",
+      "status": 200,
+      "bytes": 10342,
+      "elapsed": 7.13,
+      "cache": "miss",
+      "notes": [
+        "relay: relay not configured",
+        "obscura: obscura binary not found"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+# Free LLM provider sources
+#
+# Format:  <url> [# key:value ...]
+#   tier:     1..4   fetch priority (1 = cheapest/fastest transport)
+#   kind:     markdown | html | json | modelindex
+#   role:     seed | agg | modelindex
+#   enabled:  false to disable without deleting the line
+#
+# Add a line and the next run picks it up. Nothing else to change.
+
+# ---------------- Priority 1: highest signal ----------------
+https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md   # tier:1 kind:markdown role:seed
+https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md   # tier:1 kind:markdown role:seed
+https://www.china-ai-arbitrage.xyz/free-tokens   # tier:2 kind:html role:seed
+https://relaywatch.online/models   # tier:4 kind:html role:seed enabled:false   # 522 since 2026-11: Cloudflare cannot reach origin
+
+# ---------------- Priority 2: GitHub welfare repos ----------------
+https://raw.githubusercontent.com/jliushi/ai-relay/main/README.md   # tier:1 kind:markdown role:seed
+https://raw.githubusercontent.com/posstos/ai-relay-welfare/main/README.md   # tier:1 kind:markdown role:seed
+https://raw.githubusercontent.com/Q-shuang-dot/ai-coding-welfare/main/README.md   # tier:1 kind:markdown role:seed
+https://raw.githubusercontent.com/ULing19/sub2api-price-monitor/main/README.md   # tier:1 kind:markdown role:seed
+https://raw.githubusercontent.com/howardpen9/awesome-ai-api-proxy/main/README.md   # tier:1 kind:markdown role:seed
+https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md   # tier:1 kind:markdown role:seed
+https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md   # tier:1 kind:markdown role:seed
+
+# Dead as of 2026-11-25 (404, repo deleted). Mirrors are Llama-3 era and
+# useless for current model tiers, so nothing replaces it:
+# https://raw.githubusercontent.com/cheahjs/free-llm-api-resources/main/README.md
+
+# ---------------- Priority 3: price aggregators (cross-check) ----------------
+https://www.eggstriker.com/ai-api   # tier:3 kind:html role:agg
+https://apiranking.com/   # tier:3 kind:html role:agg
+https://apitokennav.com/   # tier:3 kind:html role:agg
+https://www.apizdm.com/   # tier:3 kind:html role:agg
+https://www.openprice.cc/   # tier:3 kind:html role:agg
+https://www.cocoloop.cn/   # tier:3 kind:html role:agg
+https://getcheapai.com   # tier:3 kind:html role:agg
+https://priceai.cc   # tier:3 kind:html role:agg
+https://grandet.ai/   # tier:4 kind:html role:agg   # 429 rate limit; retried with backoff
+https://www.hvoyai.com/en/leaderboard/opus55/   # tier:3 kind:html role:agg
+
+# ---------------- Priority 4: community intel & benchmarks ----------------
+https://linux.do/t/topic/3105499/19   # tier:4 kind:html role:intel   # 403 direct, reader tier only
+https://modelbenchmark.io/leaderboard   # tier:2 kind:modelindex role:modelindex
+https://freellm.net   # tier:3 kind:html role:agg
+
+# ---------------- Machine-checkable free-model index ----------------
+https://openrouter.ai/api/v1/models   # tier:2 kind:json role:modelindex
+
+# ---------------- Named providers ----------------
+https://agentrouter.org   # tier:3 kind:html role:seed
+https://kiro.dev   # tier:3 kind:html role:seed enabled:false   # marketing page, no public API/quota data

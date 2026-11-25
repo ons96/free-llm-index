@@ -1,0 +1,10 @@
+{
+  "url": "https://raw.githubusercontent.com/cheahjs/free-llm-api-resources/main/README.md",
+  "attempts": 1,
+  "last_attempt": "2026-11-25T20:42:27Z",
+  "first_attempt": "2026-11-25T20:42:27Z",
+  "tool": "chain",
+  "status": 404,
+  "error": "all tiers failed: relay: relay not configured; obscura: obscura binary not found; stealthy: ModuleNotFoundError: No module named 'patchright'",
+  "exhausted": false
+}

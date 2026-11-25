@@ -1,0 +1,12 @@
+# Runtime deps. Deliberately minimal: everything else is stdlib.
+#
+# curl_cffi gives a real browser TLS fingerprint, which clears several bot
+# walls that plain requests/curl cannot. It is the ONLY required third-party
+# package; scrape.py falls back to urllib if it is missing.
+curl_cffi>=0.17.0
+
+# Optional, not installed by default (see decisions.md): scrapling+patchright
+# pull a ~150 MB Chromium download and are only used as a last-resort tier.
+# Uncomment to enable that tier in CI.
+# scrapling>=0.5.1
+# patchright>=1.49.0

@@ -1,0 +1,96 @@
+name: scrape-free-llm-providers
+
+on:
+  schedule:
+    - cron: "0 6,18 * * *"   # 06:00 and 18:00 UTC, twice daily
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Ignore the cache and the 7-day failure ledger"
+        type: boolean
+        default: false
+      only:
+        description: "Only sources whose URL contains this string"
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: scrape-free-llm-providers
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      # Optional. When unset, the relay tier is skipped and the pipeline uses
+      # curl_cffi -> Obscura -> r.jina.ai only.
+      RELAY_URL: ${{ secrets.RELAY_URL }}
+      RELAY_SECRET: ${{ secrets.RELAY_SECRET }}
+      OBSCURA_BIN: ${{ github.workspace }}/bin/obscura
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Restore scrape cache + browser
+        uses: actions/cache@v4
+        with:
+          path: |
+            scraped
+            bin
+          key: scrape-${{ github.run_id }}
+          restore-keys: |
+            scrape-
+
+      - name: Install tools
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          bash scripts/fetch_obscura.sh bin
+
+      - name: Scrape
+        run: |
+          python scripts/scrape.py --max-age 18h --jobs 4 \
+            ${{ inputs.force && '--force' || '' }} \
+            ${{ inputs.only && format('--only "{0}"', inputs.only) || '' }}
+
+      - name: Enrich, dedupe and rank
+        run: python scripts/enrich.py
+
+      - name: Unit tests
+        run: python -m pytest -q tests/ || python tests/test_parse.py
+
+      - name: Commit results
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A LEADERBOARD.md free_llm_providers.csv free_llm_providers.json status.json \
+                    data dist scraped_failures
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "chore(data): refresh leaderboard [skip ci]"
+            git push
+          fi
+
+      - name: Upload pages artifact
+        if: github.ref == 'refs/heads/main'
+        continue-on-error: true
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy dashboard
+        if: github.ref == 'refs/heads/main'
+        continue-on-error: true
+        uses: actions/deploy-pages@v4

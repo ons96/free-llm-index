@@ -1,0 +1,644 @@
+{
+  "generated_at": "2026-11-25T20:00:00Z",
+  "source": "https://modelbenchmark.io/leaderboard",
+  "note": "composite percentile over 16 benchmarks / 4 sources; baked fallback for enrichment",
+  "models": [
+    {
+      "rank": 1,
+      "model": "GPT-6 Astra",
+      "lab": "OpenAI",
+      "percentile": 99,
+      "out_price_usd_per_m": 17.5
+    },
+    {
+      "rank": 2,
+      "model": "GPT-6.1 Sol",
+      "lab": "OpenAI",
+      "percentile": 99,
+      "out_price_usd_per_m": 3.5
+    },
+    {
+      "rank": 3,
+      "model": "Claude Fable 5",
+      "lab": "Anthropic",
+      "percentile": 98,
+      "out_price_usd_per_m": 76.4619
+    },
+    {
+      "rank": 4,
+      "model": "Claude Opus 5.5",
+      "lab": "Anthropic",
+      "percentile": 95,
+      "out_price_usd_per_m": 30.5848
+    },
+    {
+      "rank": 5,
+      "model": "Claude Opus 5",
+      "lab": "Anthropic",
+      "percentile": 93,
+      "out_price_usd_per_m": 38.2309
+    },
+    {
+      "rank": 6,
+      "model": "Claude Fable 5.1",
+      "lab": "Anthropic",
+      "percentile": 92,
+      "out_price_usd_per_m": 76.4619
+    },
+    {
+      "rank": 7,
+      "model": "GPT-6 Sol",
+      "lab": "OpenAI",
+      "percentile": 92,
+      "out_price_usd_per_m": 10.0
+    },
+    {
+      "rank": 8,
+      "model": "GPT-5.6 Sol",
+      "lab": "OpenAI",
+      "percentile": 91,
+      "out_price_usd_per_m": 20.0
+    },
+    {
+      "rank": 9,
+      "model": "Gemini 3 Pro Preview",
+      "lab": "Google",
+      "percentile": 90,
+      "out_price_usd_per_m": 12.0
+    },
+    {
+      "rank": 10,
+      "model": "GPT-5.5",
+      "lab": "OpenAI",
+      "percentile": 89,
+      "out_price_usd_per_m": 30.0
+    },
+    {
+      "rank": 11,
+      "model": "Claude Sonnet 5.5",
+      "lab": "Anthropic",
+      "percentile": 89,
+      "out_price_usd_per_m": 15.2923
+    },
+    {
+      "rank": 12,
+      "model": "Gemini 3.7 Flash",
+      "lab": "Google",
+      "percentile": 89,
+      "out_price_usd_per_m": 3.75
+    },
+    {
+      "rank": 13,
+      "model": "Qwen3.8 Max",
+      "lab": "Alibaba",
+      "percentile": 88,
+      "out_price_usd_per_m": 5.3323
+    },
+    {
+      "rank": 14,
+      "model": "Gemini 3.8 Flash",
+      "lab": "Google",
+      "percentile": 88,
+      "out_price_usd_per_m": 3.75
+    },
+    {
+      "rank": 15,
+      "model": "DeepSeek V4 Pro 0813",
+      "lab": "DeepSeek",
+      "percentile": 86,
+      "out_price_usd_per_m": 3.301
+    },
+    {
+      "rank": 16,
+      "model": "Claude Opus 4.8",
+      "lab": "Anthropic",
+      "percentile": 86,
+      "out_price_usd_per_m": 38.2309
+    },
+    {
+      "rank": 17,
+      "model": "GPT-5.6 Terra",
+      "lab": "OpenAI",
+      "percentile": 85,
+      "out_price_usd_per_m": 12.0
+    },
+    {
+      "rank": 18,
+      "model": "GPT-5.4",
+      "lab": "OpenAI",
+      "percentile": 85,
+      "out_price_usd_per_m": 15.0
+    },
+    {
+      "rank": 19,
+      "model": "Muse Spark 1.3",
+      "lab": "Meta",
+      "percentile": 84,
+      "out_price_usd_per_m": 4.25
+    },
+    {
+      "rank": 20,
+      "model": "DeepSeek V4.1 Flash",
+      "lab": "DeepSeek",
+      "percentile": 84,
+      "out_price_usd_per_m": 1.6
+    },
+    {
+      "rank": 21,
+      "model": "Grok 4",
+      "lab": "xAI",
+      "percentile": 82,
+      "out_price_usd_per_m": 15.0
+    },
+    {
+      "rank": 22,
+      "model": "Muse Spark 1.2",
+      "lab": "Meta",
+      "percentile": 82,
+      "out_price_usd_per_m": 4.25
+    },
+    {
+      "rank": 23,
+      "model": "Gemini 3 Flash Preview",
+      "lab": "Google",
+      "percentile": 81,
+      "out_price_usd_per_m": 3.0
+    },
+    {
+      "rank": 24,
+      "model": "GLM-5.3",
+      "lab": "Zhipu",
+      "percentile": 80,
+      "out_price_usd_per_m": 4.4
+    },
+    {
+      "rank": 25,
+      "model": "Muse Spark 1.1",
+      "lab": "Meta",
+      "percentile": 80,
+      "out_price_usd_per_m": 4.25
+    },
+    {
+      "rank": 26,
+      "model": "Gemini 3.5 Flash",
+      "lab": "Google",
+      "percentile": 80,
+      "out_price_usd_per_m": 9.0
+    },
+    {
+      "rank": 27,
+      "model": "Claude Opus 4.7",
+      "lab": "Anthropic",
+      "percentile": 79,
+      "out_price_usd_per_m": 38.2309
+    },
+    {
+      "rank": 28,
+      "model": "Grok 4.6",
+      "lab": "xAI",
+      "percentile": 79,
+      "out_price_usd_per_m": 6.0
+    },
+    {
+      "rank": 29,
+      "model": "DeepSeek R1",
+      "lab": "DeepSeek",
+      "percentile": 78,
+      "out_price_usd_per_m": 2.294
+    },
+    {
+      "rank": 30,
+      "model": "Kimi K3",
+      "lab": "Kimi",
+      "percentile": 78,
+      "out_price_usd_per_m": 3.6
+    },
+    {
+      "rank": 31,
+      "model": "Gemini 3.1 Pro Preview",
+      "lab": "Google",
+      "percentile": 77,
+      "out_price_usd_per_m": 12.0
+    },
+    {
+      "rank": 32,
+      "model": "Claude Sonnet 5",
+      "lab": "Anthropic",
+      "percentile": 76,
+      "out_price_usd_per_m": 15.2923
+    },
+    {
+      "rank": 33,
+      "model": "Claude Haiku 5.5",
+      "lab": "Anthropic",
+      "percentile": 75,
+      "out_price_usd_per_m": 0.7646
+    },
+    {
+      "rank": 34,
+      "model": "Kimi K2.5",
+      "lab": "Kimi",
+      "percentile": 75,
+      "out_price_usd_per_m": 3.011
+    },
+    {
+      "rank": 35,
+      "model": "Qwen3.7-Max",
+      "lab": "Alibaba",
+      "percentile": 74,
+      "out_price_usd_per_m": 4.951
+    },
+    {
+      "rank": 36,
+      "model": "GPT 5",
+      "lab": "OpenAI",
+      "percentile": 73,
+      "out_price_usd_per_m": 10.0
+    },
+    {
+      "rank": 37,
+      "model": "DeepSeek-V3.2-Exp",
+      "lab": "DeepSeek",
+      "percentile": 71,
+      "out_price_usd_per_m": 1.0
+    },
+    {
+      "rank": 38,
+      "model": "Grok 4.7",
+      "lab": "xAI",
+      "percentile": 71,
+      "out_price_usd_per_m": 6.0
+    },
+    {
+      "rank": 39,
+      "model": "Kimi K2 Instruct",
+      "lab": "Kimi",
+      "percentile": 71,
+      "out_price_usd_per_m": 2.5
+    },
+    {
+      "rank": 40,
+      "model": "GPT 5.1",
+      "lab": "OpenAI",
+      "percentile": 71,
+      "out_price_usd_per_m": 10.0
+    },
+    {
+      "rank": 41,
+      "model": "o3",
+      "lab": "OpenAI",
+      "percentile": 70,
+      "out_price_usd_per_m": 8.0
+    },
+    {
+      "rank": 42,
+      "model": "DeepSeek V4 Flash 0731",
+      "lab": "DeepSeek",
+      "percentile": 70,
+      "out_price_usd_per_m": 1.32
+    },
+    {
+      "rank": 43,
+      "model": "GPT 5.2",
+      "lab": "OpenAI",
+      "percentile": 69,
+      "out_price_usd_per_m": 14.0
+    },
+    {
+      "rank": 44,
+      "model": "GLM 5",
+      "lab": "Zhipu",
+      "percentile": 68,
+      "out_price_usd_per_m": 2.58
+    },
+    {
+      "rank": 45,
+      "model": "Gemini 3.6 Flash",
+      "lab": "Google",
+      "percentile": 68,
+      "out_price_usd_per_m": 3.75
+    },
+    {
+      "rank": 46,
+      "model": "Claude Opus 4",
+      "lab": "Anthropic",
+      "percentile": 68,
+      "out_price_usd_per_m": null
+    },
+    {
+      "rank": 47,
+      "model": "Grok 4.5",
+      "lab": "xAI",
+      "percentile": 67,
+      "out_price_usd_per_m": 6.0
+    },
+    {
+      "rank": 48,
+      "model": "GPT-5.6 Luna",
+      "lab": "OpenAI",
+      "percentile": 67,
+      "out_price_usd_per_m": 1.2
+    },
+    {
+      "rank": 49,
+      "model": "Claude Sonnet 4",
+      "lab": "Anthropic",
+      "percentile": 65,
+      "out_price_usd_per_m": null
+    },
+    {
+      "rank": 50,
+      "model": "Claude Opus 4.6",
+      "lab": "Anthropic",
+      "percentile": 65,
+      "out_price_usd_per_m": 38.2309
+    },
+    {
+      "rank": 51,
+      "model": "Claude 3.7 Sonnet",
+      "lab": "Anthropic",
+      "percentile": 64,
+      "out_price_usd_per_m": 15.0
+    },
+    {
+      "rank": 52,
+      "model": "Claude Sonnet 4.6",
+      "lab": "Anthropic",
+      "percentile": 63,
+      "out_price_usd_per_m": 17.058
+    },
+    {
+      "rank": 53,
+      "model": "Qwen3.6 Plus",
+      "lab": "Alibaba",
+      "percentile": 62,
+      "out_price_usd_per_m": 1.651
+    },
+    {
+      "rank": 54,
+      "model": "Kimi K2.6",
+      "lab": "Kimi",
+      "percentile": 61,
+      "out_price_usd_per_m": 4.6
+    },
+    {
+      "rank": 55,
+      "model": "GPT-4.5",
+      "lab": "OpenAI",
+      "percentile": 61,
+      "out_price_usd_per_m": null
+    },
+    {
+      "rank": 56,
+      "model": "GPT-6 Luna",
+      "lab": "OpenAI",
+      "percentile": 60,
+      "out_price_usd_per_m": 0.5
+    },
+    {
+      "rank": 57,
+      "model": "GLM-5.2",
+      "lab": "Zhipu",
+      "percentile": 59,
+      "out_price_usd_per_m": 3.0
+    },
+    {
+      "rank": 58,
+      "model": "Qwen3.6 27B",
+      "lab": "Alibaba",
+      "percentile": 59,
+      "out_price_usd_per_m": 3.25
+    },
+    {
+      "rank": 59,
+      "model": "Grok 3 Beta not in catalog",
+      "lab": "xAI",
+      "percentile": 58,
+      "out_price_usd_per_m": null
+    },
+    {
+      "rank": 60,
+      "model": "GLM-5.3-Flash",
+      "lab": "Zhipu",
+      "percentile": 56,
+      "out_price_usd_per_m": 0.5
+    },
+    {
+      "rank": 61,
+      "model": "Kimi K2.7 Code",
+      "lab": "Kimi",
+      "percentile": 54,
+      "out_price_usd_per_m": 4.0
+    },
+    {
+      "rank": 62,
+      "model": "Mistral Large 4",
+      "lab": "Mistral",
+      "percentile": 53,
+      "out_price_usd_per_m": 2.09
+    },
+    {
+      "rank": 63,
+      "model": "T Inkling",
+      "lab": "Thinking Machines",
+      "percentile": 53,
+      "out_price_usd_per_m": 4.05
+    },
+    {
+      "rank": 64,
+      "model": "o1-2024-12-17",
+      "lab": "OpenAI",
+      "percentile": 52,
+      "out_price_usd_per_m": 60.0
+    },
+    {
+      "rank": 65,
+      "model": "Gemini 2.5 Pro",
+      "lab": "Google",
+      "percentile": 51,
+      "out_price_usd_per_m": 10.0
+    },
+    {
+      "rank": 66,
+      "model": "o4-mini",
+      "lab": "OpenAI",
+      "percentile": 50,
+      "out_price_usd_per_m": 4.4
+    },
+    {
+      "rank": 67,
+      "model": "GPT 5 mini",
+      "lab": "OpenAI",
+      "percentile": 49,
+      "out_price_usd_per_m": 2.0
+    },
+    {
+      "rank": 68,
+      "model": "o1-mini",
+      "lab": "OpenAI",
+      "percentile": 49,
+      "out_price_usd_per_m": 4.4
+    },
+    {
+      "rank": 69,
+      "model": "MiniMax M3",
+      "lab": "MiniMax",
+      "percentile": 47,
+      "out_price_usd_per_m": 1.2
+    },
+    {
+      "rank": 70,
+      "model": "GPT-5.4 mini",
+      "lab": "OpenAI",
+      "percentile": 47,
+      "out_price_usd_per_m": 4.5
+    },
+    {
+      "rank": 71,
+      "model": "Claude Opus 4.5",
+      "lab": "Anthropic",
+      "percentile": 46,
+      "out_price_usd_per_m": 38.2309
+    },
+    {
+      "rank": 72,
+      "model": "GPT-5.4 nano",
+      "lab": "OpenAI",
+      "percentile": 46,
+      "out_price_usd_per_m": 1.25
+    },
+    {
+      "rank": 73,
+      "model": "Qwen3 32B",
+      "lab": "Alibaba",
+      "percentile": 45,
+      "out_price_usd_per_m": null
+    },
+    {
+      "rank": 74,
+      "model": "gpt-oss-120b",
+      "lab": "OpenAI",
+      "percentile": 43,
+      "out_price_usd_per_m": 0.3
+    },
+    {
+      "rank": 75,
+      "model": "QwQ 32B",
+      "lab": "Alibaba",
+      "percentile": 43,
+      "out_price_usd_per_m": 1.0
+    },
+    {
+      "rank": 76,
+      "model": "O3 Mini",
+      "lab": "OpenAI",
+      "percentile": 39,
+      "out_price_usd_per_m": 4.0
+    },
+    {
+      "rank": 77,
+      "model": "GLM 4.6",
+      "lab": "Zhipu",
+      "percentile": 37,
+      "out_price_usd_per_m": 2.2
+    },
+    {
+      "rank": 78,
+      "model": "GPT 4.1",
+      "lab": "OpenAI",
+      "percentile": 36,
+      "out_price_usd_per_m": 8.0
+    },
+    {
+      "rank": 79,
+      "model": "Gemini 2.0 Flash Thinking",
+      "lab": "Google",
+      "percentile": 35,
+      "out_price_usd_per_m": 0.42
+    },
+    {
+      "rank": 80,
+      "model": "GLM 4.5",
+      "lab": "Zhipu",
+      "percentile": 33,
+      "out_price_usd_per_m": 2.2
+    },
+    {
+      "rank": 81,
+      "model": "GPT 5 nano",
+      "lab": "OpenAI",
+      "percentile": 33,
+      "out_price_usd_per_m": 0.4
+    },
+    {
+      "rank": 82,
+      "model": "Gemini 3.5 Flash-Lite",
+      "lab": "Google",
+      "percentile": 32,
+      "out_price_usd_per_m": 2.5
+    },
+    {
+      "rank": 83,
+      "model": "Gemma 3 27B",
+      "lab": "Google",
+      "percentile": 28,
+      "out_price_usd_per_m": null
+    },
+    {
+      "rank": 84,
+      "model": "Llama 4 Maverick Instruct",
+      "lab": "Meta",
+      "percentile": 28,
+      "out_price_usd_per_m": 1.0
+    },
+    {
+      "rank": 85,
+      "model": "GPT 4.1 mini",
+      "lab": "OpenAI",
+      "percentile": 27,
+      "out_price_usd_per_m": 1.6
+    },
+    {
+      "rank": 86,
+      "model": "GPT-4.1 nano",
+      "lab": "OpenAI",
+      "percentile": 19,
+      "out_price_usd_per_m": 0.4
+    },
+    {
+      "rank": 87,
+      "model": "Llama 4 Scout Instruct",
+      "lab": "Meta",
+      "percentile": 19,
+      "out_price_usd_per_m": 0.3
+    },
+    {
+      "rank": 88,
+      "model": "GPT 4o",
+      "lab": "OpenAI",
+      "percentile": 18,
+      "out_price_usd_per_m": 10.0
+    },
+    {
+      "rank": 89,
+      "model": "GPT-4o mini",
+      "lab": "OpenAI",
+      "percentile": 13,
+      "out_price_usd_per_m": 0.6
+    },
+    {
+      "rank": 90,
+      "model": "Claude 3 Opus",
+      "lab": "Anthropic",
+      "percentile": 13,
+      "out_price_usd_per_m": 75.0
+    },
+    {
+      "rank": 91,
+      "model": "Claude 2 not in catalog",
+      "lab": "Anthropic",
+      "percentile": 2,
+      "out_price_usd_per_m": null
+    }
+  ]
+}
