@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T21:17:06Z",
+  "last_updated": "2026-11-25T21:17:27Z",
   "prompt_version": "2026-11-25.1",
   "coverage": {
     "sources_configured": 25,
@@ -18,14 +18,21 @@
       "role": "agg",
       "candidates": 0,
       "domains": 4,
-      "bytes": 105414
+      "bytes": 105821
+    },
+    {
+      "url": "https://agentrouter.org",
+      "role": "seed",
+      "candidates": 1,
+      "domains": 2,
+      "bytes": 16125
     },
     {
       "url": "https://openrouter.ai/api/v1/models",
       "role": "modelindex",
       "candidates": 0,
       "domains": 0,
-      "bytes": 918980
+      "bytes": 921259
     },
     {
       "url": "https://www.china-ai-arbitrage.xyz/free-tokens",
@@ -74,7 +81,7 @@
       "role": "agg",
       "candidates": 0,
       "domains": 3,
-      "bytes": 56366
+      "bytes": 56362
     },
     {
       "url": "https://raw.githubusercontent.com/posstos/ai-relay-welfare/main/README.md",
@@ -95,7 +102,7 @@
       "role": "agg",
       "candidates": 0,
       "domains": 15,
-      "bytes": 318402
+      "bytes": 323504
     },
     {
       "url": "https://www.openprice.cc",
@@ -129,8 +136,8 @@
       "url": "https://linux.do/t/topic/3105499/19",
       "role": "intel",
       "candidates": 0,
-      "domains": 3,
-      "bytes": 13613
+      "domains": 0,
+      "bytes": 8329
     },
     {
       "url": "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md",
@@ -144,7 +151,7 @@
       "role": "agg",
       "candidates": 0,
       "domains": 18,
-      "bytes": 419603
+      "bytes": 425185
     },
     {
       "url": "https://raw.githubusercontent.com/jliushi/ai-relay/main/README.md",

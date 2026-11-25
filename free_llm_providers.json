@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-25T21:17:06Z",
+    "generated_at": "2026-11-25T21:17:27Z",
     "prompt_version": "2026-11-25.1",
     "tier_source": "live:modelbenchmark.io",
     "cny_usd_rate": 0.1408,
@@ -43,7 +43,7 @@
         "https://raw.githubusercontent.com/jliushi/ai-relay/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: anthropic / openai"
       ],
@@ -84,7 +84,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: anthropic"
       ],
@@ -124,7 +124,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "check-in amount ambiguous",
         "protocols: anthropic / openai",
@@ -166,7 +166,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -210,7 +210,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai"
       ],
@@ -255,7 +255,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 2,
@@ -292,7 +292,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -331,7 +331,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -370,7 +370,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -412,7 +412,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -452,7 +452,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "check-in amount ambiguous",
         "protocols: openai / anthropic"
@@ -493,7 +493,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -532,12 +532,13 @@
       "sources": [
         "https://raw.githubusercontent.com/posstos/ai-relay-welfare/main/README.md",
         "https://raw.githubusercontent.com/ULing19/sub2api-price-monitor/main/README.md",
+        "https://agentrouter.org",
         "https://www.china-ai-arbitrage.xyz/free-tokens",
         "https://raw.githubusercontent.com/jliushi/ai-relay/main/README.md",
         "https://raw.githubusercontent.com/Q-shuang-dot/ai-coding-welfare/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: Anthropic + OpenAI",
         "protocols: 仅 gpt-6.1-sol（倍率 0.5）",
@@ -579,7 +580,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -618,7 +619,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -655,7 +656,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai",
         "protocols: openai / anthropic"
@@ -698,7 +699,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 1,
@@ -737,7 +738,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -774,7 +775,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 3,
@@ -811,7 +812,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: anthropic / openai"
       ],
@@ -850,7 +851,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -887,7 +888,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -924,7 +925,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -963,7 +964,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -1000,7 +1001,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -1039,7 +1040,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "check-in amount ambiguous",
         "protocols: anthropic / openai"
@@ -1079,7 +1080,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 1,
@@ -1117,7 +1118,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 1,
@@ -1158,7 +1159,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 2,
@@ -1195,7 +1196,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -1232,7 +1233,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "check-in amount ambiguous",
         "protocols: openai / anthropic"
@@ -1270,7 +1271,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -1307,7 +1308,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -1344,7 +1345,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "check-in amount ambiguous",
         "protocols: openai / anthropic"
@@ -1382,7 +1383,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -1419,7 +1420,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -1457,7 +1458,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "check-in amount ambiguous",
         "protocols: openai / anthropic"
@@ -1495,7 +1496,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -1532,7 +1533,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "check-in amount ambiguous",
         "protocols: openai / anthropic"
@@ -1570,7 +1571,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -1607,7 +1608,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -1642,7 +1643,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -1679,7 +1680,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -1716,7 +1717,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -1751,7 +1752,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -1788,7 +1789,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -1825,7 +1826,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -1862,7 +1863,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -1899,7 +1900,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -1936,7 +1937,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 1,
@@ -1971,7 +1972,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -2008,7 +2009,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "check-in amount ambiguous",
         "protocols: openai / anthropic"
@@ -2046,7 +2047,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -2083,7 +2084,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -2120,7 +2121,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -2157,7 +2158,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -2192,7 +2193,7 @@
         "https://raw.githubusercontent.com/jliushi/ai-relay/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -2227,7 +2228,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -2264,7 +2265,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -2301,7 +2302,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 1,
@@ -2336,7 +2337,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -2371,7 +2372,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -2406,7 +2407,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -2443,7 +2444,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai"
       ],
@@ -2480,7 +2481,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -2517,7 +2518,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 1,
@@ -2552,7 +2553,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -2589,7 +2590,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -2624,7 +2625,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 1,
@@ -2659,7 +2660,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -2696,7 +2697,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -2733,7 +2734,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -2768,7 +2769,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -2803,7 +2804,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 1,
@@ -2838,7 +2839,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -2873,7 +2874,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -2908,7 +2909,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -2946,7 +2947,7 @@
         "https://raw.githubusercontent.com/howardpen9/awesome-ai-api-proxy/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -2981,7 +2982,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -3018,7 +3019,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -3053,7 +3054,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "check-in amount ambiguous"
       ],
@@ -3090,7 +3091,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -3127,7 +3128,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai"
       ],
@@ -3164,7 +3165,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -3201,7 +3202,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 1,
@@ -3236,7 +3237,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -3273,7 +3274,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "check-in amount ambiguous",
         "protocols: openai / anthropic"
@@ -3311,7 +3312,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "check-in amount ambiguous",
         "protocols: openai / anthropic"
@@ -3349,7 +3350,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -3385,7 +3386,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai",
         "navigation entry: no quota data published"
@@ -3423,7 +3424,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -3458,7 +3459,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -3495,7 +3496,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -3532,7 +3533,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -3567,7 +3568,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -3605,7 +3606,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -3642,7 +3643,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -3677,7 +3678,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -3714,7 +3715,7 @@
         "https://raw.githubusercontent.com/howardpen9/awesome-ai-api-proxy/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -3749,7 +3750,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -3786,7 +3787,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -3822,7 +3823,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -3857,7 +3858,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -3894,7 +3895,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -3931,7 +3932,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 3,
@@ -3967,7 +3968,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic",
         "navigation entry: no quota data published"
@@ -4005,7 +4006,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 2,
@@ -4040,7 +4041,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -4077,7 +4078,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -4114,7 +4115,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -4152,7 +4153,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai"
       ],
@@ -4189,7 +4190,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -4226,7 +4227,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -4263,7 +4264,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -4300,7 +4301,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -4337,7 +4338,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -4374,7 +4375,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -4409,7 +4410,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -4444,7 +4445,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -4481,7 +4482,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 1,
@@ -4516,7 +4517,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -4551,7 +4552,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -4588,7 +4589,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -4625,7 +4626,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -4662,7 +4663,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -4699,7 +4700,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -4734,7 +4735,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -4769,7 +4770,7 @@
         "https://raw.githubusercontent.com/howardpen9/awesome-ai-api-proxy/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -4804,7 +4805,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -4841,7 +4842,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -4878,7 +4879,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai"
       ],
@@ -4915,7 +4916,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -4952,7 +4953,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -4989,7 +4990,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 3,
@@ -5024,7 +5025,7 @@
         "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -5059,7 +5060,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -5094,7 +5095,7 @@
         "https://www.china-ai-arbitrage.xyz/free-tokens"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 1,
@@ -5129,7 +5130,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -5166,7 +5167,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -5203,7 +5204,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -5240,7 +5241,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -5277,7 +5278,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -5314,7 +5315,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -5351,7 +5352,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai"
       ],
@@ -5388,7 +5389,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -5425,7 +5426,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -5460,7 +5461,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -5497,7 +5498,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -5534,7 +5535,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -5571,7 +5572,7 @@
         "https://raw.githubusercontent.com/ULing19/sub2api-price-monitor/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [],
       "below_baseline": false,
       "corroborations": 0,
@@ -5606,7 +5607,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -5643,7 +5644,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -5680,7 +5681,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -5717,7 +5718,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -5754,7 +5755,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -5791,7 +5792,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -5828,7 +5829,7 @@
         "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "navigation entry: no quota data published"
       ],
@@ -5866,7 +5867,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic",
         "navigation entry: no quota data published"
@@ -5904,7 +5905,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -5943,7 +5944,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -5983,7 +5984,7 @@
         "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
@@ -6020,7 +6021,7 @@
         "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md"
       ],
       "first_seen": "2026-11-25T20:56:13Z",
-      "last_seen": "2026-11-25T21:17:06Z",
+      "last_seen": "2026-11-25T21:17:27Z",
       "notes": [
         "protocols: openai / anthropic"
       ],
