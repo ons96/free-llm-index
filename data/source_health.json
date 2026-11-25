@@ -1,15 +1,442 @@
 {
-  "generated_at": "2026-11-25T23:27:07Z",
+  "generated_at": "2026-11-25T23:56:07Z",
   "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/wynx1123/ai-welfare-hub/main/README.md",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 138929,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:17Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/oniondas/Awesome-Hidden-AI-Credits-Free/main/README.md",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 7285,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:17Z"
+    },
+    {
+      "url": "https://www.china-ai-arbitrage.xyz/free-tokens",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 200625,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:17Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jliushi/ai-relay/main/README.md",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 8461,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:17Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/posstos/ai-relay-welfare/main/README.md",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 15555,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:17Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Q-shuang-dot/ai-coding-welfare/main/README.md",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 108657,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:17Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ULing19/sub2api-price-monitor/main/README.md",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 14432,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:17Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/howardpen9/awesome-ai-api-proxy/main/README.md",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 35844,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:17Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/waw666waw666/awesome-ai-relay-and-cards/main/README.md",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 9687,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:17Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 10368,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:17Z"
+    },
+    {
+      "url": "https://www.eggstriker.com/ai-api",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 248261,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:18Z"
+    },
+    {
+      "url": "https://apiranking.com",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 874173,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:18Z"
+    },
+    {
+      "url": "https://apitokennav.com",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 156740,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:18Z"
+    },
+    {
+      "url": "https://www.apizdm.com",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 56362,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:18Z"
+    },
+    {
+      "url": "https://www.openprice.cc",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 76458,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:18Z"
+    },
+    {
+      "url": "https://www.cocoloop.cn",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 323504,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:19Z"
+    },
+    {
+      "url": "https://getcheapai.com",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 425185,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:19Z"
+    },
+    {
+      "url": "https://priceai.cc",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 163607,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:19Z"
+    },
+    {
+      "url": "https://grandet.ai",
+      "ok": true,
+      "tool": "reader",
+      "status": 200,
+      "bytes": 10530,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:50Z"
+    },
+    {
+      "url": "https://www.hvoyai.com/en/leaderboard/opus55",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 105821,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:19Z"
+    },
+    {
+      "url": "https://linux.do/t/topic/3105499/19",
+      "ok": true,
+      "tool": "obscura",
+      "status": 200,
+      "bytes": 8329,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:24Z"
+    },
+    {
+      "url": "https://modelbenchmark.io/leaderboard",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 168017,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:19Z"
+    },
+    {
+      "url": "https://freellm.net",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 171177,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:19Z"
+    },
+    {
+      "url": "https://openrouter.ai/api/v1/models",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 921259,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:17Z"
+    },
+    {
+      "url": "https://agentrouter.org",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 16125,
+      "cache": "hit",
+      "fetched_at": "2026-11-25T21:05:20Z"
+    },
     {
       "url": "https://raw.githubusercontent.com/liumowan/Free-API/main/data/stations.json",
       "ok": true,
       "tool": "curl_cffi:chrome",
       "status": 200,
       "bytes": 9558,
-      "elapsed": 0.22,
+      "elapsed": 0.14,
       "cache": "miss",
       "notes": []
+    },
+    {
+      "url": "https://qubax.ai/models",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 365405,
+      "elapsed": 0.43,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://opencheap.si",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 267375,
+      "elapsed": 0.48,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://opencheap.si/models",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 916687,
+      "elapsed": 0.54,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://compute.sinanlab.com/en/rank",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 113149,
+      "elapsed": 0.16,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://antseed.com",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 188792,
+      "elapsed": 0.35,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://api.chat/models/resellers",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 4986454,
+      "elapsed": 0.95,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://raw.githubusercontent.com/mn-api/awesome-ai-proxy/main/README.md",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 4083,
+      "elapsed": 0.17,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hanzohanzhe/Grandet/main/README.md",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 14398,
+      "elapsed": 0.11,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://raw.githubusercontent.com/bnlbnf/relaywatch/main/README.md",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 6198,
+      "elapsed": 0.13,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Chenking-maker/api-rank/master/README.md",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 16712,
+      "elapsed": 0.12,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://antseedstats.com/network",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 3348847,
+      "elapsed": 1.23,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HughPython/free-llm-api-cn/main/README.md",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 5581,
+      "elapsed": 0.27,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://liumowan.github.io/Free-API",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 11798,
+      "elapsed": 0.19,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://ytzzjx.github.io/topics/daily-checkin",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 147200,
+      "elapsed": 0.31,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://haha0510.github.io/llm-api-public-stations",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 25541,
+      "elapsed": 0.2,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://www.aiapipk.com/directory",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 134304,
+      "elapsed": 3.04,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://www.getcheapai.com/model?sort=input",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 317994,
+      "elapsed": 0.96,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://www.cocoloop.cn/t/topic/22317",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 184198,
+      "elapsed": 1.44,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://apiranking.com/?bench=claude&category=all&model=grok&sort=score",
+      "ok": true,
+      "tool": "curl_cffi:chrome",
+      "status": 200,
+      "bytes": 378455,
+      "elapsed": 1.15,
+      "cache": "miss",
+      "notes": []
+    },
+    {
+      "url": "https://tools.launchllama.co/products/opencheap",
+      "ok": true,
+      "tool": "obscura",
+      "status": 200,
+      "bytes": 169346,
+      "elapsed": 5.58,
+      "cache": "miss",
+      "notes": [
+        "relay: relay not configured"
+      ]
     }
   ]
 }
