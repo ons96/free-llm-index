@@ -1,6 +1,6 @@
 # Free LLM API leaderboard
 
-Auto-generated 2026-11-25T23:56:08Z by the GitHub Actions pipeline in this repo. Tier scores: `live:modelbenchmark.io`. Full data: `free_llm_providers.csv` / `.json`.
+Auto-generated 2026-11-26T16:02:25Z by the GitHub Actions pipeline in this repo. Tier scores: `live:modelbenchmark.io`. Full data: `free_llm_providers.csv` / `.json`.
 
 **58** ranked providers · **29** more with quota but no verified model tier · **149** unverified entries · baseline = MiniMax M3.1 Flash (p50).
 
@@ -38,9 +38,9 @@ These publish a daily quota but never name a benchmark-listed model, so they can
 
 | Provider | Daily check-in | Models advertised | Rate limit | Signup | Endpoint |
 |---|---|---|---|---|---|
-| Future Hub | $20.00 | 59 | — | github | [api.futureppo.top](https://api.futureppo.top/v1) |
+| Future Hub | $20.00 | 57 | — | github | [api.futureppo.top](https://api.futureppo.top/v1) |
 | KKtoken AI | $20.00 | — | — | github | [kktoken.cc](https://kktoken.cc/sign-up) |
-| Ultra Router | $28.00 | 4 | — | email | [ultrarouter.org](https://ultrarouter.org/v1) |
+| Ultra Router | $28.00 | 3 | — | email | [ultrarouter.org](https://ultrarouter.org/v1) |
 | 启源星 | $50.00 | 1 | — | email | [chuan.sylu.cc](https://chuan.sylu.cc/v1) |
 | 橘子API | $50.00 | 80 | — | email | [api.juziai.cc](https://api.juziai.cc/v1) |
 | xxzl 公益站 | $3.00 | 9 | — | github | [ai.1tim.com](https://ai.1tim.com/v1) |
@@ -48,7 +48,7 @@ These publish a daily quota but never name a benchmark-listed model, so they can
 | Rinko NAI 生图公益站 | $3.52 | — | — | unknown | [nai.rinko.ai](https://nai.rinko.ai/sign-up) |
 | DGB 公益站 | $1.00 | 6 | — | email | [freeapi.dgbmc.top](https://freeapi.dgbmc.top/v1) |
 | 大肥鱼公益站 | $0.70 | — | — | email | [arc.103-121-95-72.sslip.io](https://arc.103-121-95-72.sslip.io/register) |
-| Tokeness | $0.50 | 52 | — | github | [n.tokeness.dev](https://n.tokeness.dev/v1) |
+| Tokeness | $0.50 | 53 | — | github | [n.tokeness.dev](https://n.tokeness.dev/v1) |
 | Zenshi | $0.42 | — | — | email | [zenshi.pages.dev](https://zenshi.pages.dev/login?next=/forum) |
 | 聚合 API（aiyiwei） | $0.30 | — | — | email | [aiyiwei.vip](https://aiyiwei.vip/v1) |
 | 万家灯火 | $0.01 | — | — | email | [wjapi.vip](https://wjapi.vip) |
