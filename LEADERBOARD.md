@@ -1,8 +1,8 @@
 # Free LLM API leaderboard
 
-Auto-generated 2026-11-27T01:18:07Z by the GitHub Actions pipeline in this repo. Tier scores: `live:modelbenchmark.io`. Full data: `free_llm_providers.csv` / `.json`.
+Auto-generated 2026-11-27T15:51:23Z by the GitHub Actions pipeline in this repo. Tier scores: `live:modelbenchmark.io`. Full data: `free_llm_providers.csv` / `.json`.
 
-**59** ranked providers · **28** more with quota but no verified model tier · **154** unverified entries · baseline = MiniMax M3.1 Flash (p50).
+**59** ranked providers · **28** more with quota but no verified model tier · **155** unverified entries · baseline = MiniMax M3.1 Flash (p50).
 
 | # | Provider | Best free model | Tier | Daily check-in | Rate limit | Signup | Endpoint | Score |
 |---|----------|-----------------|------|----------------|------------|--------|----------|-------|
@@ -38,8 +38,8 @@ These publish a daily quota but never name a benchmark-listed model, so they can
 
 | Provider | Daily check-in | Models advertised | Rate limit | Signup | Endpoint |
 |---|---|---|---|---|---|
-| Future Hub | $20.00 | 57 | — | github | [api.futureppo.top](https://api.futureppo.top/v1) |
-| Ultra Router | $28.00 | 3 | — | email | [ultrarouter.org](https://ultrarouter.org/v1) |
+| Future Hub | $20.00 | 59 | — | github | [api.futureppo.top](https://api.futureppo.top/v1) |
+| Ultra Router | $28.00 | 4 | — | email | [ultrarouter.org](https://ultrarouter.org/v1) |
 | 启源星 | $50.00 | 1 | — | email | [chuan.sylu.cc](https://chuan.sylu.cc/v1) |
 | 橘子API | $50.00 | 80 | — | email | [api.juziai.cc](https://api.juziai.cc/v1) |
 | xxzl 公益站 | $3.00 | 9 | — | github | [ai.1tim.com](https://ai.1tim.com/v1) |

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-27T01:18:07Z",
+  "last_updated": "2026-11-27T15:51:23Z",
   "prompt_version": "2026-11-25.1",
   "coverage": {
     "sources_configured": 46,
@@ -8,8 +8,8 @@
     "providers_total": 267,
     "providers_ranked": 59,
     "providers_quota_only": 28,
-    "providers_unverified": 154,
-    "openrouter_free_models": 14
+    "providers_unverified": 155,
+    "openrouter_free_models": 13
   },
   "tier_source": "live:modelbenchmark.io",
   "parsed": [
@@ -18,7 +18,7 @@
       "role": "agg",
       "candidates": 0,
       "domains": 4,
-      "bytes": 107188
+      "bytes": 104932
     },
     {
       "url": "https://agentrouter.org",
@@ -32,14 +32,14 @@
       "role": "modelindex",
       "candidates": 0,
       "domains": 0,
-      "bytes": 923101
+      "bytes": 926776
     },
     {
       "url": "https://www.china-ai-arbitrage.xyz/free-tokens",
       "role": "seed",
       "candidates": 34,
       "domains": 40,
-      "bytes": 201615
+      "bytes": 201160
     },
     {
       "url": "https://qubax.ai/models",
@@ -66,8 +66,8 @@
       "url": "https://priceai.cc",
       "role": "agg",
       "candidates": 0,
-      "domains": 31,
-      "bytes": 164966
+      "domains": 32,
+      "bytes": 167834
     },
     {
       "url": "https://raw.githubusercontent.com/HughPython/free-llm-api-cn/main/README.md",
@@ -123,7 +123,7 @@
       "role": "agg",
       "candidates": 0,
       "domains": 3,
-      "bytes": 56477
+      "bytes": 56962
     },
     {
       "url": "https://opencheap.si/models",
@@ -144,7 +144,7 @@
       "role": "agg",
       "candidates": 0,
       "domains": 43,
-      "bytes": 874163
+      "bytes": 874074
     },
     {
       "url": "https://tools.launchllama.co/products/opencheap",
@@ -158,14 +158,14 @@
       "role": "agg",
       "candidates": 0,
       "domains": 15,
-      "bytes": 334988
+      "bytes": 324305
     },
     {
       "url": "https://www.openprice.cc",
       "role": "agg",
       "candidates": 0,
       "domains": 8,
-      "bytes": 77426
+      "bytes": 77987
     },
     {
       "url": "https://www.cocoloop.cn/t/topic/22317",
@@ -177,16 +177,16 @@
     {
       "url": "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md",
       "role": "seed",
-      "candidates": 49,
+      "candidates": 50,
       "domains": 0,
-      "bytes": 10368
+      "bytes": 10507
     },
     {
       "url": "https://modelbenchmark.io/leaderboard",
       "role": "modelindex",
       "candidates": 0,
       "domains": 0,
-      "bytes": 167781
+      "bytes": 167831
     },
     {
       "url": "https://apitokennav.com",
@@ -235,7 +235,7 @@
       "role": "agg",
       "candidates": 0,
       "domains": 17,
-      "bytes": 417780
+      "bytes": 415403
     },
     {
       "url": "https://raw.githubusercontent.com/jliushi/ai-relay/main/README.md",
@@ -249,7 +249,7 @@
       "role": "seed",
       "candidates": 13,
       "domains": 0,
-      "bytes": 108656
+      "bytes": 108690
     },
     {
       "url": "https://opencheap.si",
@@ -263,7 +263,7 @@
       "role": "agg",
       "candidates": 0,
       "domains": 2,
-      "bytes": 34708
+      "bytes": 34548
     },
     {
       "url": "https://www.aiapipk.com/directory",
@@ -319,7 +319,7 @@
       "role": "agg",
       "candidates": 0,
       "domains": 33,
-      "bytes": 171865
+      "bytes": 172074
     },
     {
       "url": "https://raw.githubusercontent.com/bnlbnf/relaywatch/main/README.md",
