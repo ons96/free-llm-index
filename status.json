@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-27T15:51:23Z",
+  "last_updated": "2026-11-28T00:52:14Z",
   "prompt_version": "2026-11-25.1",
   "coverage": {
     "sources_configured": 46,
@@ -46,7 +46,7 @@
       "role": "seed",
       "candidates": 1,
       "domains": 11,
-      "bytes": 368285
+      "bytes": 368932
     },
     {
       "url": "https://raw.githubusercontent.com/Chenking-maker/api-rank/master/README.md",
@@ -60,7 +60,7 @@
       "role": "agg",
       "candidates": 0,
       "domains": 43,
-      "bytes": 424437
+      "bytes": 415918
     },
     {
       "url": "https://priceai.cc",
@@ -116,7 +116,7 @@
       "role": "agg",
       "candidates": 0,
       "domains": 7,
-      "bytes": 3390959
+      "bytes": 3562031
     },
     {
       "url": "https://www.apizdm.com",
@@ -130,7 +130,7 @@
       "role": "seed",
       "candidates": 1,
       "domains": 5,
-      "bytes": 921258
+      "bytes": 922827
     },
     {
       "url": "https://raw.githubusercontent.com/posstos/ai-relay-welfare/main/README.md",
@@ -151,7 +151,7 @@
       "role": "agg",
       "candidates": 0,
       "domains": 34,
-      "bytes": 169429
+      "bytes": 170237
     },
     {
       "url": "https://www.cocoloop.cn",
@@ -172,7 +172,7 @@
       "role": "agg",
       "candidates": 0,
       "domains": 12,
-      "bytes": 194068
+      "bytes": 197004
     },
     {
       "url": "https://raw.githubusercontent.com/bubblevv/ai-api-gongyi-nav/main/README.md",
@@ -255,8 +255,8 @@
       "url": "https://opencheap.si",
       "role": "seed",
       "candidates": 1,
-      "domains": 19,
-      "bytes": 270060
+      "domains": 18,
+      "bytes": 284708
     },
     {
       "url": "https://grandet.ai",
@@ -269,15 +269,15 @@
       "url": "https://www.aiapipk.com/directory",
       "role": "agg",
       "candidates": 0,
-      "domains": 14,
-      "bytes": 138207
+      "domains": 28,
+      "bytes": 245532
     },
     {
       "url": "https://www.getcheapai.com/model?sort=input",
       "role": "agg",
       "candidates": 0,
       "domains": 9,
-      "bytes": 313442
+      "bytes": 310966
     },
     {
       "url": "https://raw.githubusercontent.com/howardpen9/awesome-ai-api-proxy/main/README.md",
@@ -291,7 +291,7 @@
       "role": "seed",
       "candidates": 59,
       "domains": 63,
-      "bytes": 209466
+      "bytes": 210318
     },
     {
       "url": "https://liumowan.github.io/Free-API",
@@ -333,7 +333,7 @@
       "role": "seed",
       "candidates": 2,
       "domains": 7,
-      "bytes": 188756
+      "bytes": 188745
     }
   ],
   "failed_sources": []

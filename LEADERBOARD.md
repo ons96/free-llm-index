@@ -1,6 +1,6 @@
 # Free LLM API leaderboard
 
-Auto-generated 2026-11-27T15:51:23Z by the GitHub Actions pipeline in this repo. Tier scores: `live:modelbenchmark.io`. Full data: `free_llm_providers.csv` / `.json`.
+Auto-generated 2026-11-28T00:52:14Z by the GitHub Actions pipeline in this repo. Tier scores: `live:modelbenchmark.io`. Full data: `free_llm_providers.csv` / `.json`.
 
 **59** ranked providers · **28** more with quota but no verified model tier · **155** unverified entries · baseline = MiniMax M3.1 Flash (p50).
 
