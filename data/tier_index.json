@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T00:52:14Z",
+  "generated_at": "2026-11-28T14:45:58Z",
   "source": "https://modelbenchmark.io/leaderboard",
   "models": [
     {
@@ -105,14 +105,14 @@
       "model": "DeepSeek V4 Pro 0813",
       "lab": "DeepSeek",
       "percentile": 86,
-      "out_price_usd_per_m": 3.48
+      "out_price_usd_per_m": 2.7
     },
     {
       "rank": 16,
       "model": "Claude Opus 4.8",
       "lab": "Anthropic",
       "percentile": 86,
-      "out_price_usd_per_m": 25.0
+      "out_price_usd_per_m": 26.45
     },
     {
       "rank": 17,
@@ -133,14 +133,14 @@
       "model": "Muse Spark 1.3",
       "lab": "Meta",
       "percentile": 84,
-      "out_price_usd_per_m": 4.25
+      "out_price_usd_per_m": 4.4965
     },
     {
       "rank": 20,
       "model": "DeepSeek V4.1 Flash",
       "lab": "DeepSeek",
       "percentile": 84,
-      "out_price_usd_per_m": 1.2
+      "out_price_usd_per_m": 1.2114
     },
     {
       "rank": 21,
@@ -154,7 +154,7 @@
       "model": "Muse Spark 1.2",
       "lab": "Meta",
       "percentile": 82,
-      "out_price_usd_per_m": 4.25
+      "out_price_usd_per_m": 4.4965
     },
     {
       "rank": 23,
@@ -168,14 +168,14 @@
       "model": "GLM-5.3",
       "lab": "Zhipu",
       "percentile": 80,
-      "out_price_usd_per_m": 0.9987
+      "out_price_usd_per_m": 5.3302
     },
     {
       "rank": 25,
       "model": "Muse Spark 1.1",
       "lab": "Meta",
       "percentile": 80,
-      "out_price_usd_per_m": 4.25
+      "out_price_usd_per_m": 4.4965
     },
     {
       "rank": 26,
@@ -189,28 +189,28 @@
       "model": "Claude Opus 4.7",
       "lab": "Anthropic",
       "percentile": 79,
-      "out_price_usd_per_m": 25.0
+      "out_price_usd_per_m": 26.45
     },
     {
       "rank": 28,
       "model": "Grok 4.6",
       "lab": "xAI",
       "percentile": 79,
-      "out_price_usd_per_m": 6.0
+      "out_price_usd_per_m": 6.6
     },
     {
       "rank": 29,
       "model": "DeepSeek R1",
       "lab": "DeepSeek",
       "percentile": 78,
-      "out_price_usd_per_m": 5.4
+      "out_price_usd_per_m": 2.15
     },
     {
       "rank": 30,
       "model": "Kimi K3",
       "lab": "Kimi",
       "percentile": 78,
-      "out_price_usd_per_m": 1.2
+      "out_price_usd_per_m": 0.5
     },
     {
       "rank": 31,
@@ -238,14 +238,14 @@
       "model": "Kimi K2.5",
       "lab": "Kimi",
       "percentile": 75,
-      "out_price_usd_per_m": 3.0
+      "out_price_usd_per_m": 3.011
     },
     {
       "rank": 35,
       "model": "Qwen3.7-Max",
       "lab": "Alibaba",
       "percentile": 74,
-      "out_price_usd_per_m": 3.75
+      "out_price_usd_per_m": 7.5
     },
     {
       "rank": 36,
@@ -259,7 +259,7 @@
       "model": "DeepSeek-V3.2-Exp",
       "lab": "DeepSeek",
       "percentile": 71,
-      "out_price_usd_per_m": 0.95
+      "out_price_usd_per_m": 1.0
     },
     {
       "rank": 38,
@@ -273,7 +273,7 @@
       "model": "Kimi K2 Instruct",
       "lab": "Kimi",
       "percentile": 71,
-      "out_price_usd_per_m": 2.3
+      "out_price_usd_per_m": 2.5
     },
     {
       "rank": 40,
@@ -294,7 +294,7 @@
       "model": "DeepSeek V4 Flash 0731",
       "lab": "DeepSeek",
       "percentile": 70,
-      "out_price_usd_per_m": 0.1966
+      "out_price_usd_per_m": 1.3325
     },
     {
       "rank": 43,
@@ -371,14 +371,14 @@
       "model": "Qwen3.6 Plus",
       "lab": "Alibaba",
       "percentile": 62,
-      "out_price_usd_per_m": 3.0
+      "out_price_usd_per_m": 1.651
     },
     {
       "rank": 54,
       "model": "Kimi K2.6",
       "lab": "Kimi",
       "percentile": 61,
-      "out_price_usd_per_m": 0.7784
+      "out_price_usd_per_m": 5.49
     },
     {
       "rank": 55,
@@ -399,14 +399,14 @@
       "model": "GLM-5.2",
       "lab": "Zhipu",
       "percentile": 59,
-      "out_price_usd_per_m": 2.2
+      "out_price_usd_per_m": 2.4
     },
     {
       "rank": 58,
       "model": "Qwen3.6 27B",
       "lab": "Alibaba",
       "percentile": 59,
-      "out_price_usd_per_m": 3.6
+      "out_price_usd_per_m": 3.2
     },
     {
       "rank": 59,
@@ -420,7 +420,7 @@
       "model": "GLM-5.3-Flash",
       "lab": "Zhipu",
       "percentile": 56,
-      "out_price_usd_per_m": 0.1455
+      "out_price_usd_per_m": 0.533
     },
     {
       "rank": 61,
@@ -441,7 +441,7 @@
       "model": "T Inkling",
       "lab": "Thinking Machines",
       "percentile": 53,
-      "out_price_usd_per_m": 4.05
+      "out_price_usd_per_m": 4.68
     },
     {
       "rank": 64,
@@ -490,21 +490,21 @@
       "model": "GPT-5.4 mini",
       "lab": "OpenAI",
       "percentile": 47,
-      "out_price_usd_per_m": 4.5
+      "out_price_usd_per_m": 9.522
     },
     {
       "rank": 71,
       "model": "Claude Opus 4.5",
       "lab": "Anthropic",
       "percentile": 46,
-      "out_price_usd_per_m": 25.0
+      "out_price_usd_per_m": 26.45
     },
     {
       "rank": 72,
       "model": "GPT-5.4 nano",
       "lab": "OpenAI",
       "percentile": 46,
-      "out_price_usd_per_m": 1.25
+      "out_price_usd_per_m": 1.3225
     },
     {
       "rank": 73,
@@ -588,7 +588,7 @@
       "model": "Llama 4 Maverick Instruct",
       "lab": "Meta",
       "percentile": 28,
-      "out_price_usd_per_m": 0.97
+      "out_price_usd_per_m": 0.87
     },
     {
       "rank": 85,
@@ -609,21 +609,21 @@
       "model": "Llama 4 Scout Instruct",
       "lab": "Meta",
       "percentile": 19,
-      "out_price_usd_per_m": 0.66
+      "out_price_usd_per_m": 0.3
     },
     {
       "rank": 88,
       "model": "GPT 4o",
       "lab": "OpenAI",
       "percentile": 18,
-      "out_price_usd_per_m": 5.0
+      "out_price_usd_per_m": 10.0
     },
     {
       "rank": 89,
       "model": "GPT-4o mini",
       "lab": "OpenAI",
       "percentile": 13,
-      "out_price_usd_per_m": 0.3
+      "out_price_usd_per_m": 0.6
     },
     {
       "rank": 90,
